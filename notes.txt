@@ -1,0 +1,12 @@
+##Tech stack
+Bootstrap
+Css
+Sass
+
+HTML
+PHP
+PHPMailer
+JS libraries
+
+##JS libraries
+SweetAlerts
