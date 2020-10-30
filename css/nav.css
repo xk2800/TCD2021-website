@@ -1,86 +1,42 @@
-*{ margin: 0; padding: 0; box-sizing: border-box; }
+body{
+	padding-bottom: 10%;
+	/*position: sticky;*/
+	}
+	#city{
+	  width: 80%;
+	  height: 400px;
+	  margin: auto;
+	  display: block;
+	}
+	#nav{
+	  background-color: #5eaaa8;
+	}
+	.dropdown-menu{
+	  background-color: #5eaaa8;
 
-#hamburger-toggle{ display: none; }
-
-.hamburger-wrapper{
-	position: absolute;
-	right: 50px; top: 25px;
-	cursor: pointer;
-	z-index: 1;
-}
-
-.hamburger, .hamburger::before, .hamburger::after{
-	display: inline-block;
-	width: 30px; height: 2px;
-	background-color: #565656;
-	transition: all 0.3s;
-}
-
-.hamburger{ position: relative; }
-
-.hamburger::before, .hamburger::after{
-	content: "";
-	position: absolute;
-}
-
-.hamburger::before{ transform: translateY(-10px); }
-
-.hamburger::after{ transform: translateY(10px); }
-
-.navbar{
-	position: absolute;
-	right: 0;
-	width: 500px; height: 100vh;
-	background-image: linear-gradient(120deg, #e52d27, #b31217);
-	clip-path: circle(0 at 100% 0);
-	transition: all 0.3s;
-}
-
-.nav-list{
-	position: absolute;
-	list-style: none;
-	right: 20%; top: 7%;
-	transform: translateX(-300px) rotate(20deg);
-	opacity: 0;
-	transition: all 0.3s;
-	transition-delay: 0.3s;
-}
-
-.nav-list li{
-	margin: 30px 0;
-	text-align: center;
-}
-
-.nav-list li a{
-	text-decoration: none;
-	color: #fff;
-	font-family: "Century Gothic";
-	text-transform: uppercase;
-	padding: 10px;
-	transition: all 0.3s;
-}
-
-.nav-list li a:hover{ border-bottom: 1px solid #fff; }
-
-#hamburger-toggle:checked ~ .hamburger-wrapper .hamburger{
-	background-color: transparent;
-}
-
-#hamburger-toggle:checked ~ .hamburger-wrapper .hamburger::before{
-	transform: rotate(225deg);
-	background-color: #fff;
-}
-
-#hamburger-toggle:checked ~ .hamburger-wrapper .hamburger::after{
-	transform: rotate(-225deg);
-	background-color: #fff;
-}
-
-#hamburger-toggle:checked ~ .navbar{
-	clip-path: circle(500px at 100% 0);
-}
-
-#hamburger-toggle:checked ~ .navbar .nav-list{
-	transform: translateX(0);
-	opacity: 1;
-}
+	}
+	.dropdown-menu a:hover{
+	  background-color: #5eaaa8;
+	  
+	}
+	.dropdown-item{
+	  color: black; 
+	}
+	img{
+	  width: 20%;
+	  height: 20%;
+	}
+	#nav{
+		background-color: #5eaaa8;
+	}
+	.nav-link {
+		padding-left: .5em !important;
+		padding-right: .5em !important;
+	}
+	/*.nav-link{
+	  margin-top: 20%;
+	}*/
+	.container-fluid a{
+	  font-size: 1.5em;
+	  font-family: 'Lato', sans-serif;
+	}
