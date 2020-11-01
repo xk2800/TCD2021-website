@@ -24,3 +24,46 @@
 .resume{
     background-color: white;
 }
+
+#about{
+    background-color: grey;
+    color: white;
+}
+
+.about{
+    
+}
+
+.about-img{
+    
+}
+#summary .parallax-one {
+    padding-top: 150px; 
+    padding-left: 50px; 
+    padding-right: 50px; 
+    padding-bottom: 150px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url("../images/IMG_3394.JPG"); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+    }
+/*.iconDetails {
+    margin-left:2%;
+   float:right; 
+   height:40px;
+   width:40px; 
+   } 
+   
+   .container2 {
+       width:100%;
+       height:auto;
+       padding:1%;
+   }h4 {
+    margin:0px;
+}*/
