@@ -10,3 +10,8 @@ JS libraries
 
 ##JS libraries
 SweetAlerts
+
+
+2 navbar
+-1 for when scroll
+-1 for fixed to top
