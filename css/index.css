@@ -1,4 +1,26 @@
 #home{
     background-color: #15243C;
     color: white;
+    text-align: center;
+}
+
+.logo{
+    width: 300px;
+    height: 200px;
+}
+
+.date{
+    font-size: 2em;
+}
+
+.buttons{
+    margin: 0% 1%;
+}
+
+.register{
+    background-color: white;
+}
+
+.resume{
+    background-color: white;
 }
