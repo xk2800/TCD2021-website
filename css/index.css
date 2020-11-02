@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+/*font-family: 'Arvo', serif;
+normal text*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*font-family: 'Bebas Neue', cursive;
+Titles*/
+
 #home{
     background-color: #15243C;
     color: white;
@@ -25,10 +33,6 @@
     background-color: white;
 }
 
-.about{
-    /*opacity: 0.5;*/
-}
-
 .parallax-one {
     padding-top: 200px; 
     padding-left: 50px; 
@@ -47,10 +51,8 @@
     
 }
 .text{
-    /*opacity: 1;*/
     color: black;
     margin: 0 3%;
-    /*padding: 30%;*/
     background-color: #ffffff;
     border: 1px solid white;
     opacity: 0.8;
@@ -58,20 +60,23 @@
 }
 .text p, .text li{
     margin: 0 5%;
-    /*padding: 0 30%;*/
+
 }
 
-/*.iconDetails {
-    margin-left:2%;
-   float:right; 
-   height:40px;
-   width:40px; 
-   } 
-   
-   .container2 {
-       width:100%;
-       height:auto;
-       padding:1%;
-   }h4 {
-    margin:0px;
-}*/
+.title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
+}
+
+#text{
+    font-family: 'Arvo', serif;
+    font-size: 1.2em;
+}
+
+.inside-text1{
+    margin-left: 2.8%;
+}
+
+.li-text{
+    margin-bottom: 50%;
+}
