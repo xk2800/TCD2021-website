@@ -25,26 +25,18 @@
     background-color: white;
 }
 
-#about{
-    background-color: grey;
-    color: white;
-}
-
 .about{
-    
+    /*opacity: 0.5;*/
 }
 
-.about-img{
-    
-}
-#summary .parallax-one {
+.parallax-one {
     padding-top: 200px; 
     padding-left: 50px; 
     padding-right: 50px; 
     padding-bottom: 200px; 
     overflow: hidden; 
     position: relative; 
-    width: 100%; 
+    width: 100%;
     background-image: url("../images/IMG_3394.JPG"); 
     background-attachment: fixed; 
     background-size: cover; 
@@ -52,7 +44,23 @@
     -webkit-background-size: cover; 
     background-repeat: no-repeat; 
     background-position: top center;
-    }
+    
+}
+.text{
+    /*opacity: 1;*/
+    color: black;
+    margin: 0 3%;
+    /*padding: 30%;*/
+    background-color: #ffffff;
+    border: 1px solid white;
+    opacity: 0.8;
+   
+}
+.text p, .text li{
+    margin: 0 5%;
+    /*padding: 0 30%;*/
+}
+
 /*.iconDetails {
     margin-left:2%;
    float:right; 
