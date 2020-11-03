@@ -34,21 +34,21 @@ Titles*/
 }
 
 .parallax-one {
-    padding-top: 200px; 
-    padding-left: 50px; 
-    padding-right: 50px; 
-    padding-bottom: 200px; 
-    overflow: hidden; 
-    position: relative; 
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
     width: 100%;
-    background-image: url("../images/IMG_3394.JPG"); 
-    background-attachment: fixed; 
-    background-size: cover; 
-    -moz-background-size: cover; 
-    -webkit-background-size: cover; 
-    background-repeat: no-repeat; 
+    background-image: url("../images/IMG_3394.JPG");
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
     background-position: top center;
-    
+
 }
 .text{
     color: black;
@@ -56,7 +56,7 @@ Titles*/
     background-color: #ffffff;
     border: 1px solid white;
     opacity: 0.8;
-   
+
 }
 .text p, .text li{
     margin: 0 5%;
@@ -127,7 +127,7 @@ Titles*/
 	background: #fff;
 	visibility: hidden;
 	transition: 0.5s;
-	overflow-y: auto; 
+	overflow-y: auto;
 
 }
 .accordion .contentBx.active .content{
