@@ -6,6 +6,10 @@ normal text*/
 /*font-family: 'Bebas Neue', cursive;
 Titles*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 #home{
     background-color: #15243C;
     color: white;
