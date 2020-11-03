@@ -27,6 +27,8 @@ html {
 
 .buttons{
     margin: 0% 1%;
+    position:relative; 
+    z-index:2;
 }
 
 .register{
@@ -148,8 +150,6 @@ html {
 .label, .content{
     font-family: 'Arvo', serif;
 }
-
-
 
 
 
