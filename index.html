@@ -7,14 +7,24 @@
 
     <link rel="stylesheet" href="css/particle.css">
 
+    <!--Fullpage min Css-->
+    <link rel="stylesheet" href="./css/fullpage.min.css" />
+
+    <!--Fullpage min js-->
+    <script src="./js/fullpage.min.js"></script>
+
+    <!--Own JS-->
+    <script src="./js/app.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script> 
         $(function(){
           $("#navbar").load("navbar-index.html"); 
           $("#test").load("hello.html"); 
+          $("#picSlider").load("pic-slider.html");
         });
-        </script>
+    </script>
 
         <style>
             /*#nav {
@@ -32,17 +42,27 @@
     <!-- Navbar -->
     <div id="navbar"></div>
     <!--br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br-->
-    <section id="home">
-    
-    </section>
+    <div id="fullpage">
 
-    <section class="about">
-
-    </section>
+        <section id="home">
     
-    <section id="sponsor&partners">
- 
-    </section>
+        </section>
+    
+        <section class="about">
+    
+        </section>
+        
+        <section id="sponsor&partners">
+     
+        </section>
+    
+        <section id="picSlider">
+    
+        </section>
+
+    </div>
+
+
 
 </body>
 <!-- Testing JS particles plugin -->
