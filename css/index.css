@@ -80,3 +80,61 @@ Titles*/
 .li-text{
     margin-bottom: 50%;
 }
+
+
+.accordion{
+
+    margin: 70px 0px;
+	width: 100%;
+
+}
+.accordion .contentBx{
+
+	position: relative;
+	height: auto;
+	margin: 10px 20px;
+
+}
+.accordion .contentBx .label{
+
+	position: relative;
+	padding: 10px;
+	background: #15243c;
+	color: #fff;
+	cursor: pointer;
+	opacity: 90%;
+
+}
+.accordion .contentBx .label:before{
+
+	content: '+';
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	font-size: 1.5em;
+
+}
+.accordion .contentBx.active .label:before{
+
+	content: '-';
+
+}
+.accordion .contentBx .content{
+
+	opacity: 80%;
+	overflow: hidden;
+	height: 0;
+	background: rgb(151, 151, 151);
+	visibility: hidden;
+	transition: 0.5s;
+	overflow-y: auto; 
+
+}
+.accordion .contentBx.active .content{
+
+	height: 200px;
+	padding: 10px;
+	visibility: visible;
+
+}
