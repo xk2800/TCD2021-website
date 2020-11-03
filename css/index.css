@@ -67,9 +67,12 @@ html {
 
 }
 
-.title{
+.about-title, .faq-title{
     font-family: 'Bebas Neue', cursive;
     font-size: 4em;
+}
+.faq-title{
+    color: white;
 }
 
 #text{
@@ -105,7 +108,7 @@ html {
 	background: #15243c;
 	color: #fff;
 	cursor: pointer;
-	opacity: 90%;
+    opacity: 90%;
 
 }
 .accordion .contentBx .label:before{
@@ -140,4 +143,20 @@ html {
 	padding: 10px;
 	visibility: visible;
 
+}
+
+.label, .content{
+    font-family: 'Arvo', serif;
+}
+
+
+
+
+
+
+
+
+/*let this be lowest part of this css page*/
+#footer{
+    color: white;
 }
