@@ -6,6 +6,11 @@ normal text*/
 /*font-family: 'Bebas Neue', cursive;
 Titles*/
 
+h2{
+
+    color: #fff;
+
+}
 #home{
     background-color: #15243C;
     color: white;
@@ -83,7 +88,6 @@ Titles*/
 
 .accordion{
 
-    margin: 70px 0px;
 	width: 100%;
 
 }
