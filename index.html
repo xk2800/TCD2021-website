@@ -22,6 +22,13 @@
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <!--Swiper CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <!-- Function to connect different pages using jQuery -->
     <script> 
         $(function(){
@@ -198,7 +205,27 @@
 
     <section id="past-slider"> <!-- SHAUN -->
         <div class="container">
-            
+            <span class="slider-title">
+                Pictures Sliders
+            </span>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./images/sliders-pic/IMG_3251.JPG" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/sliders-pic/IMG_3102.JPG" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/sliders-pic/IMG_3390.JPG" alt=""></div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev swiper-button-black"></div>
+                <div class="swiper-button-next swiper-button-black"></div>
+
+            </div>
         </div>
     </section>
 
@@ -215,7 +242,30 @@
 		        this.classList.toggle("active");
 		    });
 		}
-	</script>
+    </script>
+    
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'progressbar',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        flipEffect: {
+            slideShadows: false,
+        },
+        });
+    </script>
 
     <!-- Bootstrap CDN -->
     <!-- script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
