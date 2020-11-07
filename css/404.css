@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+/*font-family: 'Arvo', serif;
+normal text*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*font-family: 'Bebas Neue', cursive;
+Titles*/
+
+body{
+    background-color: #15243C;
+}
+
+.error-text{
+    color: white;
+}
