@@ -27,7 +27,7 @@ html {
 
 .buttons{
     margin: 0% 1%;
-    position:relative; 
+    position: relative; 
     z-index:2;
 }
 
@@ -207,4 +207,17 @@ html {
 /*let this be lowest part of this css page*/
 #footer{
     color: white;
+}
+
+.its-link{
+    position: relative; 
+    z-index:2;
+}
+
+.its-link:link, .its-link:visited{
+    color: white;
+}
+
+.its-link:hover{
+    color: red;
 }
