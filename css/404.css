@@ -15,23 +15,6 @@ body{
     text-align: center;
 }
 
-.brand-logo{
-    padding: 200px 0 0 37%;
-}
-
-.home{
-    margin: 10px 0 0 48%;
-    font-weight: bold;
-}
-
-.home:hover{
-    border-color: #4368a3;
-    border-radius: 5px;
-    color:#4368a3;
-    background-color: #15243C;
-    font-weight: bold;
-}
-
 @-moz-keyframes rocket-movement { 100% {-moz-transform: translate(1200px,-600px);} }
 @-webkit-keyframes rocket-movement {100% {-webkit-transform: translate(1200px,-600px); } }
 @keyframes rocket-movement { 100% {transform: translate(1200px,-600px);} }
@@ -306,4 +289,10 @@ li a:hover {
     .central-body{
         padding-top: 25%;
     }
+}
+.text-404{
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
