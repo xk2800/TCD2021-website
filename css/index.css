@@ -6,6 +6,10 @@ normal text*/
 /*font-family: 'Bebas Neue', cursive;
 Titles*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 #home{
     background-color: #15243C;
     color: white;
@@ -23,6 +27,8 @@ Titles*/
 
 .buttons{
     margin: 0% 1%;
+    position: relative; 
+    z-index:2;
 }
 
 .register{
@@ -53,7 +59,7 @@ Titles*/
 .text{
     color: black;
     margin: 0 3%;
-    background-color: white;
+    background-color: #ffffff;
     border: 1px solid white;
     opacity: 0.8;
    
@@ -63,9 +69,19 @@ Titles*/
 
 }
 
-.title{
+.about-title, .faq-title, .slider-title{
     font-family: 'Bebas Neue', cursive;
     font-size: 4em;
+}
+.faq-title, .slider-title{
+    color: white;
+}
+
+.slider-title{
+
+    margin-left: -20px;
+    padding-bottom: 20px;
+
 }
 
 #text{
@@ -79,4 +95,129 @@ Titles*/
 
 .li-text{
     margin-bottom: 50%;
+}
+
+.accordion{
+
+    margin: 70px 0px;
+	width: 100%;
+
+}
+.accordion .contentBx{
+
+	position: relative;
+	height: auto;
+	margin: 10px 20px;
+
+}
+.accordion .contentBx .label{
+
+	position: relative;
+	padding: 10px;
+	background: #15243c;
+	color: #fff;
+	cursor: pointer;
+    opacity: 90%;
+
+}
+.accordion .contentBx .label:before{
+
+	content: '+';
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	font-size: 1.5em;
+
+}
+.accordion .contentBx.active .label:before{
+
+	content: '-';
+
+}
+.accordion .contentBx .content{
+
+	opacity: 80%;
+	overflow: hidden;
+	height: 0;
+	background: #fff;
+	visibility: hidden;
+	transition: 0.5s;
+	overflow-y: auto; 
+
+}
+.accordion .contentBx.active .content{
+
+	height: 200px;
+	padding: 10px;
+	visibility: visible;
+
+}
+
+.label, .content{
+    font-family: 'Arvo', serif;
+}
+
+/* Swiper Styles goes here*/
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #15243c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.swiper-slide img{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.swiper-button-prev{
+
+    margin-left: 10px;
+
+}
+
+.swiper-button-next{
+
+    margin-right: 10px;
+
+}
+
+
+
+/*let this be lowest part of this css page*/
+#footer{
+    color: white;
+}
+
+.its-link{
+    position: relative; 
+    z-index:2;
+}
+
+.its-link:link, .its-link:visited{
+    color: white;
+}
+
+.its-link:hover{
+    color: red;
 }

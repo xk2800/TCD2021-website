@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HPSS89RZTR"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HPSS89RZTR');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PPPS999');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Tech Career Days 2020</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO -->
+    <meta name="keyword" content="career days, MMU, mmu, multimedia university, ITS, its mmu">
+    <meta name="description" content="Tech Career Days is an annual two-day tech job fair organized by IT society of Multimedia University.">
+
+    <title>Home | Tech Career Days 2021</title>
 
     <link rel="icon" type="image/favicon" href="images/favicon_io/favicon.ico">
 
@@ -22,6 +46,13 @@
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <!--Swiper CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <!-- Function to connect different pages using jQuery -->
     <script> 
         $(function(){
@@ -35,8 +66,13 @@
             
         </style>
 
+
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPPS999"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- Navbar -->
     <!--div id="navbar"></div-->
@@ -64,6 +100,7 @@
             <div class="date">
                 <p>Coming this January 2021</p>
             </div>
+            <div id="navbar-sticky"></div>
             <div class="button">
                 <!--button class="buttons register" disabled type="submit" name="registerbtn" href="">Register Now</button>
                 <button class="buttons resume" disabled type="submit" name="resumebtn" href="">Submit your resume</button-->
@@ -80,7 +117,7 @@
             <div class="parallax-one about">
                 <div class="container">
                     <div class="text">
-                        <span class="title">
+                        <span class="about-title">
                             <p>Tech Career Days</p>
                         </span>
                         <span id="text">
@@ -119,6 +156,7 @@
 
     <section id="sponsor&partners"> <!-- XAVIER -->
         <div class="container">
+            <!-- Company -->
         
         </div>
     </section>
@@ -131,16 +169,134 @@
 
     <section id="faq"> <!-- SHAUN -->
         <div class="container">
-            
+            <div class="accordion">
+                <span class="faq-title">
+                    Frequently Asked Questions
+                </span>
+                <div class="contentBx">
+                    <div class="label">
+                        What is a resume submission portal?
+                    </div>
+                    <div class="content">
+                        <p><b>Students</b>
+                            <br>The resume submission portal is a portal where students can upload resume to get advices from Tech Career Days volunteers. 
+                                Approved resumes will be available for employers to view before the event, hence allowing students to get contacted by employers before the event. 
+                                The rules(do not apply to freelancers) can be found <a >here</a>. <!--href="{{ page.resume_link }}"-->
+                            <br>
+                            <br>
+                            <b>Employers</b>
+                            <br>After the resume submission portal is open, all employers will be able to view pre-screened students' resumes to find suitable candidates and contact them before the event.</p>
+                    </div>
+                </div>
+                
+                <div class="contentBx">
+                    <div class="label">What's the target audience?</div>
+                    <div class="content">
+                        <p>From what we learn earlier this year, we are expecting to see about 300-400 students, mainly but not limited to penultimate and final year students pursuing a degree in computer science. 
+                            We do welcome others from diploma, postgraduate in IT, as well as students from other faculties to check out this event. Detailed statistics and breakdowns are available in our proposal.</p>
+                    </div>
+                </div>
+                
+                <div class="contentBx">
+                    <div class="label">
+                        What are the activities in this event?
+                    </div>
+                    <div class="content">
+                        <p>- Students-employers interaction
+                            <!--br> - Networking lunch (get-together session where lecturers, committees and employers sit together and have discussion) -->
+                            <!--br> - On-the-spot interviews-->
+                            <br> - Resume clinics
+                            <br> - Lucky draws
+                    </div>
+                </div>
+                
+                <div class="contentBx">
+                    <div class="label">
+                        How much is the admission fee ?
+                    </div>
+                    <div class="content">
+                        <p>It's free of charge for students. However, we do charge minimum fees for employers. 
+                            Tech Career Days is a 100% non-profit student-run event. As such, we will need your help and contribution to make this event possible.</p>
+                    </div>
+                </div>
+        
+                <div class="contentBx">
+                    <div class="label">
+                        What would happen should there be excess in the contribution from sponsorships?
+                    </div>
+                    <div class="content">
+                        <p>If there are any, we will channel the excess to fund our future workshops, tech talks, codelabs, barcamps, and many more tech-related events.</p>
+                    </div>
+                </div>
+                <br><br><br><br><br><br><br>
+            </div>
         </div>
     </section>
 
     <section id="past-slider"> <!-- SHAUN -->
         <div class="container">
-            
+            <span class="slider-title">
+                Pictures Sliders
+            </span>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./images/sliders-pic/IMG_3251.JPG" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/sliders-pic/IMG_3102.JPG" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/sliders-pic/IMG_3390.JPG" alt=""></div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev swiper-button-black"></div>
+                <div class="swiper-button-next swiper-button-black"></div>
+
+            </div>
         </div>
     </section>
-</div>
+
+    <section id="footer">
+        <div class="container text-center">
+            <p>Organized by <a class="its-link" href="https://www.itsociety.rocks/" target="_blank" rel="noreferrer">IT Society Cyberjaya</a></p>
+        </div>
+    </section>
+
+    <script>
+		const acc = document.getElementsByClassName("contentBx");
+		for (i = 0; i < acc.length; i++) {
+		    acc[i].addEventListener("click", function() {
+		        this.classList.toggle("active");
+		    });
+		}
+    </script>
+    
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'progressbar',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        flipEffect: {
+            slideShadows: false,
+        },
+        });
+    </script>
+
     <!-- Bootstrap CDN -->
     <!-- script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script -->

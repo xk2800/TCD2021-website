@@ -7,7 +7,7 @@ $duration: 200s;
 }
 
 body {
-  background: #000;
+  /*background: #15243C;*/
   background-image: radial-gradient(circle at top left,#000,#3c4858)
 }
 
@@ -32,6 +32,7 @@ body {
     height: auto;
     transform: translateX(-50%) translateZ(0);
     animation: confetti linear infinite;
+    z-index: -1;
 
     @for $i from 1 through $layers {
       &:nth-child(#{$i}) {

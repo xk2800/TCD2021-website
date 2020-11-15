@@ -17,7 +17,7 @@
 }
 
 body {
-  background: #000;
+  /*background: #15243C;*/
   background-image: radial-gradient(circle at top left, #000, #3c4858);
 }
 
@@ -45,6 +45,7 @@ body {
           transform: translateX(-50%) translateZ(0);
   -webkit-animation: confetti linear infinite;
           animation: confetti linear infinite;
+  z-index: -1;
 }
 
 .parallax img:nth-child(1) {
