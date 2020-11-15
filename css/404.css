@@ -55,7 +55,7 @@ body{
 }
 
 .spin-earth-on-hover{
-    
+
     transition: ease 200s !important;
     transform: rotate(-3600deg) !important;
 }
@@ -102,8 +102,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
 }
 
 li {
@@ -118,7 +118,7 @@ li a {
     text-decoration: none;
     letter-spacing : 2px;
     font-size: 12px;
-    
+
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -ms-transition: all 0.3s ease-in;
@@ -159,7 +159,7 @@ li a:hover {
     text-decoration: none;
     letter-spacing : 2px;
     font-size: 11px;
-    
+
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -ms-transition: all 0.3s ease-in;
@@ -273,19 +273,19 @@ li a:hover {
     .navbar-links{
         display: none;
     }
-    
+
     .custom-navbar{
         text-align: center;
     }
-    
+
     .brand-logo img{
         width: 120px;
     }
-    
+
     .box_astronaut{
         top: 70%;
     }
-    
+
     .central-body{
         padding-top: 25%;
     }
