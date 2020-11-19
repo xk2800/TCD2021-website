@@ -69,11 +69,11 @@ html {
 
 }
 
-.about-title, .faq-title, .slider-title{
+.about-title, .faq-title, .slider-title, .spon-title{
     font-family: 'Bebas Neue', cursive;
     font-size: 4em;
 }
-.faq-title, .slider-title{
+.faq-title, .slider-title, .spon-title{
     color: white;
 }
 
