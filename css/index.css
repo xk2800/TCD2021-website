@@ -28,7 +28,7 @@ html {
 
 .buttons{
     margin: 0% 1%;
-    position: relative; 
+    position: relative;
     z-index:2;
 }
 
@@ -41,21 +41,21 @@ html {
 }
 
 .parallax-one {
-    padding-top: 200px; 
-    padding-left: 50px; 
-    padding-right: 50px; 
-    padding-bottom: 200px; 
-    overflow: hidden; 
-    position: relative; 
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
     width: 100%;
-    background-image: url("../images/IMG_3394.JPG"); 
-    background-attachment: fixed; 
-    background-size: cover; 
-    -moz-background-size: cover; 
-    -webkit-background-size: cover; 
-    background-repeat: no-repeat; 
+    background-image: url("../images/IMG_3394.JPG");
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
     background-position: top center;
-    
+
 }
 .text{
     color: black;
@@ -63,7 +63,7 @@ html {
     background-color: #ffffff;
     border: 1px solid white;
     opacity: 0.8;
-   
+
 }
 .text p, .text li{
     margin: 0 5%;
@@ -144,7 +144,7 @@ html {
 	background: #fff;
 	visibility: hidden;
 	transition: 0.5s;
-	overflow-y: auto; 
+	overflow-y: auto;
 
 }
 .accordion .contentBx.active .content{
@@ -164,9 +164,9 @@ html {
 	margin: 10px auto 0;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
 }
-		
+
 .container1 .box1{
 	position: relative;
 	width: 250px;
@@ -174,62 +174,62 @@ html {
 	background: #ff0;
 	margin: 10px;
 	box-sizing: border-box;
-	display: inline-block; 
-		
+	display: inline-block;
+
 }
 .container1 .box1 .imgBox1{
 	position: relative;
 	overflow: hidden;
-		
+
 }
-		
+
 .container1 .box1 .imgBox1 img{
 	max-width:100%;
 	transition: transform 2s;
-		
+
 }
-		
+
 .container1 .box1:hover .imgBox1 img{
 	transform: scale(1.2);
-		
+
 }
-		
-.container1 .box1 .details1 {		
+
+.container1 .box1 .details1 {
 	position: absolute;
 	top: 10px;
 	left: 10px;
 	bottom: 10px;
 	right: 10px;
 	transform: scaleY(0);
-	transition: transform .5s;	
+	transition: transform .5s;
 }
-		
+
 .container1 .box1:hover .details1 {
 	transform: scaleY(1);
-		
+
 }
-		
-.container1 .box1 .details1 .content1{		
+
+.container1 .box1 .details1 .content1{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
 	padding: 15px;
 	color: #fff;
-		
+
 }
-		
+
 .container1 .box1 .details1 .content1 h2{
 	margin: 0;
 	padding: 0;
 	font-size: 20px;
-	color: #ff0;		
+	color: #ff0;
 }
-		
+
 .container1 .box1 .details1 .content1 p{
 	margin: 10px 0 0;
 	padding: 0px;
-		
+
 }
 /* Swiper Styles goes here*/
 .swiper-container {
@@ -345,7 +345,7 @@ html {
 }
 
 .its-link{
-    position: relative; 
+    position: relative;
     z-index:2;
 }
 
