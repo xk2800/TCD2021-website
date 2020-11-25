@@ -26,7 +26,7 @@ html {
     font-family: 'Bebas Neue', cursive;
 }
 
-.buttons{
+.buttons, .fb-chat{
     margin: 0% 1%;
     position: relative; 
     z-index:2;
