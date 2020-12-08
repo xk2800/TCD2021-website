@@ -48,7 +48,7 @@ html {
     overflow: hidden; 
     position: relative; 
     width: 100%;
-    /* background-image: url("../images/IMG_3394.JPG");  */
+    background-image: url("../images/IMG_3394.JPG");
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
@@ -473,6 +473,16 @@ html {
 }
 
 
+@media only screen and (max-width: 474px){
+
+    .logo{
+        width: 300px;
+        height: 170px;
+    }
+
+}
+
+
 /*let this be lowest part of this css page*/
 #footer{
     color: white;
@@ -489,13 +499,4 @@ html {
 
 .its-link:hover{
     color: red;
-}
-
-@media only screen and (max-width: 474px){
-
-    .logo{
-        width: 300px;
-        height: 170px;
-    }
-
 }
