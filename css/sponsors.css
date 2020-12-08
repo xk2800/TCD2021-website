@@ -109,9 +109,18 @@ button {
 a {
     text-decoration: none;
     /*font-size: 22px;*/
-    color: black;
+    color: #000;
 }
 
 button:hover, a:hover {
     opacity: 0.7;
+}
+
+
+/* CATEGORY TITLES */
+.platinum-header, .gold-header, .silver-header{
+	font-family: 'Bebas Neue', cursive;
+	color: #FFFFFF;
+	font-size: 5rem;
+	
 }
