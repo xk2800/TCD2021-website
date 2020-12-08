@@ -48,7 +48,7 @@ html {
     overflow: hidden; 
     position: relative; 
     width: 100%;
-    background-image: url("../images/IMG_3394.JPG"); 
+    /* background-image: url("../images/IMG_3394.JPG");  */
     background-attachment: fixed; 
     background-size: cover; 
     -moz-background-size: cover; 
@@ -70,11 +70,11 @@ html {
 
 }
 
-.about-title, .faq-title, .slider-title, .spon-title{
+.about-title, .faq-title, .slider-title, .spon-title, .agenda-title{
     font-family: 'Bebas Neue', cursive;
     font-size: 4em;
 }
-.faq-title, .slider-title, .spon-title{
+.faq-title, .slider-title, .spon-title, .agenda-title{
     color: white;
 }
 
@@ -97,6 +97,139 @@ html {
 .li-text{
     margin-bottom: 50%;
 }
+
+/* Agenda Css */
+/* .grid-container {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Time Day-1 Day-1"
+      "Time1 Promotional-Videos Promotional-Videos"
+      "Time2 Opening-Ceremony Opening-Ceremony"
+      "Time3 Company-Presentation Company-Booth"
+      "Time4 Pop-Quiz Company-Booth"
+      "Time5 Tech-Moment Company-Booth"
+      "Time6 Promotional-Videos Company-Booth"
+      "Time7 Closing-Speech-of-Day-1 Closing-Speech-of-Day-1"
+      "Time8 Postmortem Postmortem";
+
+}
+
+.grid-container > .Day-1 { 
+
+    grid-area: Day-1; 
+
+}
+.Time { grid-area: Time; }
+.Time1 { grid-area: Time1; }
+.Time2 { grid-area: Time2; }
+.Time3 { grid-area: Time3; }
+.Time4 { grid-area: Time4; }
+.Time5 { grid-area: Time5; }
+.Time6 { grid-area: Time6; }
+.Time7 { grid-area: Time7; }
+.Time8 { grid-area: Time8; }
+.Promotional-Videos { grid-area: Promotional-Videos; }
+.Opening-Ceremony { grid-area: Opening-Ceremony; }
+.Company-Presentation { grid-area: Company-Presentation; }
+.Pop-Quiz { grid-area: Pop-Quiz; }
+.Tech-Moment { grid-area: Tech-Moment; }
+.Promotional-Videos { grid-area: Promotional-Videos; }
+.Company-Booth { grid-area: Company-Booth; }
+.Closing-Speech-of-Day-1 { grid-area: Closing-Speech-of-Day-1; }
+.Postmortem { grid-area: Postmortem; } */
+
+.parent {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    align-items: center;
+
+}
+
+.parent > div{
+
+    padding: 15px 15px;
+    background-color:#15243c;
+    text-align: center;
+
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2;  font-family: 'Bebas Neue', cursive;letter-spacing: 4px;}
+.div2 { grid-area: 1 / 2 / 2 / 4;  font-family: 'Bebas Neue', cursive;letter-spacing: 4px;}
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 { grid-area: 3 / 1 / 4 / 2; }
+.div5 { grid-area: 4 / 1 / 5 / 2; }
+.div6 { grid-area: 5 / 1 / 6 / 2; }
+.div7 { grid-area: 6 / 1 / 7 / 2; }
+.div8 { grid-area: 7 / 1 / 8 / 2; }
+.div9 { grid-area: 8 / 1 / 9 / 2; }
+.div10 { grid-area: 9 / 1 / 10 / 2; }
+.div11 { grid-area: 2 / 2 / 3 / 3; }
+.div12 { grid-area: 2 / 3 / 3 / 4; }
+.div13 { grid-area: 3 / 2 / 4 / 4; }
+.div14 { grid-area: 4 / 2 / 5 / 3; }
+.div15 { grid-area: 5 / 2 / 6 / 3; }
+.div16 { grid-area: 6 / 2 / 7 / 3; }
+.div17 { grid-area: 7 / 2 / 8 / 3; }
+.div18 { grid-area: 4 / 3 / 8 / 4;}
+.div19 { grid-area: 8 / 2 / 9 / 4; }
+.div20 { grid-area: 9 / 2 / 10 / 4; }
+
+.parent1 {
+
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+    align-items: center;
+
+}
+
+.parent1 > div{
+
+    padding: 15px 15px;
+    background-color:#15243c;
+    text-align: center;
+
+}
+    
+.parent1 > .div1 { grid-area: 1 / 1 / 2 / 2; }
+.parent1 > .div2 { grid-area: 1 / 2 / 2 / 4; }
+.parent1 > .div3 { grid-area: 2 / 1 / 3 / 2; }
+.parent1 > .div4 { grid-area: 3 / 1 / 4 / 2; }
+.parent1 > .div5 { grid-area: 4 / 1 / 5 / 2; }
+.parent1 > .div6 { grid-area: 5 / 1 / 6 / 2; }
+.parent1 > .div7 { grid-area: 6 / 1 / 7 / 2; }
+.parent1 > .div8 { grid-area: 7 / 1 / 8 / 2; }
+.parent1 > .div9 { grid-area: 8 / 1 / 9 / 2; }
+.parent1 > .div10 { grid-area: 9 / 1 / 10 / 2; }
+.parent1 > .div11 { grid-area: 10 / 1 / 11 / 2; }
+.parent1 > .div12 { grid-area: 11 / 1 / 12 / 2; }
+.parent1 > .div13 { grid-area: 2 / 2 / 3 / 3; }
+.parent1 > .div14 { grid-area: 2 / 3 / 3 / 4; }
+.parent1 > .div15 { grid-area: 3 / 2 / 4 / 3; }
+.parent1 > .div16 { grid-area: 4 / 2 / 5 / 3; }
+.parent1 > .div17 { grid-area: 5 / 2 / 6 / 3; }
+.parent1 > .div18 { grid-area: 6 / 2 / 7 / 3; }
+.parent1 > .div19 { grid-area: 7 / 2 / 8 / 3; }
+.parent1 > .div20 { grid-area: 8 / 2 / 9 / 3; }
+.parent1 > .div21 { grid-area: 9 / 2 / 10 / 3; }
+.parent1 > .div22 { grid-area: 3 / 3 / 10 / 4; }
+.parent1 > .div23 { grid-area: 10 / 2 / 11 / 3; }
+.parent1 > .div24 { grid-area: 10 / 3 / 11 / 4; }
+.parent1 > .div25 { grid-area: 11 / 2 / 12 / 3; }
+.parent1 > .div26 { grid-area: 11 / 3 / 12 / 4; }
 
 .accordion{
 
@@ -171,7 +304,7 @@ html {
 	position: relative;
 	width: 250px;
 	height: 250px;
-	background: #ff0;
+    background: #ffffff;
 	margin: 10px;
 	box-sizing: border-box;
 	display: inline-block; 
@@ -223,7 +356,8 @@ html {
 	margin: 0;
 	padding: 0;
 	font-size: 20px;
-	color: #ff0;		
+    color: rgb(0, 0, 0);
+    font-weight: bold;	
 }
 		
 .container1 .box1 .details1 .content1 p{
@@ -355,4 +489,13 @@ html {
 
 .its-link:hover{
     color: red;
+}
+
+@media only screen and (max-width: 474px){
+
+    .logo{
+        width: 300px;
+        height: 170px;
+    }
+
 }
