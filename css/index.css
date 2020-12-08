@@ -304,7 +304,7 @@ html {
 	position: relative;
 	width: 250px;
 	height: 250px;
-	background: #fff;
+    background: #ffffff;
 	margin: 10px;
 	box-sizing: border-box;
 	display: inline-block; 
@@ -356,7 +356,8 @@ html {
 	margin: 0;
 	padding: 0;
 	font-size: 20px;
-	color: #ff0;		
+    color: rgb(0, 0, 0);
+    font-weight: bold;	
 }
 		
 .container1 .box1 .details1 .content1 p{
