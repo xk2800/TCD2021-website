@@ -157,7 +157,7 @@ html {
 .parent > div{
 
     padding: 15px 15px;
-    background-color:#15243c;
+    background-color:green;
     text-align: center;
 
 }
@@ -172,16 +172,37 @@ html {
 .div8 { grid-area: 7 / 1 / 8 / 2; }
 .div9 { grid-area: 8 / 1 / 9 / 2; }
 .div10 { grid-area: 9 / 1 / 10 / 2; }
-.div11 { grid-area: 2 / 2 / 3 / 3; }
+.div111 { 
+    background-color: red;
+    text-indent: 365px;
+    grid-area: 2 / 1 / 3 / 4; }
 .div12 { grid-area: 2 / 3 / 3 / 4; }
 .div13 { grid-area: 3 / 2 / 4 / 4; }
 .div14 { grid-area: 4 / 2 / 5 / 3; }
 .div15 { grid-area: 5 / 2 / 6 / 3; }
 .div16 { grid-area: 6 / 2 / 7 / 3; }
 .div17 { grid-area: 7 / 2 / 8 / 3; }
-.div18 { grid-area: 4 / 3 / 8 / 4;}
+/*.div18 { grid-area: 4 / 3 / 8 / 4;}*/
 .div19 { grid-area: 8 / 2 / 9 / 4; }
-.div20 { grid-area: 9 / 2 / 10 / 4; }
+.div200 {  background-color: red;
+    text-indent: 360px;
+    /*grid-area: 9 / 2 / 10 / 4;*/
+    grid-area: 9 / 1 / 10 / 4; 
+}
+
+
+.parent > .div11 { 
+    padding: 15px 15px;
+    
+}
+
+.parent > .div18 { 
+    padding: 100px 15px;
+    background-color: red;
+    text-align: center;
+    grid-area: 4 / 3 / 8 / 4;
+}
+
 
 .parent1 {
 
@@ -199,7 +220,7 @@ html {
 .parent1 > div{
 
     padding: 15px 15px;
-    background-color:#15243c;
+    background-color:green;
     text-align: center;
 
 }
@@ -216,16 +237,27 @@ html {
 .parent1 > .div10 { grid-area: 9 / 1 / 10 / 2; }
 .parent1 > .div11 { grid-area: 10 / 1 / 11 / 2; }
 .parent1 > .div12 { grid-area: 11 / 1 / 12 / 2; }
-.parent1 > .div13 { grid-area: 2 / 2 / 3 / 3; }
+.parent1 > .div13 { 
+    padding: 15px 15px;
+    background-color: red;
+    text-indent: 365px;
+    grid-area: 2 / 1 / 3 / 4; }
 .parent1 > .div14 { grid-area: 2 / 3 / 3 / 4; }
-.parent1 > .div15 { grid-area: 3 / 2 / 4 / 3; }
+.parent1 > .div15 { 
+    padding: 15px 15px;
+    background-color: red;
+    grid-area: 3 / 2 / 4 / 4; }
 .parent1 > .div16 { grid-area: 4 / 2 / 5 / 3; }
 .parent1 > .div17 { grid-area: 5 / 2 / 6 / 3; }
 .parent1 > .div18 { grid-area: 6 / 2 / 7 / 3; }
 .parent1 > .div19 { grid-area: 7 / 2 / 8 / 3; }
 .parent1 > .div20 { grid-area: 8 / 2 / 9 / 3; }
 .parent1 > .div21 { grid-area: 9 / 2 / 10 / 3; }
-.parent1 > .div22 { grid-area: 3 / 3 / 10 / 4; }
+.parent1 > .div22 { 
+    padding: 100px 15px;
+    background-color: red;
+    text-align: center;
+    grid-area: 3 / 3 / 10 / 4; }
 .parent1 > .div23 { grid-area: 10 / 2 / 11 / 3; }
 .parent1 > .div24 { grid-area: 10 / 3 / 11 / 4; }
 .parent1 > .div25 { grid-area: 11 / 2 / 12 / 3; }
