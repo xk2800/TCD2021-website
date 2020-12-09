@@ -394,7 +394,8 @@ html {
 		
 .container1 .box1 .details1 .content1 p{
 	margin: 10px 0 0;
-	padding: 0px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
 		
 }
 /* Swiper Styles goes here*/
