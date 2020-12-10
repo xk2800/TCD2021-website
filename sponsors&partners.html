@@ -50,6 +50,14 @@
     </script>
 
     <style>
+        body {
+            scroll-padding-top: 200px; /* height of sticky header */
+        }
+
+        /* Ultimately, this is the correct place for scroll-padding */
+        html {
+            scroll-padding-top: 200px; /* height of sticky header */
+        }
         #company-img{
             width:50%;
         }
@@ -98,6 +106,18 @@
         #white-bg-media{
             height: 13.5rem;
             background-color: #E0D0BC;
+        }
+
+        #bg-plat, .bg-plat{
+            background-color: #E6FEFF;
+        }
+
+        #bg-gold{
+            background-color: #FFF0B5;
+        }
+
+        #bg-silver{
+            background-color: #C0C0C0;
         }
         
         @media only screen and (max-width: 600px){
@@ -449,12 +469,11 @@
             <div class="card">
                 <div class="card-header">All Sponsors</div>
                 <div class="card-body">
-                    <section id="auronex-technologies">
-                        <div class="row">
+                    <section id="auronex-technologies" class="bg-plat">
+                        <div class="row" id="bg-plat">
                             <div class="col-md-4">
                                 <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
+                                <img src="..." alt="Auronex Technologies logo" id="company-img">
                             </div>
                             <div class="col-md-8">
                                 <h2>Auronex Technologies</h2>
@@ -467,11 +486,10 @@
 
                     <hr>
                     <section id="deriv">
-                        <div class="row">
+                        <div class="row" id="bg-plat">
                             <div class="col-md-4">
                                 <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
+                                <img src="images/sponsors-company/deriv.png" alt="Deriv Services Sdn. Bhd. logo" id="company-img">
                             </div>
                             <div class="col-md-8">
                                 <h2>Deriv Services Sdn. Bhd.</h2>
@@ -484,11 +502,10 @@
 
                     <hr>
                     <section id="dhl-it-services">
-                        <div class="row">
+                        <div class="row" id="bg-plat">
                             <div class="col-md-4">
                                 <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
+                                <img src="..." alt="DHL IT services logo" id="company-img">
                             </div>
                             <div class="col-md-8">
                                 <h2>DHL IT Services</h2>
@@ -500,15 +517,14 @@
                     </section>
                     
                     <hr>
-                    <section id="ix-telecom">
-                        <div class="row">
+                    <section id="evopoint">
+                        <div class="row" id="bg-plat">
                             <div class="col-md-4">
                                 <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
+                                <img src="..." alt="Evopoint Sdn. Bhd. logo" id="company-img">
                             </div>
                             <div class="col-md-8">
-                                <h2>Company Name</h2>
+                                <h2>Evopoint Sdn. Bhd.</h2>
                                 <!--h5>hello test</h5-->
                                 <h6>Company description</h6>
                                 <!--p>Text test here</p-->
@@ -517,15 +533,14 @@
                     </section>
                     
                     <hr>
-                    <section id="deriv">
-                        <div class="row">
+                    <section id="imagine">
+                        <div class="row" id="bg-plat">
                             <div class="col-md-4">
                                 <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
+                                <img src="images/sponsors-company/Inmagine.png" alt="INMAGINE logo" id="company-img">
                             </div>
                             <div class="col-md-8">
-                                <h2>Company Name</h2>
+                                <h2>INMAGINE</h2>
                                 <!--h5>hello test</h5-->
                                 <h6>Company description</h6>
                                 <!--p>Text test here</p-->
@@ -533,16 +548,31 @@
                         </div>
                     </section>
                     
+                    <hr>
+                    <section id="ix-telecom">
+                        <div class="row" id="bg-plat">
+                            <div class="col-md-4">
+                                <br>
+                                <img src="images/sponsors-company/ix-tele.png" alt="IX Telecom logo" id="company-img">
+                            </div>
+                            <div class="col-md-8">
+                                <h2>IX Telecom</h2>
+                                <!--h5>hello test</h5-->
+                                <h6>Company description</h6>
+                                <!--p>Text test here</p-->
+                            </div>
+                        </div>
+                    </section>
+
                     <hr>
                     <section id="neptrix">
-                        <div class="row">
+                        <div class="row" id="bg-plat">
                             <div class="col-md-4">
                                 <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
+                                <img src="..." alt="Neptrix Sdn. Bhd. logo" id="company-img">
                             </div>
                             <div class="col-md-8">
-                                <h2>Company Name</h2>
+                                <h2>Neptrix Sdn. Bhd.</h2>
                                 <!--h5>hello test</h5-->
                                 <h6>Company description</h6>
                                 <!--p>Text test here</p-->
@@ -551,32 +581,14 @@
                     </section>
 
                     <hr>
-                    <section id="auronex-technologies">
-                        <div class="row">
+                    <section id="snappymob">
+                        <div class="row" id="bg-plat">
                             <div class="col-md-4">
                                 <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
+                                <img src="images/sponsors-company/snappymob.svg" alt="Snappymob logo" id="company-img">
                             </div>
                             <div class="col-md-8">
-                                <h2>Company Name</h2>
-                                <!--h5>hello test</h5-->
-                                <h6>Company description</h6>
-                                <!--p>Text test here</p-->
-                            </div>
-                        </div>
-                    </section>
-
-                    <hr>
-                    <section id="dhl-it-services">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
-                            </div>
-                            <div class="col-md-8">
-                                <h2>Company Name</h2>
+                                <h2>Snappymob</h2>
                                 <!--h5>hello test</h5-->
                                 <h6>Company description</h6>
                                 <!--p>Text test here</p-->
@@ -586,14 +598,13 @@
 
                     <hr>
                     <section id="xendity">
-                        <div class="row">
+                        <div class="row" id="bg-plat">
                             <div class="col-md-4">
                                 <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
+                                <img src="..." alt="Xendity Sdn. Bhd. Logo" id="company-img">
                             </div>
                             <div class="col-md-8">
-                                <h2>Company Name</h2>
+                                <h2>Xendity Sdn. Bhd.</h2>
                                 <!--h5>hello test</h5-->
                                 <h6>Company description</h6>
                                 <!--p>Text test here</p-->
@@ -605,49 +616,14 @@
 
 <!-- GOLD COMPANY START -->
                     <hr>
-                    <section id="tranglo">
-                        <div class="row" style="background-color: yellow;">
-                            <div class="col-md-4">
-                                <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
-                            </div>
-                            <div class="col-md-8">
-                                <h2>Company Name</h2>
-                                <!--h5>hello test</h5-->
-                                <h6>Company description</h6>
-                                <!--p>Text test here</p-->
-                            </div>
-                        </div>
-                    </section>
-                    
-                    <hr>
                     <section id="biztory">
-                        <div class="row" style="background-color: yellow;">
+                        <div class="row" id="bg-gold">
                             <div class="col-md-4">
                                 <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
+                                <img src="images/sponsors-company/Biztory.png" alt="Biztory (Vectory Innovations Sdn Bhd) logo" id="company-img">
                             </div>
                             <div class="col-md-8">
-                                <h2>Company Name</h2>
-                                <!--h5>hello test</h5-->
-                                <h6>Company description</h6>
-                                <!--p>Text test here</p-->
-                            </div>
-                        </div>
-                    </section>
-                    
-                    <hr>
-                    <section id="lava-x-technologies" style="background-color: yellow;">
-                        <div class="row" style="background-color: yellow;">
-                            <div class="col-md-4">
-                                <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
-                            </div>
-                            <div class="col-md-8">
-                                <h2>Company Name</h2>
+                                <h2>Biztory (Vectory Innovations Sdn Bhd)</h2>
                                 <!--h5>hello test</h5-->
                                 <h6>Company description</h6>
                                 <!--p>Text test here</p-->
@@ -657,14 +633,45 @@
                     
                     <hr>
                     <section id="juristech">
-                        <div class="row" style="background-color: yellow;">
+                        <div class="row" id="bg-gold">
                             <div class="col-md-4">
                                 <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
+                                <img src="..." alt="Juristech logo" id="company-img">
                             </div>
                             <div class="col-md-8">
-                                <h2>Company Name</h2>
+                                <h2>Juristech</h2>
+                                <!--h5>hello test</h5-->
+                                <h6>Company description</h6>
+                                <!--p>Text test here</p-->
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <hr>
+                    <section id="lava-x-technologies">
+                        <div class="row" id="bg-gold">
+                            <div class="col-md-4">
+                                <br>
+                                <img src="images/sponsors-company/Lava-X.png" alt="Lava X Technologies logo" id="company-img">
+                            </div>
+                            <div class="col-md-8">
+                                <h2>Lava X Technologies</h2>
+                                <!--h5>hello test</h5-->
+                                <h6>Company description</h6>
+                                <!--p>Text test here</p-->
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <hr>
+                    <section id="tranglo">
+                        <div class="row" id="bg-gold">
+                            <div class="col-md-4">
+                                <br>
+                                <img src="images/sponsors-company/Tranglo.jpg" alt="Tranglo Sdn. Bhd. logo" id="company-img">
+                            </div>
+                            <div class="col-md-8">
+                                <h2>Tranglo Sdn. Bhd.</h2>
                                 <!--h5>hello test</h5-->
                                 <h6>Company description</h6>
                                 <!--p>Text test here</p-->
@@ -677,14 +684,13 @@
 <!-- SILVER COMPANY START -->
                     <hr>
                     <section id="fusionex">
-                        <div class="row" style="background-color: yellow;">
+                        <div class="row" id="bg-silver">
                             <div class="col-md-4">
                                 <br>
-                                <img src="images/IMG_3394.JPG" alt="" id="company-img">
-                                <p class="logo">Click image for website</p>
+                                <img src="images/sponsors-company/Fusionex.png" alt="Fusionex Logo" id="company-img">
                             </div>
                             <div class="col-md-8">
-                                <h2>Company Name</h2>
+                                <h2>Fusionex</h2>
                                 <!--h5>hello test</h5-->
                                 <h6>Company description</h6>
                                 <!--p>Text test here</p-->
