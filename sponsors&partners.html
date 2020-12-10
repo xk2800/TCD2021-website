@@ -54,7 +54,7 @@
             width:50%;
         }
 
-        #extra-card{
+        #extra-card-plat, #extra-card-silver{
             margin: 0 auto;
             float: none;
             margin-bottom: 10px;
@@ -75,16 +75,37 @@
             text-align: center;
         }
 
-        #white-bg{
+        #white-bg-plat, #extra-card-plat{
             height: 22rem;
+            background-color: #E6FEFF;
         }
 
+        #white-bg-gold{
+            height: 22rem;
+            background-color: #FFF0B5	;
+        }
+
+        #white-bg-silver, #extra-card-silver{
+            height: 22rem;
+            background-color: #C0C0C0;
+        }
+        
+        #white-bg-supp{
+            height: 13.5rem;
+            background-color: #E0D0BC;
+        }
+
+        #white-bg-media{
+            height: 13.5rem;
+            background-color: #E0D0BC;
+        }
+        
         @media only screen and (max-width: 600px){
-            #extra-card{
+            #extra-card-plat, #extra-card-silver{
                 margin: 0 auto;
                 float: none;
                 margin-bottom: 10px;
-                height: 13.5rem;
+                height: 22.5rem;
                 width: 21rem;
             }
         }
@@ -121,9 +142,9 @@
         
         
         <div class="card-deck">
-            <div class="card" id="white-bg">
+            <div class="card" id="white-bg-plat">
                 <img src="..." class="card-img-top" alt="Auronex Technologies logo" id="sponsor-img">
-                <div class="card-body">
+                <div class="card-body" id="plat">
                     <br>
                     <h5 class="card-title" id="name">Auronex Technologies</h5>
                     <br>
@@ -131,7 +152,7 @@
                     <p id="btns"><a href="#" id="btns" class="btn btn-primary">Go somewhere</a></p>
                 </div>
             </div>
-            <div class="card" id="white-bg">
+            <div class="card" id="white-bg-plat">
                 <img src="images/sponsors-company/deriv.png" class="card-img-top" alt="Deriv Services Sdn. Bhd. logo" style="width: 95%;" id="sponsor-img">
                 <div class="card-body">
                     <br>
@@ -141,7 +162,7 @@
                     <p id="btns"><a href="#" id="btns" class="btn btn-primary">Go somewhere</a></p>
                 </div>
             </div>
-            <div class="card" id="white-bg">
+            <div class="card" id="white-bg-plat">
                 <img src="..." class="card-img-top" alt="DHL IT services logo" id="sponsor-img">
                 <div class="card-body">
                     <br>
@@ -151,7 +172,7 @@
                     <p id="btns"><a href="#" id="btns" class="btn btn-primary">Go somewhere</a></p>
                 </div>
             </div>
-            <div class="card" id="white-bg">
+            <div class="card" id="white-bg-plat">
                 <img src="..." class="card-img-top" alt="Evopoint Sdn. Bhd. logo" id="sponsor-img">
                 <div class="card-body">
                     <br>
@@ -162,10 +183,11 @@
                 </div>
             </div>
         </div>
+    
 
         <br><br> 
         <div class="card-deck">
-            <div class="card" id="white-bg">
+            <div class="card" id="white-bg-plat">
                 <img src="images/sponsors-company/Inmagine.png" class="card-img-top" alt="INMAGINE logo" style="width: 95%;" id="sponsor-img">
                 <div class="card-body">
                     <br>
@@ -175,17 +197,17 @@
                     <p id="btns"><a href="#" id="btns" class="btn btn-primary">Go somewhere</a></p>
                 </div>
             </div>
-            <div class="card" id="white-bg">
-                <img src="..." class="card-img-top" alt="IX Telecom logo" id="sponsor-img">
+            <div class="card" id="white-bg-plat">
+                <img src="images/sponsors-company/ix-tele.png" class="card-img-top" alt="IX Telecom logo" style="width: 65%; margin-top: 30px" id="sponsor-img">
                 <div class="card-body">
-                    <br>
+                    
                     <h5 class="card-title" id="name">IX Telecom</h5>
                     <br>
                     <p class="card-text" id="btns"><a href="#ix-telecom" class="btn btn-primary">Company Description</a></p>
                     <p id="btns"><a href="#" id="btns" class="btn btn-primary">Go somewhere</a></p>
                 </div>
             </div>
-            <div class="card" id="white-bg">
+            <div class="card" id="white-bg-plat">
                 <img src="..." class="card-img-top" alt="Neptrix Sdn. Bhd. logo" id="sponsor-img">
                 <div class="card-body">
                     <br>
@@ -195,7 +217,7 @@
                     <p id="btns"><a href="#" id="btns" class="btn btn-primary">Go somewhere</a></p>
                 </div>
             </div>
-            <div class="card" id="white-bg">
+            <div class="card" id="white-bg-plat">
                 <img src="images/sponsors-company/snappymob.svg" class="card-img-top" alt="Snappymob logo" style="width: 95%;" id="sponsor-img">
                 <div class="card-body">
                     <br>
@@ -208,7 +230,7 @@
         </div>
 
             <br><br>
-            <div class="card" id="extra-card">
+            <div class="card" id="extra-card-plat">
                 <img class="card-img-top" src="..." alt="Xendity Sdn. Bhd. Logo" id="sponsor-img">
                 <div class="card-body">
                     <br>
@@ -231,7 +253,7 @@
         </span>
 
         <div class="card-deck">
-            <div class="card" id="white-bg">
+            <div class="card" id="white-bg-gold">
                 <img src="images/sponsors-company/Biztory.png" class="card-img-top" alt="Biztory (Vectory Innovations Sdn Bhd) logo" style="width: 53%; margin-top: 10px" id="sponsor-img">
                 <div class="card-body">
                     <h5 class="card-title" id="name">Biztory (Vectory Innovations Sdn Bhd)</h5>
@@ -240,7 +262,7 @@
                     <p id="btns"><a href="#" id="btns" class="btn btn-primary">Go somewhere</a></p>
                 </div>
             </div>
-            <div class="card" id="white-bg">
+            <div class="card" id="white-bg-gold">
                 <img src="..." class="card-img-top" alt="Juristech logo" id="sponsor-img">
                 <div class="card-body">
                     <br>
@@ -250,7 +272,7 @@
                     <p id="btns"><a href="#" id="btns" class="btn btn-primary">Go somewhere</a></p>
                 </div>
             </div>
-            <div class="card" id="white-bg">
+            <div class="card" id="white-bg-gold">
                 <img src="images/sponsors-company/Lava-X.png" class="card-img-top" alt="Lava X Technologies logo" style="width:95%;" id="sponsor-img">
                 <div class="card-body">
                     <br>
@@ -260,7 +282,7 @@
                     <p id="btns"><a href="#" id="btns" class="btn btn-primary">Go somewhere</a></p>
                 </div>
             </div>
-            <div class="card" id="white-bg">
+            <div class="card" id="white-bg-gold">
                 <img src="images/sponsors-company/Tranglo.jpg" class="card-img-top" alt="Tranglo Sdn. Bhd. logo" style="width:95%;" id="sponsor-img">
                 <div class="card-body">
                     <br>
@@ -281,7 +303,7 @@
         <span class="silver-header">
             SILVER SPONSORS
         </span>
-        <div class="card" id="extra-card">
+        <div class="card" id="extra-card-silver">
             <img class="card-img-top" src="images/sponsors-company/Fusionex.png" alt="Fusionex Logo" id="sponsor-img">
             <div class="card-body">
                 <br>
@@ -295,6 +317,51 @@
 <!-- SILVER COMPANY END -->
 
 
+<!-- SUPPORTING PARTNERS START -->
+    <div class="container">
+        <span class="platinum-header">
+            SUPPORTING PARTNERS
+        </span>
+
+
+        <div class="card-deck">
+            <div class="card" id="white-bg-supp">
+                <img src="00" class="card-img-top" alt="IEEE logo" style="width:53%; margin-top: 10px" id="media-img">
+                <div class="card-body">
+                    <h5 class="card-title" id="name">IEEE Malaysia</h5>
+                    <!--p class="card-text" id="btns"><a href="#lava-x-technologies" class="btn btn-primary">Company Description</a></p>
+                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
+                </div>
+            </div>
+            <div class="card" id="white-bg-supp">
+                <img src="00" class="card-img-top" alt="MMU Game Developer Club logo" style="width:70%; margin-top: 10px" id="media-img">
+                <div class="card-body">
+                    <h5 class="card-title" id="name">MMU Game Developer Club</h5>
+                    <!--p class="card-text" id="btns"><a href="#juristech" class="btn btn-primary">Company Description</a></p>
+                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
+                </div>
+            </div>
+            <div class="card" id="white-bg-supp">
+                <img src="00" class="card-img-top" alt="Your logo here" style="width:110%; margin-top: 40px;" id="media-img">
+                <!--div class="card-body">
+                    <h5 class="card-title" id="name">I-Tech UUM</h5>
+                    <!--p class="card-text" id="btns"><a href="#biztory" class="btn btn-primary">Company Description</a></p>
+                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
+                <!--/div-->
+            </div>
+            <div class="card" id="white-bg-supp">
+                <img src="00" class="card-img-top" alt="Your logo here" style="width:60%; margin-top: 10px" id="media-img">
+                <!--div class="card-body">
+                    <h5 class="card-title" id="name">Sunway Tech Club</h5>
+                    <!--p class="card-text" id="btns"><a href="#deriv" class="btn btn-primary">Company Description</a></p>
+                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
+                <!--/div-->
+            </div>
+        </div>
+
+    </div>
+<!-- SUPPORTING PARTNERS END -->
+
 <!-- MEDIA PARTNERS START -->
     <div class="container">
         <span class="silver-header">
@@ -302,7 +369,7 @@
         </span>
 
         <div class="card-deck">
-            <div class="card" style="height: 13.5rem;">
+            <div class="card" id="white-bg-media">
                 <img src="images/media-partners/IEM-UTAR.png" class="card-img-top" alt="IEM UTAR KL Student Section logo" style="width:53%; margin-top: 10px" id="media-img">
                 <div class="card-body">
                     <h5 class="card-title" id="name">IEM UTAR KL Student Section</h5>
@@ -310,7 +377,7 @@
                     <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
                 </div>
             </div>
-            <div class="card" style="height: 13.5rem;">
+            <div class="card" id="white-bg-media">
                 <img src="images/media-partners/ITS-melaka.png" class="card-img-top" alt="IT Society MMU Melaka logo" style="width:70%; margin-top: 10px" id="media-img">
                 <div class="card-body">
                     <h5 class="card-title" id="name">IT Society MMU Melaka</h5>
@@ -318,15 +385,15 @@
                     <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
                 </div>
             </div>
-            <div class="card" style="height: 13.5rem;">
-                <img src="images/media-partners/I-TECH-UUM.png" class="card-img-top" alt="I-Tech UUM logo" style="width:110%; margin-top: 40px;" id="media-img">
+            <div class="card" id="white-bg-media">
+                <img src="images/media-partners/I-TECH-UUM.png" class="card-img-top" alt="I-Tech UUM logo" style="width:110%; margin-top: 40px; margin-left: 3.6px;" id="media-img">
                 <div class="card-body">
                     <h5 class="card-title" id="name">I-Tech UUM</h5>
                     <!--p class="card-text" id="btns"><a href="#biztory" class="btn btn-primary">Company Description</a></p>
                     <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
                 </div>
             </div>
-            <div class="card" style="height: 13.5rem;">
+            <div class="card" id="white-bg-media">
                 <img src="images/media-partners/sunway-tech-club.png" class="card-img-top" alt="Sunway Tech Club logo" style="width:60%; margin-top: 10px" id="media-img">
                 <div class="card-body">
                     <h5 class="card-title" id="name">Sunway Tech Club</h5>
@@ -338,7 +405,7 @@
         <br><br>
         <div class="card-deck">
             <br>
-            <div class="card" style="height: 13.5rem;">
+            <div class="card" id="white-bg-media">
                 <img src="images/media-partners/TAR-UC-CSS.png" class="card-img-top" alt="TARUC Computer Science Society logo" style="width:80%; margin-top: 30px" id="media-img">
                 <div class="card-body">
                     <h5 class="card-title" id="name">TARUC Computer Science Society</h5>
@@ -346,7 +413,7 @@
                     <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
                 </div>
             </div>
-            <div class="card" style="height: 13.5rem;">
+            <div class="card" id="white-bg-media">
                 <img src="images/media-partners/Agents-of-Tech.png" class="card-img-top" alt="Taylor's University Agents of Tech logo" style="width:55%; margin-top: 20px" id="media-img">
                 <div class="card-body">
                     <h5 class="card-title" id="name">Taylor's University Agents of Tech</h5>
@@ -354,7 +421,7 @@
                     <!--a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
                 </div>
             </div>
-            <div class="card" style="height: 13.5rem;">
+            <div class="card" id="white-bg-media">
                 <img src="images/media-partners/XMUM.png" class="card-img-top" alt="XMUM Software Engineering Student Union logo" style="width:55%; margin-top: 10px;" id="media-img">
                 <div class="card-body">
                     <h6 class="card-title" id="name">XMUM Software Engineering Student Union</h6>
@@ -362,7 +429,7 @@
                     <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
                 </div>
             </div>
-            <div class="card" style="height: 13.5rem;">
+            <div class="card" id="white-bg-media">
                 <!--img src="..." class="card-img-top" alt="DHL IT services logo" style="width:50%;" id="media-img">
                 <div class="card-body">
                     <h5 class="card-title">DHL IT services</h5>
