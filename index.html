@@ -31,9 +31,6 @@
 
     <link rel="icon" type="image/favicon" href="images/favicon_io/favicon.ico">
 
-    <!-- CSS for particle.js; in testing mode for this project -->
-    <link rel="stylesheet" href="css/particle.css">
-
     <!-- CSS for all sections in this page -->
     <link rel="stylesheet" href="css/index.css">
 
@@ -49,7 +46,6 @@
     <!--Swiper CDN-->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -58,19 +54,36 @@
         $(function(){
           //$("#navbar").load("navbar-index.html"); 
           $("#navbar-sticky").load("nav-sticky.html");
-          $("#test").load("hello.html"); 
         });
     </script>
 
     <style>
         .date{
-    font-size: 2em;
-    font-family: 'Arvo', serif;
-    }
-    .fb-chat{
-        position: relative; 
-        z-index:2;
-    }
+            font-size: 2em;
+            font-family: 'Arvo', serif;
+        }
+        .fb-chat{
+            position: relative; 
+            z-index:2;
+        }
+        .containimg {
+            width:230px;
+            height:250px;
+            margin-left: 12.5px;
+            object-fit: contain;
+        }
+        @media only screen and (max-width: 600px){
+            
+        }
+        u{
+            font-size: 50px;
+        }
+
+        #tabs, .div3, #div-promo{
+            position: relative; 
+            z-index:2;
+        }
+
     </style>
 
 
@@ -194,140 +207,393 @@
 
 <!-- THIS SECTION IS OFFLINE FOR A MOMENT, WILL GO ONLINE BACK LATER -->
 
-    <section id="sponsor&partners"> <!-- SITI -->
-        <!--div class="container mt-3">
-            <div class="sponsor">
-                <span class="spon-title">
-                    Sponsors & Partners 
-                </span>
-        </div>
-    <div class="row">
-    <!--TEST >
-        <div class="container1">
-        <div class="box1">
-            <div class="imgBox1">
-                <img src= "images/logo/ITS.jpg">
+        <section id="sponsor&partners"> <!-- SITI -->
+           <!-- <div class="container mt-3">
+                <div class="sponsor">
+                    <span class="spon-title">
+                        Sponsors & Partners 
+                    </span>
+               </div>
+
+        <!-- Platinum sponsor >
+             <div class="sponsor">
+                    <span class="spon-title">
+                        <u>Platinum Sponsors</u>
+                    </span>
+               </div>
+           <div class="row">
+           
+            <div class="container1">
+               <div class="box1">
+                   <div class="imgBox1">
+                       <img src= "images/sponsors-company/Biztory.png" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(229,228,226,0.8);">
+                           <h2> BIZTORY </h2>
+                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="box1">
+                   <div class="imgBox1">
+                       <img src= "images/sponsors-company/deriv.png" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(229,228,226,0.8);">
+                           <h2> DERIV </h2>
+                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="box1">
+                   <div class="imgBox1">
+                       <img src= "images/sponsors-company/Inmagine.png" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(211,211,211,0.8);">
+                           <h2> INMAGINE </h2>
+                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="box1">
+                   <div class="imgBox1">
+                        <img src= "images/sponsors-company/snappymob.svg" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(129,129,129,0.8);">
+                           <h2> SNAPPYMOB</h2>
+                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="box1">
+                   <div class="imgBox1">
+                        <img src= "images/sponsors-company/Tranglo.jpg" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(211,211,211,0.8);">
+                           <h2> TRANGLO</h2>
+                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="box1">
+                   <div class="imgBox1">
+                       <img src= "images/sponsors-company/Lava-X.png" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1"style= "background: rgba(176,141,0,0.8);">
+                           <h2> What is Lorem Ipsum?</h2>
+                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="box1">
+                   <div class="imgBox1">
+                       <img src= "images/sponsors-company/Fusionex.png" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(0,0,0,.8);">
+                           <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
+                           <p style="color: azure ;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="box1">
+                   <div class="imgBox1">
+                       <img src= "images/logo/ITS.jpg" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(0,0,0,.8);">
+                           <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
+                           <p style="color: azure ;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+                <div class="box1" style="display: block; margin-left: auto; margin-right: auto;">
+                   <div class="imgBox1">
+                       <img src= "images/logo/ITS.jpg" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(0,0,0,.8);">
+                           <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
+                           <p style="color: azure ;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       </div>  
+
+       <!-- Gold sponsor ->
+       <div class="container mt-3">
+                <div class="sponsor">
+                    <span class="spon-title">
+                        <u>Gold Sponsors</u>
+                    </span>
+               </div>
+           <div class="row">
+           
+            <div class="container1">
+                <div class="box1">
+                   <div class="imgBox1">
+                       <img src= "images/logo/ITS.jpg" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(255,215,0,0.8);">
+                           <h2> What is Lorem Ipsum?</h2>
+                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+                <div class="box1">
+                   <div class="imgBox1">
+                       <img src= "images/logo/ITS.jpg" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(255,215,0,0.8);">
+                           <h2> What is Lorem Ipsum?</h2>
+                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+                <div class="box1">
+                   <div class="imgBox1">
+                       <img src= "images/logo/ITS.jpg" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(255,215,0,0.8);">
+                           <h2> What is Lorem Ipsum?</h2>
+                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+                <div class="box1">
+                   <div class="imgBox1">
+                       <img src= "images/logo/ITS.jpg" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(255,215,0,0.8);">
+                           <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
+                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       </div> -->
+
+          <!-- Silver sponsor -->
+<!--      <div class="container mt-3">
+                <div class="sponsor">
+                    <span class="spon-title">
+                        <u>Silver Sponsors</u>
+                    </span>
+               </div>
+           <div class="row">
+           
+            <div class="container1">
+               <div class="box1" style="display: block; margin-left: auto; margin-right: auto;">
+                   <div class="imgBox1">
+                       <img src= "images/logo/ITS.jpg" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(211,211,211,0.8);"> //"background: rgba(129,129,129,0.8);"
+                           <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
+                           <p style="color: azure ;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
             </div>
-            <div class= "details1">
-                <div class= "content1" style= "background: rgba(255,215,0,0.8);">
-                    <h2> What is Lorem Ipsum?</h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                    </p>
-                </div>
+           </div>
+       </div>
+-->
+        <!-- Media partners -->
+<!--       <div class="container mt-3">
+                <div class="sponsor">
+                    <span class="spon-title">
+                        <u>Media Partners</u>
+                    </span>
+               </div>
+           <div class="row">
+           
+            <div class="container1">
+               <div class="box1" style="display: block; margin-left: auto; margin-right: auto;">
+                   <div class="imgBox1">
+                       <img src= "images/logo/ITS.jpg" class="containimg">
+                   </div>
+                   <div class= "details1">
+                       <div class= "content1" style= "background: rgba(0,0,0,.8);">
+                           <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
+                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                           </p>
+                       </div>
+                   </div>
+               </div>
             </div>
-        </div>
-        <div class="box1">
-            <div class="imgBox1">
-                <img src= "images/logo/ITS.jpg">
-            </div>
-            <div class= "details1">
-                <div class= "content1" style= "background: rgba(255,215,0,0.8);">
-                    <h2> What is Lorem Ipsum?</h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="box1">
-            <div class="imgBox1">
-                <img src= "images/logo/ITS.jpg">
-            </div>
-            <div class= "details1">
-                <div class= "content1" style= "background: rgba(211,211,211,0.8);">
-                    <h2> What is Lorem Ipsum?</h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="box1">
-            <div class="imgBox1">
-                <img src= "images/logo/ITS.jpg">
-            </div>
-            <div class= "details1">
-                <div class= "content1" style= "background: rgba(211,211,211,0.8);">
-                    <h2> What is Lorem Ipsum?</h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    <!-- Second Row>
-    <div class="container mt-3">
-    <div class="row">
-    <div class="container1">
-        <div class="box1">
-            <div class="imgBox1">
-                <img src= "images/logo/ITS.jpg">
-            </div>
-            <div class= "details1">
-                <div class= "content1" style= "background: rgba(176,141,0,0.8);">
-                    <h2> What is Lorem Ipsum?</h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="box1">
-            <div class="imgBox1">
-                <img src= "images/logo/ITS.jpg">
-            </div>
-            <div class= "details1">
-                <div class= "content1"style= "background: rgba(176,141,0,0.8);">
-                    <h2> What is Lorem Ipsum?</h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="box1">
-            <div class="imgBox1">
-                <img src= "images/logo/ITS.jpg">
-            </div>
-            <div class= "details1">
-                <div class= "content1" style= "background: rgba(0,0,0,.8);">
-                    <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="box1">
-            <div class="imgBox1">
-                <img src= "images/logo/ITS.jpg" >
-            </div>
-            <div class= "details1">
-                <div class= "content1" style= "background: rgba(0,0,0,.8);">
-                    <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div-->
+           </div>
+       </div>
+       </br>   
+-->  
     </section>
 
 
     <section id="agenda"> <!-- ALL WEB TEAM -->
-        <div class="container">
+        <!-- <div class="container">
+
+            <span class="agenda-title">
+                Agenda
+            </span>
+
+<!--             <div class="grid-container">
+                <div class="Day-1">Day 1</div>
+                <div class="Time">Time</div>
+                <div class="Time1">9:00 - 10:00</div>
+                <div class="Time2">10:00 -10:30</div>
+                <div class="Time3">10:30 - 2:00</div>
+                <div class="Time4">2:00 - 2:15</div>
+                <div class="Time5">2:15 - 4:30</div>
+                <div class="Time6">4:30 - 4:50</div>
+                <div class="Time7">4:50 - 5:00</div>
+                <div class="Time8">5:15 - 6:00</div>
+                <div class="Promotional-Videos"></div>
+                <div class="Opening-Ceremony"></div>
+                <div class="Company-Presentation"></div>
+                <div class="Pop-Quiz"></div>
+                <div class="Tech-Moment"></div>
+                <div class="Promotional-Videos"></div>
+                <div class="Company-Booth"></div>
+                <div class="Closing-Speech-of-Day-1"></div>
+                <div class="Postmortem"></div>
+            </div> ->
+
+            <div id="tabs">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <!--li class="nav-item" role="presentation">
+                    <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">DAY 1</a>
+                    </li->
+                    <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">DAY 1</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">DAY 2</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <!--div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab"></div->
+
+                    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        
+                        <div class="parent">
+
+                            <div class="div1">Time</div>
+                            <div class="div2">Day 1</div>
+                            <div class="div3">9:00AM - 10:00AM</div>
+                            <div class="div4">10:00AM -10:30AM</div>
+                            <div class="div5">10:30AM - 2:00PM</div>
+                            <div class="div6">2:00PM - 2:15PM</div>
+                            <div class="div7">2:15PM - 4:30PM</div>
+                            <div class="div8">4:30PM - 4:50PM</div>
+                            <div class="div9">4:50PM - 5:00PM</div>
+                            <div class="div10" id="div-promo">5:00PM</div>
+                            <div class="div111">Promotional Videos</div>
+                            <!--div class="div12">Promotional-Videos</div->
+                            <div class="div13">Opening Ceremony</div>
+                            <div class="div14">Company-Presentation</div>
+                            <div class="div15">Pop-Quiz</div>
+                            <div class="div16">Tech-Moment</div>
+                            <div class="div17">Promotional Videos</div>
+                            <div class="div18">Company Booth</div>
+                            <div class="div19">Closing Speech of Day-1</div>
+                            <div class="div200">End of Tech Career Days 2021 Day 1</div>
             
-        </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+                        <div class="parent1">
+                            <div class="div1">Time</div>
+                            <div class="div2">Day 2</div>
+                            <div class="div3" id="div-promo">9:00AM - 10:00AM</div>
+                            <div class="div4">10:00AM - 10:10AM</div>
+                            <div class="div5">10:10AM - 10:30AM</div>
+                            <div class="div6">10:30AM - 2:00PM</div>
+                            <div class="div7">2:00PM - 2:15PM</div>
+                            <div class="div8">2:15PM - 4:30PM</div>
+                            <div class="div9">4:30PM - 4:45PM</div>
+                            <div class="div10">4:45PM - 4:50PM</div>
+                            <div class="div11">4:50PM - 5:00PM</div>
+                            <!--div class="div12">5:15 - 6:00</div->
+                            <div class="div13"> Promotional Videos</div>
+                            <!--div class="div14"> Premortem (for Committees)</div->
+                            <div class="div15">Opening Speech for Day 2</div>
+                            <div class="div16">Emcee Session</div>
+                            <div class="div17">Company Presentation</div>
+                            <div class="div18">Pop Quiz</div>
+                            <div class="div19">Tech Moment</div>
+                            <div class="div20">Promotional Videos</div>
+                            <div class="div21">Prize Giving</div>
+                            <div class="div22">Company Booth</div>
+                            <div class="div23">Closing Ceremony	</div>
+                            <div class="div24">Closing Ceremony</div>
+                            <div class="div25">End of Tech Career Day's 2021</div>
+                            <!--div class="div26">Postmortem</div->
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <br><br>
+
+
+
+            
+
+            <br>
+
+            
+
+        </div> -->
     </section>
 
+    <br>
+
     <section id="faq"> <!-- SHAUN -->
+<!-- NEED TO ADD PLATFORM, WHERE TO GET LINKS -->
         <div class="container">
             <div class="accordion">
                 <span class="faq-title">
