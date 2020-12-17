@@ -63,8 +63,8 @@ html {
     background-color: #ffffff;
     border: 1px solid white;
     opacity: 0.8;
-   
 }
+
 .text p, .text li{
     margin: 0 5%;
 
@@ -96,6 +96,12 @@ html {
 
 .li-text{
     margin-bottom: 50%;
+}
+
+#tabs{
+    color: white;
+    font-weight: bold;
+    font-family: 'Arvo', serif;
 }
 
 /* Agenda Css */
@@ -152,7 +158,7 @@ html {
     /* background-color: #fff; */
     align-items: center;
     margin-top: 15px;
-
+    font-family: 'Arvo', serif;
 }
 
 .parent > div{
@@ -162,6 +168,7 @@ html {
     border-radius: 8px;
     border: none;
     color: black;
+    font-weight: bold;
 
 }
     
@@ -169,24 +176,25 @@ html {
 
     grid-area: 1 / 1 / 2 / 2;
     background-color: #23687D;
+    color: white;
 
 }
 .parent > .div2 { 
 
     grid-area: 1 / 2 / 2 / 4; 
     background-color: #23687D;
-
+    color: white;
 }
 .parent > .div3 { 
     
     grid-area: 2 / 1 / 3 / 2; 
-    background-color: #DFB2A2;
+    background-color: #F4EDDD;
 
 }
 .parent > .div4 { 
 
     grid-area: 2 / 2 / 3 / 4; 
-    background-color: #997F7A;
+    background-color: #F4EDDD;
 
 }
 .parent > .div5 { 
@@ -228,44 +236,44 @@ html {
 .parent > .div11 { 
     
     grid-area: 3 / 2 / 4 / 4; 
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent > .div12 { 
     
     grid-area: 4 / 2 / 5 / 3; 
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent > .div13 { 
     
     grid-area: 5 / 2 / 6 / 3; 
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent > .div14 { 
     
     grid-area: 6 / 2 / 7 / 3; 
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent > .div15 { 
     
     grid-area: 7 / 2 / 8 / 3; 
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent > .div16 { 
     
     grid-area: 4 / 3 / 8 / 4;
-    background-color: #D77634;
+    background-color: #FCEEB0;
 
 }
 
 .parent > .div17 { 
     
     grid-area: 8 / 2 / 9 / 4; 
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent > .div16{
@@ -328,7 +336,7 @@ html {
     /* background-color: #fff; */
     align-items: center;
     margin-top: 15px;
-
+    font-family: 'Arvo', serif;
 }
 
 .parent1 > div{
@@ -338,31 +346,30 @@ html {
     border-radius: 8px;
     border: none;
     color: black;
-
 }
     
 .parent1 > .div1 { 
 
     grid-area: 1 / 1 / 2 / 2; 
     background-color: #23687D;
-
+    color: white;
 }
 .parent1 > .div2 { 
 
     grid-area: 1 / 2 / 2 / 4; 
     background-color: #23687D;
-
+    color: white;
 }
 .parent1 > .div3 { 
 
     grid-area: 2 / 1 / 3 / 2; 
-    background-color: #DFB2A2;
+    background-color: #F4EDDD;
 
 }
 .parent1 > .div4 { 
 
     grid-area: 2 / 2 / 3 / 4; 
-    background-color: #997F7A;
+    background-color: #F4EDDD;
 
 }
 .parent1 > .div5 { 
@@ -410,49 +417,49 @@ html {
 .parent1 > .div12 { 
     
     grid-area: 3 / 2 / 4 / 3; 
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent1 > .div13 { 
     
     grid-area: 4 / 2 / 5 / 3;
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent1 > .div14 { 
     
     grid-area: 5 / 2 / 6 / 3; 
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent1 > .div15 { 
     
     grid-area: 6 / 2 / 7 / 3; 
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent1 > .div16 { 
     
     grid-area: 7 / 2 / 8 / 3; 
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent1 > .div17 { 
     
     grid-area: 8 / 2 / 9 / 3; 
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent1 > .div18 { 
     
     grid-area: 3 / 3 / 9 / 4; 
-    background-color: #D77634;
+    background-color: #FCEEB0;
 
 }
 .parent1 > .div19 { 
     
     grid-area: 9 / 2 / 10 / 4; 
-    background-color: #997F7A;
+    background-color: #C1D1DB;
 
 }
 .parent1 > .div18{
@@ -565,7 +572,8 @@ html {
 	margin: 10px auto 0;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;	
+    flex-wrap: wrap;	
+    font-family: 'Arvo', serif;
 }
 		
 .container1 .box1{
@@ -576,23 +584,23 @@ html {
 	margin: 10px;
 	box-sizing: border-box;
 	display: inline-block; 
-		
+	font-family: 'Arvo', serif;
 }
 .container1 .box1 .imgBox1{
 	position: relative;
 	overflow: hidden;
-		
+    font-family: 'Arvo', serif;
 }
-		
+
 .container1 .box1 .imgBox1 img{
 	max-width:100%;
 	transition: transform 2s;
-		
+    font-family: 'Arvo', serif;
 }
 		
 .container1 .box1:hover .imgBox1 img{
 	transform: scale(1.2);
-		
+    font-family: 'Arvo', serif;
 }
 		
 .container1 .box1 .details1 {		
@@ -602,11 +610,13 @@ html {
 	bottom: 10px;
 	right: 10px;
 	transform: scaleY(0);
-	transition: transform .5s;	
+    transition: transform .5s;
+    font-family: 'Arvo', serif;	
 }
 		
 .container1 .box1:hover .details1 {
-	transform: scaleY(1);
+    transform: scaleY(1);
+    font-family: 'Arvo', serif;
 		
 }
 		
@@ -617,7 +627,7 @@ html {
 	text-align: center;
 	padding: 15px;
 	color: #fff;
-		
+    font-family: 'Arvo', serif;
 }
 		
 .container1 .box1 .details1 .content1 h2{
@@ -626,13 +636,14 @@ html {
 	font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: bold;	
+    font-family: 'Arvo', serif;
 }
 		
 .container1 .box1 .details1 .content1 p{
 	margin: 10px 0 0;
     padding: 0px;
     color: rgb(0, 0, 0);
-		
+    font-family: 'Arvo', serif;
 }
 /* Swiper Styles goes here*/
 .swiper-container {
