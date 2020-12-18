@@ -6,7 +6,7 @@ normal text*/
 /*font-family: 'Bebas Neue', cursive;
 Titles*/
 
-.container{
+.container#sponsor{
 
 	background-color: white;
 
@@ -34,8 +34,6 @@ Titles*/
 
 .wrapper > .left-section > img{
 
-/* 	width: 200px;
-	height: 300px; */
 	width: 100%;
 
 }
