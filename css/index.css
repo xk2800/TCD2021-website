@@ -241,6 +241,9 @@ html {
     grid-area: 1 / 2 / 2 / 4; 
     background-color: #23687D;
     color: white;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 }
 .parent > .div3 { 
     
@@ -300,12 +303,18 @@ html {
     
     grid-area: 4 / 2 / 5 / 3; 
     background-color: #C1D1DB;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 
 }
 .parent > .div13 { 
     
     grid-area: 5 / 2 / 6 / 3; 
     background-color: #C1D1DB;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 
 }
 .parent > .div14 { 
@@ -318,6 +327,9 @@ html {
     
     grid-area: 7 / 2 / 8 / 3; 
     background-color: #C1D1DB;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 
 }
 .parent > .div16 { 
