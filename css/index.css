@@ -835,6 +835,115 @@ html {
 
 }
 
+@media only screen and (max-width: 459px){
+
+    .parent {
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        /* background-color: #fff; */
+        align-items: center;
+        margin-top: 15px;
+        font-family: 'Arvo', serif;
+    }
+
+    .parent > .div15 { 
+    
+        grid-area: 7 / 2 / 8 / 3; 
+        background-color: #C1D1DB;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+    .parent > .div2 { 
+    
+        grid-area: 1 / 2 / 2 / 4; 
+        background-color: #23687D;
+        color: white;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+
+    .parent > .div5 { 
+
+        grid-area: 3 / 1 / 4 / 2; 
+        background-color: #DFB2A2;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+    .parent > .div16{
+
+        padding: 90px 0px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 414px){
+
+    .parent > .div6 { 
+    
+        grid-area: 4 / 1 / 5 / 2; 
+        background-color: #DFB2A2;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 391px){
+
+    .div2 > p{
+
+        margin-top: -10px;
+
+    }
+
+}
+
+@media only screen and (max-width: 394px){
+
+    .parent > .div7 { 
+    
+        grid-area: 5 / 1 / 6 / 2; 
+        background-color: #DFB2A2;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 379px){
+
+    .parent > .div10 { 
+    
+        grid-area: 8 / 1 / 9 / 2; 
+        background-color: #DFB2A2;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+}
 
 /*let this be lowest part of this css page*/
 #footer{
