@@ -233,3 +233,44 @@ button:hover, a:hover {
 	}
 
 }
+
+@media screen and (max-width: 767px) {
+
+	#auronex{
+		width: 50%;
+
+	}
+
+	#deriv{
+		width: 100%;
+		height: 30%;
+	}
+
+	#dhl{
+		height: 45%;
+	}
+
+	#inmagine{
+		height: 30%;
+	}
+
+	#neptrix{
+		height: 40%;
+	}
+
+	#juristech{
+		height: 35%;
+	}
+
+	#lava-x{
+		height: 35%;
+	}
+
+	#tranglo{
+		height: 45%;
+	}
+
+	#fusionex{
+		height: 55%;
+	}
+}
