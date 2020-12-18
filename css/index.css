@@ -487,6 +487,9 @@ html {
     
     grid-area: 3 / 2 / 4 / 3; 
     background-color: #C1D1DB;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 
 }
 .parent1 > .div13 { 
@@ -499,12 +502,18 @@ html {
     
     grid-area: 5 / 2 / 6 / 3; 
     background-color: #C1D1DB;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 
 }
 .parent1 > .div15 { 
     
     grid-area: 6 / 2 / 7 / 3; 
     background-color: #C1D1DB;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 
 }
 .parent1 > .div16 { 
@@ -1058,6 +1067,18 @@ html {
 
 }
 
+@media only screen and (max-width: 435px){
+
+    .parent1 > .div2{
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+
+    }
+
+}
+
 @media only screen and (max-width: 425px){
 
     .parent > .div5 { 
@@ -1076,6 +1097,14 @@ html {
     
     }
 
+    .parent1 > .div5{
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+
+    }
+
 }
 
 @media only screen and (max-width: 414px){
@@ -1090,6 +1119,22 @@ html {
     
     }
 
+    .parent1 > .div6{
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+
+    }
+
+    .parent1 > .div7{
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+
+    }
+
 }
 
 @media only screen and (max-width: 391px){
@@ -1097,6 +1142,30 @@ html {
     .div2 > p{
 
         margin-top: -10px;
+
+    }
+
+    .parent1 > .div8{
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+
+    }
+
+    .parent1 > .div9{
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+
+    }
+
+    .parent1 > .div10{
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
 
     }
 
