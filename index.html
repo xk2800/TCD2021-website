@@ -72,16 +72,31 @@
             margin-left: 12.5px;
             object-fit: contain;
         }
-        @media only screen and (max-width: 600px){
+        @media only screen and (max-width: 767px){
             
         }
         u{
             font-size: 50px;
         }
+        h2{
+            font-family: Georgia, serif;
+            font-size: 80px;
+        }
 
         #tabs, .div3, #div-promo{
             position: relative; 
             z-index:2;
+        }
+        .button {
+            transition-duration: 0.4s;
+            border-radius: 12px;
+            padding: 15px 32px;
+            font-size: 20px;
+            }
+
+        .button:hover {
+            /*background-color: #555555; */
+            color: white;
         }
 
     </style>
@@ -137,7 +152,7 @@
                 <img src="https://returnpath.com/assets/images/backgrounds/background-confetti-xs-arcade.svg">
             </div>
         </div>
-            <br><br><br><br><br>
+            <br><br><br>
         <div class="container">
             <br><br>
 
@@ -149,13 +164,13 @@
                 <p>6<sup>th</sup> & 7<sup>th</sup> January 2021<br>
                 10am - 5pm</p>
                 <p>Venue: Google Meet & Discord</p>
-
-                    
+                <script>console.log("Build with love by Xavier, Shaun & Kuni");</script>
+                
             </div>
             <div id="navbar-sticky"></div>
             <div class="button">
-                <a href="" class="buttons btn btn-light btn-md rounded-pill register disabled">Register Now</a>
-                <a href="" class="buttons btn btn-light btn-md rounded-pill resume disabled">Submit Resume</a>
+                <a href="https://tcd2021resume.herokuapp.com/" target="_blank" class="buttons btn btn-light btn-md rounded-pill register" id="registerbtn">Register Now</a>
+                <a href="https://tcd2021resume.herokuapp.com/login" target="_blank" class="buttons btn btn-light btn-md rounded-pill resume" id="subitbtn">Submit Resume</a>
             </div>
             <br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
@@ -166,7 +181,7 @@
         <span class="test">
             <div class="parallax-one about">
                 <div class="container">
-                    <div class="text">
+                    <div class="text"><br>
                         <span class="about-title">
                             <p>Tech Career Days</p>
                         </span>
@@ -176,27 +191,38 @@
                                 Through this event, we aim to build a solid connection between the IT industry and MMU students, 
                                 thereby achieving the following goals:
                             </p>
-                                <br>
-                            <li>
-                                Help MMU students secure internships and full-time employments upon graduation, as well as <span class="inside-text1"> freelance opportunities</span>
-                            </li>
-                                <br>
-                            <li>
-                                Increase the exposure of MMU students regarding the latest IT job trends and industry <span class="inside-text1"> expectations </span>
-                            </li>
-                            <br>
-                            <li>
-                                Provide a platform for companies to find the technical talents they need to enhance their <span class="inside-text1"> company's brand awareness among the youths </span>
-                            </li>
-                                <br>
+                            <div class="outer-div">
+                                <div id="goals" class="container">
+                                    <div class="container">
+                                        <div class="row boxes-row">
+                                            <div data-aos="fade-down" data-aos-duration="1500" class="d-flex flex-column text-center align-items-center goals-item col-lg-3 col-md-4">
+                                            <p>
+                                                Help MMU students secure internships and full-time employments upon graduation, as well as freelance opportunities
+                                            </p>
+                                            </div>
+                                            <div data-aos="fade-down" data-aos-duration="1500" class="d-flex flex-column text-center align-items-center goals-item col-lg-3 col-md-4">
+                                            <p>
+                                                Increase the exposure of MMU students regarding the latest IT job trends and industry expectations
+                                            </p>
+                                            </div>
+                                            <div data-aos="fade-down" data-aos-duration="1500" class="d-flex flex-column text-center align-items-center goals-item col-lg-3 col-md-4">
+                                                <p>
+                                                    Provide a platform for companies to find the technical talents they need to enhance their company's brand awareness among the youths
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <p>
-                                during the past event as such called IT Job Expo, 
+                                During the past event as such called IT Job Expo,
                                 we have successfully recorded a headcount of 340 across the span of two days,
-                                with 485 unique event registrations. During the event, students were able to interact with exhibiting it companies. 
+                                with 485 unique event registrations. During the event, students were able to interact with exhibiting IT companies. 
                                 Meanwhile, our online resume submission platform also recorded a total of 182 resumes, 
                                 which allows companies to review potential candidates prior to the event and
-                                help mmu students secure internships, full-time employments upon graduation as well as freelance opportunities.
+                                help MMU students secure internships, full-time employments upon graduation as well as freelance opportunities.
                             </p>
+                            <br>
                         </span>
                     </div>
                 </div>
@@ -208,272 +234,437 @@
 <!-- THIS SECTION IS OFFLINE FOR A MOMENT, WILL GO ONLINE BACK LATER -->
 
         <section id="sponsor&partners"> <!-- SITI -->
-           <!-- <div class="container mt-3">
+            <div class="container mt-3">
                 <div class="sponsor">
                     <span class="spon-title">
                         Sponsors & Partners 
                     </span>
-               </div>
+                </div>
 
-        <!-- Platinum sponsor >
-             <div class="sponsor">
+        <!--Platinum sponsor-->
+            <div class="sponsor">
                     <span class="spon-title">
                         <u>Platinum Sponsors</u>
                     </span>
-               </div>
-           <div class="row">
-           
-            <div class="container1">
-               <div class="box1">
-                   <div class="imgBox1">
-                       <img src= "images/sponsors-company/Biztory.png" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(229,228,226,0.8);">
-                           <h2> BIZTORY </h2>
-                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
-               <div class="box1">
-                   <div class="imgBox1">
-                       <img src= "images/sponsors-company/deriv.png" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(229,228,226,0.8);">
-                           <h2> DERIV </h2>
-                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
-               <div class="box1">
-                   <div class="imgBox1">
-                       <img src= "images/sponsors-company/Inmagine.png" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(211,211,211,0.8);">
-                           <h2> INMAGINE </h2>
-                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
-               <div class="box1">
-                   <div class="imgBox1">
-                        <img src= "images/sponsors-company/snappymob.svg" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(129,129,129,0.8);">
-                           <h2> SNAPPYMOB</h2>
-                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
-               <div class="box1">
-                   <div class="imgBox1">
-                        <img src= "images/sponsors-company/Tranglo.jpg" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(211,211,211,0.8);">
-                           <h2> TRANGLO</h2>
-                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
-               <div class="box1">
-                   <div class="imgBox1">
-                       <img src= "images/sponsors-company/Lava-X.png" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1"style= "background: rgba(176,141,0,0.8);">
-                           <h2> What is Lorem Ipsum?</h2>
-                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
-               <div class="box1">
-                   <div class="imgBox1">
-                       <img src= "images/sponsors-company/Fusionex.png" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(0,0,0,.8);">
-                           <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
-                           <p style="color: azure ;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
-               <div class="box1">
-                   <div class="imgBox1">
-                       <img src= "images/logo/ITS.jpg" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(0,0,0,.8);">
-                           <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
-                           <p style="color: azure ;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
-                <div class="box1" style="display: block; margin-left: auto; margin-right: auto;">
-                   <div class="imgBox1">
-                       <img src= "images/logo/ITS.jpg" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(0,0,0,.8);">
-                           <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
-                           <p style="color: azure ;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
-       </div>  
+                </div>
+            <div class="row">
 
-       <!-- Gold sponsor ->
-       <div class="container mt-3">
+            <div class="container1">
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/Auronex.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background: #E6FEFF; width:230px; height:230px;">
+                        </br>
+                        </br>   
+                            <h2> Auronex Technologies </h2>
+                        </br>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/deriv.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background:#E6FEFF; width:230px; height:230px;">
+                        </br>
+                        </br>   
+                            <h2> Deriv Services Sdn. Bhd. </h2>
+					    </br>
+                            <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                       
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/DHL ITS.jpg" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background: #E6FEFF; width:230px; height:230px;">
+                        </br>
+                        </br>   
+                            <h2> DHL IT Services (Asia-Pacific) Sdn. Bhd. </h2>
+					    </br>
+                            <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                       
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/Evopoint.jpeg" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background:#E6FEFF; width:230px; height:230px;">
+                        </br>
+                        </br>   
+                            <h2> EVOPOINT Sdn. Bhd. </h2>
+					    </br>
+                            <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                       
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/Inmagine.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background: #E6FEFF; width:230px; height:230px;">
+                        </br>
+                        </br>   
+                            <h2> Inmagine Sdn. Bhd. </h2>
+					    </br>
+                            <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                       
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/ix-tele.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1"style= "background: #E6FEFF; width:230px; height:230px;">
+                        </br>
+                        </br>   
+                            <h2> IX Telecom </h2>
+					    </br>
+                            <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                       
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/Neptrix.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background: #E6FEFF; width:230px; height:230px;">
+                        </br>
+                        </br>   
+                            <h2> Neptrix Sdn. Bhd. </h2>
+					    </br>
+                            <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                       
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/snappymob.svg" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background: #E6FEFF; width:230px; height:230px;">
+                        </br>
+                        </br>   
+                            <h2> Snappymob Sdn. Bhd. </h2>
+					    </br>
+                            <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1" style="display: block; margin-left: auto; margin-right: auto;">
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/Xendity.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background: #E6FEFF; width:230px; height:230px;">
+                        </br>
+                        </br>   
+                            <h2> Xendity Sdn. Bhd. </h2>
+					    </br>
+                            <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>  
+
+        <!--Gold sponsor -->
+        <div class="container mt-3">
                 <div class="sponsor">
                     <span class="spon-title">
                         <u>Gold Sponsors</u>
                     </span>
-               </div>
-           <div class="row">
-           
+                </div>
+            <div class="row">
+
             <div class="container1">
                 <div class="box1">
-                   <div class="imgBox1">
-                       <img src= "images/logo/ITS.jpg" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(255,215,0,0.8);">
-                           <h2> What is Lorem Ipsum?</h2>
-                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/Biztory.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background: #FFF0B5; width:230px; height:230px;">
+                        </br>
+                        </br>   
+                            <h2> Biztory (Vectory Innovations Sdn. Bhd.) </h2>
+					    </br>
+                            <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button> 
+                        </div>
+                    </div>
+                </div>
                 <div class="box1">
-                   <div class="imgBox1">
-                       <img src= "images/logo/ITS.jpg" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(255,215,0,0.8);">
-                           <h2> What is Lorem Ipsum?</h2>
-                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/Juristech.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background: #FFF0B5; width:230px; height:230px;">
+                            </br>
+                            </br>
+                                <h2> Juris Technologies Sdn. Bhd. </h2>
+                            </br>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button> 
+                        </div>
+                    </div>
+                </div>
                 <div class="box1">
-                   <div class="imgBox1">
-                       <img src= "images/logo/ITS.jpg" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(255,215,0,0.8);">
-                           <h2> What is Lorem Ipsum?</h2>
-                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/Lava-X.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background: #FFF0B5; width:230px; height:230px;">
+                            </br>
+                            </br>
+                                <h2> Lava X Technologies Sdn. Bhd. </h2>
+                            </br>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                        </div>
+                    </div>
+                </div>
                 <div class="box1">
-                   <div class="imgBox1">
-                       <img src= "images/logo/ITS.jpg" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(255,215,0,0.8);">
-                           <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
-                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
-       </div> -->
+                    <div class="imgBox1">
+                        <img src= "images/sponsors-company/Tranglo.jpg" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background: #FFF0B5; width:230px; height:230px;">
+                            </br>
+                            </br>
+                                <h2> Tranglo Sdn. Bhd. </h2>
+                            </br>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                       </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
 
-          <!-- Silver sponsor -->
-<!--      <div class="container mt-3">
+        <!-- Silver sponsor -->
+        <div class="container mt-3">
                 <div class="sponsor">
                     <span class="spon-title">
                         <u>Silver Sponsors</u>
                     </span>
-               </div>
-           <div class="row">
-           
-            <div class="container1">
-               <div class="box1" style="display: block; margin-left: auto; margin-right: auto;">
-                   <div class="imgBox1">
-                       <img src= "images/logo/ITS.jpg" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(211,211,211,0.8);"> //"background: rgba(129,129,129,0.8);"
-                           <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
-                           <p style="color: azure ;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
+                </div>
+            <div class="row">
+
+                <div class="container1">
+                    <div class="box1" style="display: block; margin-left: auto; margin-right: auto;">
+                        <div class="imgBox1">
+                            <img src= "images/sponsors-company/Fusionex.png" class="containimg">
+                        </div>
+                        <div class= "details1">
+                            <div class= "content1" style= "background: #C0C0C0; width:230px; height:230px;"> 
+                                </br>
+                                </br>
+                                    <h2 style="font-weight: bold;"> Fusionex Corp Sdn. Bhd. </h2>
+                                </br>
+                                    <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                        </div>
+                            </div>
+                        </div>
+                </div>
             </div>
-           </div>
-       </div>
--->
-        <!-- Media partners -->
-<!--       <div class="container mt-3">
+        </div>
+
+        <!-- Supporting partners -->
+        <div class="container mt-3">
+                <div class="sponsor">
+                    <span class="spon-title">
+                        <u>Supporting Partners</u>
+                    </span>
+                </div>
+            <div class="row">
+
+                <div class="container1">
+                    <div class="box1" style=" margin-left: auto;">
+                        <div class="imgBox1">
+                            <img src= "images/media-partners/WOBB.png" class="containimg">
+                        </div>
+                        <div class= "details1">
+                            <div class= "content1" style= "background: #E0D0BC; width:230px; height:230px;">
+                                </br>
+                                </br>
+                                    <h2 style="font-weight: bold;"> WOBB  </h2>
+                                </br>
+                                    <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="imgBox1">
+                            <img src= "images/media-partners/IEEEjpg.jpg" class="containimg">
+                        </div>
+                        <div class= "details1">
+                            <div class= "content1" style= "background: #E0D0BC; width:230px; height:230px;">
+                                </br>
+                                </br>
+                                    <h2 style="font-weight: bold;"> IEEE Malaysia </h2>
+                                </br>
+                                    <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box1" style=" margin-right: auto;">
+                        <div class="imgBox1">
+                            <img src= "images/media-partners/GDC.png" class="containimg">
+                        </div>
+                        <div class= "details1">
+                            <div class= "content1" style= "background: #E0D0BC; width:230px; height:230px;">
+                                </br>
+                                </br>
+                                    <h2 style="font-weight: bold;"> MMU Game Developer Club </h2>
+                                </br>
+                                    <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+            <!-- Media partners -->
+            <div class="container mt-3">
                 <div class="sponsor">
                     <span class="spon-title">
                         <u>Media Partners</u>
                     </span>
-               </div>
-           <div class="row">
-           
+                </div>
+            <div class="row">
+
             <div class="container1">
-               <div class="box1" style="display: block; margin-left: auto; margin-right: auto;">
-                   <div class="imgBox1">
-                       <img src= "images/logo/ITS.jpg" class="containimg">
-                   </div>
-                   <div class= "details1">
-                       <div class= "content1" style= "background: rgba(0,0,0,.8);">
-                           <h2 style="color: azure ;  font-weight: bold;"> What is Lorem Ipsum?</h2>
-                           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                           </p>
-                       </div>
-                   </div>
-               </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/media-partners/IEM-UTAR.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background:  #E0D0BC; width:230px; height:230px;">
+                            </br>
+                            </br>
+                                <h2 style="font-weight: bold;"> IEM UTAR KL Student Section </h2>
+                            </br>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button> 
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/media-partners/ITS-melaka.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background:  #E0D0BC; width:230px; height:230px;">
+                            </br>
+                            </br>
+                                <h2 style="font-weight: bold;"> IT Society MMU Melaka </h2>
+                            </br>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button> 
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/media-partners/I-TECH-UUM.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background:  #E0D0BC; width:230px; height:230px;">
+                            </br>
+                            </br>
+                                <h2 style="font-weight: bold;">I-Tech UUM </h2>
+                            </br>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/media-partners/sunway-tech-club.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background:  #E0D0BC; width:230px; height:230px;">
+                            </br>
+                            </br>
+                                <h2 style="font-weight: bold;"> Sunway Tech Club </h2>
+                            </br>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/media-partners/TAR-UC-CSS.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background:  #E0D0BC; width:230px; height:230px;">
+                            </br>
+                            </br>
+                                <h2 style="font-weight: bold;"> TARUC Computer Science Society </h2>
+                            </br>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/media-partners/Agents-of-Tech.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background:  #E0D0BC; width:230px; height:230px;">
+                            </br>
+                            </br>
+                                <h2 style="font-weight: bold;"> Taylor's University Agents of Tech </h2>
+                            </br>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/media-partners/XMUM.png" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background:  #E0D0BC; width:230px; height:230px;">
+                            </br>
+                            </br>
+                                <h2 style="font-weight: bold;"> XMUM Software Engineering Student Union </h2>
+                            </br>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="imgBox1">
+                        <img src= "images/media-partners/Airost.jpg" class="containimg">
+                    </div>
+                    <div class= "details1">
+                        <div class= "content1" style= "background:  #E0D0BC; width:230px; height:230px;">
+                            </br>
+                            </br>
+                                <h2 style="font-weight: bold;"> UTM Airost Team </h2>
+                            </br>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button> 
+                        </div>
+                    </div>
+                </div>
             </div>
-           </div>
-       </div>
-       </br>   
--->  
+        </div>
+        </br>   
+
     </section>
 
 
     <section id="agenda"> <!-- ALL WEB TEAM -->
-        <!-- <div class="container">
+        <div class="container">
 
             <span class="agenda-title">
-                Agenda
+                Event Agenda
             </span>
 
 <!--             <div class="grid-container">
@@ -496,83 +687,74 @@
                 <div class="Company-Booth"></div>
                 <div class="Closing-Speech-of-Day-1"></div>
                 <div class="Postmortem"></div>
-            </div> ->
+            </div> -->
 
             <div id="tabs">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <!--li class="nav-item" role="presentation">
                     <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">DAY 1</a>
-                    </li->
+                    </li-->
                     <li class="nav-item" role="presentation">
-                    <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">DAY 1</a>
+                    <a class="nav-link active" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true" id="tabs" style="color: black;">DAY 1 (6 JANUARY 2020)
+                    </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">DAY 2</a>
+                    <a class="nav-link" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false" id="tabs">DAY 2 (7 JANUARY 2020)</a>
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
-                    <!--div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab"></div->
+                    <!--div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab"></div-->
 
                     <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         
                         <div class="parent">
 
-                            <div class="div1">Time</div>
-                            <div class="div2">Day 1</div>
-                            <div class="div3">9:00AM - 10:00AM</div>
-                            <div class="div4">10:00AM -10:30AM</div>
-                            <div class="div5">10:30AM - 2:00PM</div>
-                            <div class="div6">2:00PM - 2:15PM</div>
-                            <div class="div7">2:15PM - 4:30PM</div>
-                            <div class="div8">4:30PM - 4:50PM</div>
-                            <div class="div9">4:50PM - 5:00PM</div>
-                            <div class="div10" id="div-promo">5:00PM</div>
-                            <div class="div111">Promotional Videos</div>
-                            <!--div class="div12">Promotional-Videos</div->
-                            <div class="div13">Opening Ceremony</div>
-                            <div class="div14">Company-Presentation</div>
-                            <div class="div15">Pop-Quiz</div>
-                            <div class="div16">Tech-Moment</div>
-                            <div class="div17">Promotional Videos</div>
-                            <div class="div18">Company Booth</div>
-                            <div class="div19">Closing Speech of Day-1</div>
-                            <div class="div200">End of Tech Career Days 2021 Day 1</div>
-            
+                            <div class="div1">DAY 1</div>
+                            <div class="div2"><p>6 JANUARY 2020 (WEDNESDAY)</p></div>
+                            <div class="div3">Time</div>
+                            <div class="div4">Session</div>
+                            <div class="div5">10:00 - 10:30</div>
+                            <div class="div6">10:30 - 12:30</div>
+                            <div class="div7">12:30 - 2:00</div>
+                            <div class="div8">2:00 - 2:30</div>
+                            <div class="div9">2:30 - 4:50</div>
+                            <div class="div10">4:50 - 5:00</div>
+                            <div class="div11">Opening Ceremony</div>
+                            <div class="div12"><p>Company Presentation</p></div>
+                            <div class="div13"><p>Tech Resume Consultation</p></div>
+                            <div class="div14">Pop Quiz</div>
+                            <div class="div15"><p>Tech Moment</p></div>
+                            <div class="div16">Company Booth (10:30 - 4:50)</div>
+                            <div class="div17">Closing Speech of Day 1</div>
+
                         </div>
 
                     </div>
                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
                         <div class="parent1">
-                            <div class="div1">Time</div>
-                            <div class="div2">Day 2</div>
-                            <div class="div3" id="div-promo">9:00AM - 10:00AM</div>
-                            <div class="div4">10:00AM - 10:10AM</div>
-                            <div class="div5">10:10AM - 10:30AM</div>
-                            <div class="div6">10:30AM - 2:00PM</div>
-                            <div class="div7">2:00PM - 2:15PM</div>
-                            <div class="div8">2:15PM - 4:30PM</div>
-                            <div class="div9">4:30PM - 4:45PM</div>
-                            <div class="div10">4:45PM - 4:50PM</div>
-                            <div class="div11">4:50PM - 5:00PM</div>
-                            <!--div class="div12">5:15 - 6:00</div->
-                            <div class="div13"> Promotional Videos</div>
-                            <!--div class="div14"> Premortem (for Committees)</div->
-                            <div class="div15">Opening Speech for Day 2</div>
-                            <div class="div16">Emcee Session</div>
-                            <div class="div17">Company Presentation</div>
-                            <div class="div18">Pop Quiz</div>
-                            <div class="div19">Tech Moment</div>
-                            <div class="div20">Promotional Videos</div>
-                            <div class="div21">Prize Giving</div>
-                            <div class="div22">Company Booth</div>
-                            <div class="div23">Closing Ceremony	</div>
-                            <div class="div24">Closing Ceremony</div>
-                            <div class="div25">End of Tech Career Day's 2021</div>
-                            <!--div class="div26">Postmortem</div->
+
+                            <div class="div1">DAY 2</div>
+                            <div class="div2">7 JANUARY 2020 (THRUSDAY)</div>
+                            <div class="div3">Time</div>
+                            <div class="div4">Session</div>
+                            <div class="div5">10:00 - 10:30</div>
+                            <div class="div6">10:10 - 10:30</div>
+                            <div class="div7">10.30 - 12.30</div>
+                            <div class="div8">12.30 - 2.00</div>
+                            <div class="div9">2.00 - 2.30</div>
+                            <div class="div10">2.30 - 4.50</div>
+                            <div class="div11">4.50 - 5.00</div>
+                            <div class="div12"><p>Opening Speech of Day 2</p></div>
+                            <div class="div13">Summary of Day 1</div>
+                            <div class="div14"><p>Company Presentation</p></div>
+                            <div class="div15"><p>Informative Career Talk</p></div>
+                            <div class="div16">Pop Quiz</div>
+                            <div class="div17">Tech Moment</div>
+                            <div class="div18">Company Booth(10:00 - 4:50)</div>
+                            <div class="div19">Closing Ceremony	</div>
+
                         </div>
-
-
 
                     </div>
                 </div>
@@ -587,7 +769,7 @@
 
             
 
-        </div> -->
+        </div>
     </section>
 
     <br>
@@ -601,57 +783,46 @@
                 </span>
                 <div class="contentBx">
                     <div class="label">
-                        What is a resume submission portal?
+                        How to join the event?
                     </div>
                     <div class="content">
-                        <p><b>Students</b>
-                            <br>The resume submission portal is a portal where students can upload resume to get advices from Tech Career Days volunteers. 
-                                Approved resumes will be available for employers to view before the event, hence allowing students to get contacted by employers before the event. 
-                                The rules(do not apply to freelancers) can be found <a >here</a>. <!--href="{{ page.resume_link }}"-->
-                            <br>
-                            <br>
-                            <b>Employers</b>
-                            <br>After the resume submission portal is open, all employers will be able to view pre-screened students' resumes to find suitable candidates and contact them before the event.</p>
+                        <p>
+                            Our event is held on a discord server, you will need to register/signup for a participant account to view the server invitation on https://tcd2021resume.herokuapp.com//resume and to receive more information about the event. 
+                        </p>
                     </div>
                 </div>
                 
                 <div class="contentBx">
-                    <div class="label">What's the target audience?</div>
+                    <div class="label">If I’m looking for a job, how should I submit my resume?</div>
                     <div class="content">
-                        <p>From what we learn earlier this year, we are expecting to see about 300-400 students, mainly but not limited to penultimate and final year students pursuing a degree in computer science. 
-                            We do welcome others from diploma, postgraduate in IT, as well as students from other faculties to check out this event. Detailed statistics and breakdowns are available in our proposal.</p>
+                        <p>You may submit your resume on our resume submission portal [resume submission portal - make a tag link]. Before that, you will need to register an account first.  Next, login into the resume submission portal, and submit your resume there.</p>
                     </div>
                 </div>
                 
                 <div class="contentBx">
                     <div class="label">
-                        What are the activities in this event?
+                        I’m not an MMU student, can I join?
                     </div>
                     <div class="content">
-                        <p>- Students-employers interaction
-                            <!--br> - Networking lunch (get-together session where lecturers, committees and employers sit together and have discussion) -->
-                            <!--br> - On-the-spot interviews-->
-                            <br> - Resume clinics
-                            <br> - Lucky draws
+                        <p>Yes, this event is open to everyone!</p>
                     </div>
                 </div>
                 
                 <div class="contentBx">
                     <div class="label">
-                        How much is the admission fee ?
+                        What are the activities that will be carried out in Tech Career Days? 
                     </div>
                     <div class="content">
-                        <p>It's free of charge for students. However, we do charge minimum fees for employers. 
-                            Tech Career Days is a 100% non-profit student-run event. As such, we will need your help and contribution to make this event possible.</p>
+                        <p>We prepared some special events during the event day, including company presentation, resume workshop, informative career talk, tech moment (conference), pop quiz and prize giving. To view the more details about our event, register now to find out more!.</p>
                     </div>
                 </div>
         
                 <div class="contentBx">
                     <div class="label">
-                        What would happen should there be excess in the contribution from sponsorships?
+                        Is this event free for all? 
                     </div>
                     <div class="content">
-                        <p>If there are any, we will channel the excess to fund our future workshops, tech talks, codelabs, barcamps, and many more tech-related events.</p>
+                        <p>Not to fret, admission is free.</p>
                     </div>
                 </div>
                 <br><br><br><br><br><br><br>
@@ -669,10 +840,16 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide"><img src="./images/sliders-pic/IMG_3251.JPG" alt=""></div>
-                    <div class="swiper-slide"><img src="./images/sliders-pic/IMG_3102.JPG" alt=""></div>
-                    <div class="swiper-slide"><img src="./images/sliders-pic/IMG_3390.JPG" alt=""></div>
-                    ...
+                    <div class="swiper-slide"><img src="https://res.cloudinary.com/dxfgtbrdh/image/upload/v1608323827/Copy_of_IMG_3316-min_ascu50.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://res.cloudinary.com/dxfgtbrdh/image/upload/v1608323826/Copy_of_IMG_3016-min_scpzip.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://res.cloudinary.com/dxfgtbrdh/image/upload/v1608323826/Copy_of_IMG_2930-min_jioryw.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://res.cloudinary.com/dxfgtbrdh/image/upload/v1608323823/Copy_of_IMG_2786-min_a3d61x.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://res.cloudinary.com/dxfgtbrdh/image/upload/v1608323823/IMG_6887-min_belkus.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://res.cloudinary.com/dxfgtbrdh/image/upload/v1608323822/DSC07612-min_iydez1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://res.cloudinary.com/dxfgtbrdh/image/upload/v1608323822/P1050144-min_k5poxs.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://res.cloudinary.com/dxfgtbrdh/image/upload/v1608323821/DSC09971-min_l4j0gv.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://res.cloudinary.com/dxfgtbrdh/image/upload/v1608323821/P1040066-min_lsicam.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://res.cloudinary.com/dxfgtbrdh/image/upload/v1608323819/DSC07616-min_zn7uz7.jpg" alt=""></div>
                 </div>
                 <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>

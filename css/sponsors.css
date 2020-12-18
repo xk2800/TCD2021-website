@@ -6,6 +6,69 @@ normal text*/
 /*font-family: 'Bebas Neue', cursive;
 Titles*/
 
+.container#sponsor{
+
+	background-color: white;
+
+}
+
+.wrapper{
+
+	padding: 20px 20px ;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+.wrapper > .left-section{
+
+	padding: 20px 20px;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.wrapper > .left-section > img{
+
+	width: 100%;
+
+}
+
+.wrapper > .right-section{
+
+	padding: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+
+}
+
+section.bg-plat > .wrapper > .left-section,
+section.bg-plat > .wrapper > .right-section{
+
+	background-color: #E6FEFF;
+
+}
+
+section.bg-gold > .wrapper > .left-section,
+section.bg-gold > .wrapper > .right-section{
+
+	background-color: #FFF0B5;
+
+}
+
+section.bg-silver > .wrapper > .left-section,
+section.bg-silver > .wrapper > .right-section{
+
+	background-color: #C0C0C0;
+
+}
 
 .container1 {
 	width: 1200px;
@@ -123,4 +186,91 @@ button:hover, a:hover {
 	color: #FFFFFF;
 	font-size: 5rem;
 	
+}
+
+@media only screen and (max-width: 767px){
+
+	.wrapper{
+
+		padding: 20px 20px ;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	
+	}
+
+	.wrapper > .left-section{
+
+		padding: 20px 20px;
+		background-color: #E6FEFF;
+		width: 100%;
+		height: 200px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+	}
+
+	.wrapper > .left-section > img{
+
+		width: auto;
+		max-width: 90%;
+		height: 70%;
+
+	}
+
+	.wrapper > .right-section{
+
+		padding: 20px 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: #E6FEFF;
+		width: 100%;
+	
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	#auronex{
+		width: 50%;
+
+	}
+
+	#deriv{
+		width: 100%;
+		height: 30%;
+	}
+
+	#dhl{
+		height: 45%;
+	}
+
+	#inmagine{
+		height: 30%;
+	}
+
+	#neptrix{
+		height: 40%;
+	}
+
+	#juristech{
+		height: 35%;
+	}
+
+	#lava-x{
+		height: 35%;
+	}
+
+	#tranglo{
+		height: 45%;
+	}
+
+	#fusionex{
+		height: 55%;
+	}
 }
