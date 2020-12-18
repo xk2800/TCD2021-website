@@ -57,12 +57,37 @@ html {
     background-position: top center;
     
 }
+
+.outer-div {
+    position: relative;
+}
+
+.boxes-row {
+    justify-content: center;
+}
+
+#goals{
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 30px;
+}
+
+.goals-item {
+    z-index: 100;
+    min-height: 100px;
+    padding: 1.0rem !important;
+    margin: 0.5rem;
+    -webkit-box-shadow: 10px 8px 47px -14px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 8px 47px -14px rgba(0,0,0,0.3);
+    box-shadow: 10px 8px 47px -14px rgba(0,0,0,0.3);
+}
+
 .text{
     color: black;
     margin: 0 3%;
     background-color: #ffffff;
     border: 1px solid white;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .text p, .text li{
@@ -76,6 +101,38 @@ html {
 }
 .faq-title, .slider-title, .spon-title, .agenda-title{
     color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .about-title {
+        font-size: 3.5em !important;
+    }
+    .parallax-one {
+        padding-top: 50px; 
+        padding-left: 0px; 
+        padding-right: 0px; 
+        padding-bottom: 50px; 
+        overflow: hidden; 
+        position: relative; 
+        width: 100%;
+        background-image: url("../images/IMG_3394.JPG");
+        background-attachment: fixed; 
+        background-size: cover;
+        -moz-background-size: cover; 
+        -webkit-background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: top center;
+        
+    }
+    .text{
+        font-size: 0.7rem !important;
+    }
+    #goals {
+        font-size: 0.7rem !important;
+    }
+    .boxes-row {
+        justify-content: space-evenly;
+    }
 }
 
 .slider-title{
@@ -184,6 +241,9 @@ html {
     grid-area: 1 / 2 / 2 / 4; 
     background-color: #23687D;
     color: white;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 }
 .parent > .div3 { 
     
@@ -243,12 +303,18 @@ html {
     
     grid-area: 4 / 2 / 5 / 3; 
     background-color: #C1D1DB;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 
 }
 .parent > .div13 { 
     
     grid-area: 5 / 2 / 6 / 3; 
     background-color: #C1D1DB;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 
 }
 .parent > .div14 { 
@@ -261,6 +327,9 @@ html {
     
     grid-area: 7 / 2 / 8 / 3; 
     background-color: #C1D1DB;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 
 }
 .parent > .div16 { 
@@ -581,9 +650,7 @@ html {
 	width: 250px;
 	height: 250px;
     background: #ffffff;
-	margin-left: auto;
-    	margin-right: auto;
-    	margin-top: 10px;
+	margin: 10px;
 	box-sizing: border-box;
 	display: inline-block; 
 	font-family: 'Arvo', serif;
@@ -754,6 +821,123 @@ html {
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+@media only screen and (max-width: 992px){
+
+    .parent {
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+        /* background-color: #fff; */
+        align-items: center;
+        margin-top: 15px;
+        font-family: 'Arvo', serif;
+    }
+
+    .parent > .div13 { 
+    
+        grid-area: 5 / 2 / 6 / 3; 
+        background-color: #C1D1DB;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+    .parent > .div2 {
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+
+    }
+
+    .parent > .div12 { 
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+    .parent > .div15 { 
+    
+        grid-area: 7 / 2 / 8 / 3; 
+        background-color: #C1D1DB;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+
+    .parent {
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+        /* background-color: #fff; */
+        align-items: center;
+        margin-top: 15px;
+        font-family: 'Arvo', serif;
+    }
+
+    .parent > .div2 {
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+
+    }
+
+    .parent > .div12 { 
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+    .parent > .div12 > p{
+
+        margin-top:-10px;
+
+    }
+
+    .parent > .div13 { 
+    
+        grid-area: 5 / 2 / 6 / 3; 
+        background-color: #C1D1DB;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+    .parent > .div13 > p{
+
+        margin-top: -10px;
+
+    }
+
+    .parent > .div15 { 
+    
+        grid-area: 7 / 2 / 8 / 3; 
+        background-color: #C1D1DB;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+        
+}
 
 @media only screen and (max-width: 474px){
 
@@ -764,6 +948,115 @@ html {
 
 }
 
+@media only screen and (max-width: 459px){
+
+    .parent {
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        /* background-color: #fff; */
+        align-items: center;
+        margin-top: 15px;
+        font-family: 'Arvo', serif;
+    }
+
+    .parent > .div15 { 
+    
+        grid-area: 7 / 2 / 8 / 3; 
+        background-color: #C1D1DB;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+    .parent > .div2 { 
+    
+        grid-area: 1 / 2 / 2 / 4; 
+        background-color: #23687D;
+        color: white;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+
+    .parent > .div5 { 
+
+        grid-area: 3 / 1 / 4 / 2; 
+        background-color: #DFB2A2;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+    .parent > .div16{
+
+        padding: 90px 0px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 414px){
+
+    .parent > .div6 { 
+    
+        grid-area: 4 / 1 / 5 / 2; 
+        background-color: #DFB2A2;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 391px){
+
+    .div2 > p{
+
+        margin-top: -10px;
+
+    }
+
+}
+
+@media only screen and (max-width: 394px){
+
+    .parent > .div7 { 
+    
+        grid-area: 5 / 1 / 6 / 2; 
+        background-color: #DFB2A2;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 379px){
+
+    .parent > .div10 { 
+    
+        grid-area: 8 / 1 / 9 / 2; 
+        background-color: #DFB2A2;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+}
 
 /*let this be lowest part of this css page*/
 #footer{
