@@ -25,7 +25,6 @@ Titles*/
 .wrapper > .left-section{
 
 	padding: 20px 20px;
-	background-color: #E6FEFF;
 	width: 30%;
 	display: flex;
 	justify-content: center;
@@ -48,8 +47,28 @@ Titles*/
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #E6FEFF;
 	width: 70%;
+
+}
+
+section.bg-plat > .wrapper > .left-section,
+section.bg-plat > .wrapper > .right-section{
+
+	background-color: #E6FEFF;
+
+}
+
+section.bg-gold > .wrapper > .left-section,
+section.bg-gold > .wrapper > .right-section{
+
+	background-color: #FFF0B5;
+
+}
+
+section.bg-silver > .wrapper > .left-section,
+section.bg-silver > .wrapper > .right-section{
+
+	background-color: #C0C0C0;
 
 }
 
