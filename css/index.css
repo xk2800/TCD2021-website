@@ -777,6 +777,32 @@ html {
     
     }
 
+    .parent > .div2 {
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+
+    }
+
+    .parent > .div12 { 
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
+    .parent > .div15 { 
+    
+        grid-area: 7 / 2 / 8 / 3; 
+        background-color: #C1D1DB;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
+    }
+
 }
 
 @media only screen and (max-width: 767px){
@@ -792,6 +818,14 @@ html {
         align-items: center;
         margin-top: 15px;
         font-family: 'Arvo', serif;
+    }
+
+    .parent > .div2 {
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+
     }
 
     .parent > .div12 { 
@@ -822,6 +856,16 @@ html {
 
         margin-top: -10px;
 
+    }
+
+    .parent > .div15 { 
+    
+        grid-area: 7 / 2 / 8 / 3; 
+        background-color: #C1D1DB;
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+    
     }
         
 }
