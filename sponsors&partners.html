@@ -62,28 +62,20 @@
             width:50%;
         }
 
-        #extra-card-plat, #extra-card-silver{
-            margin: 0 auto;
-            float: none;
-            margin-bottom: 10px;
-            height: 22rem;
-            width: 16rem;
-        }
-
         #media-img, #sponsor-img{
             margin: 0 auto;
             float: none;
         }
 
         #sponsor-img{
-            margin-top: 80px
+            margin-top: 80px;
         }
 
         #name, #btns{
             text-align: center;
         }
 
-        #white-bg-plat, #extra-card-plat{
+        #white-bg-plat{
             background-color: #E6FEFF;
         }
 
@@ -91,7 +83,7 @@
             background-color: #FFF0B5	;
         }
 
-        #white-bg-silver, #extra-card-silver{
+        #white-bg-silver{
             background-color: #C0C0C0;
         }
         
@@ -115,19 +107,10 @@
             background-color: #C0C0C0;
         }
 
-        .card-deck, .card-header, .card-body{
-            font-family: 'Arvo', serif;
+        #bg-supp{
+            background-color: #E0D0BC;
         }
         
-        @media only screen and (max-width: 767px){
-            #extra-card-plat, #extra-card-silver{
-                margin: 0 auto;
-                float: none;
-                margin-bottom: 10px;
-                height: auto;
-                width: auto;
-            }
-        }
     </style>
 
 </head>
@@ -158,107 +141,105 @@
             <span class="platinum-header">
                 PLATINUM SPONSORS
             </span>
-        
-        <div class="card-deck">
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-plat">
-                <img src="images/sponsors-company/Auronex.png" class="card-img-top" alt="Auronex Technologies logo" style="width: 39%; margin-top: 5%;" id="sponsor-img">
-                <div class="card-body" id="plat">
-                    <br>
-                    <h5 class="card-title" id="name" style="margin-top: -14%;">Auronex Technologies</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#auronex-technologies" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
-                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500"  id="white-bg-plat">
-                <img src="images/sponsors-company/deriv.png" class="card-img-top" alt="Deriv Services Sdn. Bhd. logo" style="width: 95%;" id="sponsor-img">
-                <div class="card-body">
-                    <br>
-                    <h5 class="card-title" id="name">Deriv Services Sdn. Bhd.</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#deriv" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
-                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-plat">
-                <img src="images/sponsors-company/DHL ITS.jpg" class="card-img-top" alt="DHL IT services logo" style="width: 90%;" id="sponsor-img">
-                <div class="card-body">
-                    <br>
-                    <h5 class="card-title" id="name" style="margin-top: -8%;">DHL IT Services (Asia-Pacific) Sdn. Bhd.</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#dhl-it-services" class="buttons btn btn-light btn-md rounded-pill" id="bottons" style="margin-top: -14%;">Company Description</a></p>
-                    <p id="btns"><a href="#" class="buttons btn btn-light btn-md rounded-pill" id="bottons" style="margin-top: -3%;">Go somewhere</a></p>
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-plat">
-                <img src="images/sponsors-company/Evopoint.jpeg" class="card-img-top" alt="Evopoint Sdn. Bhd. logo" style="width: 55%; margin-top: 70px" id="sponsor-img">
-                <div class="card-body">
-                    <br>
-                    <h5 class="card-title" id="name">Evopoint Sdn. Bhd.</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#evopoint" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
-                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
-                </div>
-            </div>
-        </div>
-    
 
-        <br><br> 
-        <div class="card-deck">
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-plat">
-                <img src="images/sponsors-company/Inmagine.png" class="card-img-top" alt="INMAGINE logo" style="width: 95%;" id="sponsor-img">
-                <div class="card-body">
-                    <br>
-                    <h5 class="card-title" id="name">Inmagine Sdn Bhd</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#imagine" class="buttons btn btn-light btn-md rounded-pill" id="bottons" style="margin-top: -3px;">Company Description</a></p>
-                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+            <div class="outer-div">
+                <div id="company" class="container">
+                    <div class="container">
+                        <div class="row boxes-row">
+                            <div id="white-bg-plat" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                                <img src="images/sponsors-company/Auronex.png" class="card-img-top" alt="Auronex Technologies logo" style="width: 39%; margin-top: 5%;" id="sponsor-img">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h5 class="card-title" id="name" style="margin-top: -14%;">Auronex <br> Technologies</h5>
+                                    <br>
+                                    <p class="card-text" id="btns"><a href="#auronex-technologies" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
+                                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                            </div>
+                            <div id="white-bg-plat" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                                <img src="images/sponsors-company/deriv.png" class="card-img-top" alt="Deriv Services Sdn. Bhd. logo" style="width: 95%;" id="sponsor-img">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h5 class="card-title" id="name">Deriv Services Sdn. <br> Bhd.</h5>
+                                    <br>
+                                    <p class="card-text" id="btns"><a href="#deriv" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
+                                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                            </div>
+                            <div id="white-bg-plat" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                                <img src="images/sponsors-company/DHL ITS.jpg" class="card-img-top" alt="DHL IT services logo" style="width: 90%;" id="sponsor-img">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h5 class="card-title" id="name" style="margin-top: -8%;">DHL IT Services <br> (Asia-Pacific) Sdn.<br> Bhd.</h5>
+                                    <br>
+                                    <p class="card-text" id="btns"><a href="#dhl-it-services" class="buttons btn btn-light btn-md rounded-pill" id="bottons" style="margin-top: -14%;">Company Description</a></p>
+                                    <p id="btns"><a href="#" class="buttons btn btn-light btn-md rounded-pill" id="bottons" style="margin-top: -3%;">Go somewhere</a></p>
+                            </div>
+                            <div id="white-bg-plat" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                                <img src="images/sponsors-company/Evopoint.jpeg" class="card-img-top" alt="Evopoint Sdn. Bhd. logo" style="width: 55%; margin-top: 70px" id="sponsor-img">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h5 class="card-title" id="name">Evopoint Sdn. Bhd.</h5>
+                                    <br>
+                                    <p class="card-text" id="btns"><a href="#evopoint" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
+                                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                            </div>
+                            <div id="white-bg-plat" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                                <img src="images/sponsors-company/Inmagine.png" class="card-img-top" alt="INMAGINE logo" style="width: 95%;" id="sponsor-img">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h5 class="card-title" id="name">Inmagine Sdn Bhd</h5>
+                                    <br>
+                                    <p class="card-text" id="btns"><a href="#imagine" class="buttons btn btn-light btn-md rounded-pill" id="bottons" style="margin-top: -3px;">Company Description</a></p>
+                                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                            </div>
+                            <div id="white-bg-plat" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                                <img src="images/sponsors-company/ix-tele.png" class="card-img-top" alt="IX Telecom logo" style="width: 65%; margin-top: 30px" id="sponsor-img">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h5 class="card-title" id="name">IX Telecom</h5>
+                                    <br>
+                                    <p class="card-text" id="btns"><a href="#ix-telecom" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
+                                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                            </div>
+                            <div id="white-bg-plat" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                                <img src="images/sponsors-company/Neptrix.png" class="card-img-top" alt="Neptrix Sdn. Bhd. logo" style="width: 95%; margin-top: 65px" id="sponsor-img">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h5 class="card-title" id="name">Neptrix Sdn. Bhd.</h5>
+                                    <br>
+                                    <p class="card-text" id="btns"><a href="#neptrix" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
+                                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                            </div>
+                            <div id="white-bg-plat" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                                <img src="images/sponsors-company/snappymob.svg" class="card-img-top" alt="Snappymob logo" style="width: 95%;" id="sponsor-img">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h5 class="card-title" id="name">Snappymob Sdn. Bhd.</h5>
+                                    <br>
+                                    <p class="card-text" id="btns"><a href="#snappymob" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
+                                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                            </div>
+                            <div id="white-bg-plat" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                                <img class="card-img-top" src="images/sponsors-company/Xendity.png" alt="Xendity Sdn. Bhd. Logo" style="width: 90%;  margin-top: 60px" id="sponsor-img">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h5 class="card-title" id="name">Xendity Sdn. Bhd.</h5>
+                                    <br>
+                                    <p class="card-text" id="btns"><a href="#xendity" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
+                                    <p id="btns"><a href="#" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-plat">
-                <img src="images/sponsors-company/ix-tele.png" class="card-img-top" alt="IX Telecom logo" style="width: 65%; margin-top: 30px" id="sponsor-img">
-                <div class="card-body">
-                    
-                    <h5 class="card-title" id="name">IX Telecom</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#ix-telecom" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
-                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-plat">
-                <img src="images/sponsors-company/Neptrix.png" class="card-img-top" alt="Neptrix Sdn. Bhd. logo" style="width: 95%; margin-top: 65px" id="sponsor-img">
-                <div class="card-body">
-                    <br>
-                    <h5 class="card-title" id="name">Neptrix Sdn. Bhd.</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#neptrix" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
-                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-plat">
-                <img src="images/sponsors-company/snappymob.svg" class="card-img-top" alt="Snappymob logo" style="width: 95%;" id="sponsor-img">
-                <div class="card-body">
-                    <br>
-                    <h5 class="card-title" id="name">Snappymob Sdn. Bhd.</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#snappymob" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
-                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
-                </div>
-            </div>
-        </div>
-
-        <br><br>
-            <div class="card" id="extra-card-plat">
-                <img class="card-img-top" src="images/sponsors-company/Xendity.png" alt="Xendity Sdn. Bhd. Logo" style="width: 90%;  margin-top: 60px" id="sponsor-img">
-                <div class="card-body">
-                    <br>
-                    <h5 class="card-title" id="name">Xendity Sdn. Bhd.</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#xendity" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
-                    <p id="btns"><a href="#" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
-                </div>
-            </div>
-        <!--/div-->
         </div>
     </section>
 <!-- PLATINUM COMPANY END -->
@@ -270,49 +251,58 @@
             GOLD SPONSORS
         </span>
 
-        <div class="card-deck">
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-gold">
-                <img src="images/sponsors-company/Biztory.png" class="card-img-top" alt="Biztory (Vectory Innovations Sdn Bhd) logo" style="width: 50%; margin-top: 10px" id="sponsor-img">
-                <div class="card-body">
-                    <h5 class="card-title" id="name">Biztory (Vectory Innovations Sdn Bhd)</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#biztory" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
-                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-gold">
-                <img src="images/sponsors-company/Juristech.png" class="card-img-top" alt="Juristech logo" style="width: 95%;margin-top: 65px " id="sponsor-img">
-                <div class="card-body">
-                    <br>
-                    <h5 class="card-title" id="name">Juris Technologies Sdn. Bhd.</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#juristech" class="buttons btn btn-light btn-md rounded-pill" id="bottons" style="margin-top: 2px;">Company Description</a></p>
-                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-gold">
-                <img src="images/sponsors-company/Lava-X.png" class="card-img-top" alt="Lava X Technologies logo" style="width:95%; margin-top: 65px" id="sponsor-img">
-                <div class="card-body">
-                    <br>
-                    <h5 class="card-title" id="name">Lava X Technologies Sdn. Bhd.</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#lava-x-technologies" class="buttons btn btn-light btn-md rounded-pill" id="bottons" style="margin-top: -6px;">Company Description</a></p>
-                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-gold">
-                <img src="images/sponsors-company/Tranglo.jpg" class="card-img-top" alt="Tranglo Sdn. Bhd. logo" style="width:95%; margin-top: 65px" id="sponsor-img">
-                <div class="card-body">
-                    <br>
-                    <h5 class="card-title" id="name">Tranglo Sdn. Bhd.</h5>
-                    <br>
-                    <p class="card-text" id="btns"><a href="#tranglo" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
-                    <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+        <div class="outer-div">
+            <div id="company" class="container">
+                <div class="container">
+                    <div class="row boxes-row">
+                        <div id="white-bg-gold" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                            <img src="images/sponsors-company/Biztory.png" class="card-img-top" alt="Biztory (Vectory Innovations Sdn Bhd) logo" style="width: 50%; margin-top: 10px" id="sponsor-img">
+                                <br>
+                                <br>
+                                <br>
+                                <h5 class="card-title" id="name">Biztory (Vectory Innovations Sdn Bhd)</h5>
+                                <br>
+                                <p class="card-text" id="btns"><a href="#biztory" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
+                                <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                        </div>
+                        <div id="white-bg-gold" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                            <img src="images/sponsors-company/Juristech.png" class="card-img-top" alt="Juristech logo" style="width: 95%;margin-top: 65px " id="sponsor-img">
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <h5 class="card-title" id="name">Juris Technologies Sdn. Bhd.</h5>
+                                <br>
+                                <p class="card-text" id="btns"><a href="#juristech" class="buttons btn btn-light btn-md rounded-pill" id="bottons" style="margin-top: 2px;">Company Description</a></p>
+                                <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                        </div>
+                        <div id="white-bg-gold" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                            <img src="images/sponsors-company/Lava-X.png" class="card-img-top" alt="Lava X Technologies logo" style="width:95%; margin-top: 65px" id="sponsor-img">
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <h5 class="card-title" id="name">Lava X Technologies Sdn. Bhd.</h5>
+                                <br>
+                                <p class="card-text" id="btns"><a href="#lava-x-technologies" class="buttons btn btn-light btn-md rounded-pill" id="bottons" style="margin-top: -6px;">Company Description</a></p>
+                                <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                        </div>
+                        <div id="white-bg-gold" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                            <img src="images/sponsors-company/Tranglo.jpg" class="card-img-top" alt="Tranglo Sdn. Bhd. logo" style="width:95%; margin-top: 65px" id="sponsor-img">
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <h5 class="card-title" id="name">Tranglo Sdn. Bhd.</h5>
+                                <br>
+                                <p class="card-text" id="btns"><a href="#tranglo" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
+                                <p id="btns"><a href="#" id="btns" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 <!-- GOLD COMPANY END -->
 
 
@@ -321,15 +311,23 @@
         <span class="silver-header">
             SILVER SPONSORS
         </span>
-        
-        <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="extra-card-silver">
-            <img class="card-img-top" src="images/sponsors-company/Fusionex.png" alt="Fusionex Logo" id="sponsor-img">
-            <div class="card-body">
-                <br>
-                <h5 class="card-title" id="name">Fusionex</h5>
-                <br>
-                <p class="card-text" id="btns"><a href="#fusionex" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
-                <p id="btns"><a href="#" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+
+        <div class="outer-div">
+            <div id="company" class="container">
+                <div class="container">
+                    <div class="row boxes-row">
+                        <div id="white-bg-silver" class="d-flex flex-column text-center align-items-center company-item col-lg-2 col-md-4">
+                            <img class="card-img-top" src="images/sponsors-company/Fusionex.png" alt="Fusionex Logo" id="sponsor-img">
+                                <br>
+                                <br>
+                                <br>
+                                <h5 class="card-title" id="name">Fusionex</h5>
+                                <br>
+                                <p class="card-text" id="btns"><a href="#fusionex" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Company Description</a></p>
+                                <p id="btns"><a href="#" class="buttons btn btn-light btn-md rounded-pill" id="bottons">Go somewhere</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -342,42 +340,32 @@
             SUPPORTING PARTNERS
         </span>
 
-
-        <div class="card-deck">
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-supp">
-                <img src="images/media-partners/WOBB.png" class="card-img-top" alt="WOBB logo" style="width: 95%; margin-top: 50px;" id="media-img">
-                <div class="card-body">
-                    <h5 class="card-title" id="name">WOBB</h5>
-                    <!--p class="card-text" id="btns"><a href="#biztory" class="btn btn-primary">Company Description</a></p>
-                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
+        <div class="outer-div">
+            <div id="company" class="container">
+                <div class="container">
+                    <div class="row boxes-row">
+                        <div id="white-bg-supp" class="d-flex flex-column text-center align-items-center support-item col-lg-2 col-md-4">
+                            <img src="images/media-partners/WOBB.png" class="card-img-top" alt="WOBB logo" style="width: 95%; margin-top: 50px;" id="media-img">
+                            <br>
+                                <h5 class="card-title" id="name">WOBB</h5>
+                        </div>
+                        <div id="white-bg-supp" class="d-flex flex-column text-center align-items-center support-item col-lg-2 col-md-4">
+                            <img src="images/media-partners/IEEEjpg.jpg" class="card-img-top" alt="IEEE logo" style="width:95%; margin-top: 40px" id="media-img">
+                            <br>
+                                <h5 class="card-title" id="name">IEEE Malaysia</h5>
+                        </div>
+                        <div id="white-bg-supp" class="d-flex flex-column text-center align-items-center support-item col-lg-2 col-md-4">
+                            <img src="images/media-partners/GDC.png" class="card-img-top" alt="MMU Game Developer Club logo" style="width:70%; margin-top: 15px" id="media-img">
+                            <br>
+                                <h5 class="card-title" id="name">MMU Game Developer Club</h5>
+                        </div>
+                        <div id="white-bg-supp" class="d-flex flex-column text-center align-items-center support-item col-lg-2 col-md-4">
+                            <img src="00" class="card-img-top" alt="Your logo here" style="width:60%; margin-top: 10px" id="media-img">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-supp">
-                <img src="images/media-partners/IEEEjpg.jpg" class="card-img-top" alt="IEEE logo" style="width:95%; margin-top: 40px" id="media-img">
-                <div class="card-body">
-                    <h5 class="card-title" id="name">IEEE Malaysia</h5>
-                    <!--p class="card-text" id="btns"><a href="#lava-x-technologies" class="btn btn-primary">Company Description</a></p>
-                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-supp">
-                <img src="00" class="card-img-top" alt="MMU Game Developer Club logo" style="width:70%; margin-top: 10px" id="media-img">
-                <div class="card-body">
-                    <h5 class="card-title" id="name">MMU Game Developer Club</h5>
-                    <!--p class="card-text" id="btns"><a href="#juristech" class="btn btn-primary">Company Description</a></p>
-                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-supp">
-                <img src="00" class="card-img-top" alt="Your logo here" style="width:60%; margin-top: 10px" id="media-img">
-                <!--div class="card-body">
-                    <h5 class="card-title" id="name">Sunway Tech Club</h5>
-                    <!--p class="card-text" id="btns"><a href="#deriv" class="btn btn-primary">Company Description</a></p>
-                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
-                <!--/div-->
             </div>
         </div>
-
     </div>
 <!-- SUPPORTING PARTNERS END -->
 
@@ -387,82 +375,81 @@
             MEDIA PARTNERS
         </span>
 
-        <div class="card-deck">
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-media">
-                <img src="images/media-partners/IEM-UTAR.png" class="card-img-top" alt="IEM UTAR KL Student Section logo" style="width:50%; margin-top: 10px" id="media-img">
-                <div class="card-body">
-                    <h5 class="card-title" id="name">IEM UTAR KL Student Section</h5>
-                    <!--p class="card-text" id="btns"><a href="#lava-x-technologies" class="btn btn-primary">Company Description</a></p>
-                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-media">
-                <img src="images/media-partners/ITS-melaka.png" class="card-img-top" alt="IT Society MMU Melaka logo" style="width:70%; margin-top: 10px" id="media-img">
-                <div class="card-body">
-                    <h5 class="card-title" id="name">IT Society MMU Melaka</h5>
-                    <!--p class="card-text" id="btns"><a href="#juristech" class="btn btn-primary">Company Description</a></p>
-                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-media">
-                <img src="images/media-partners/I-TECH-UUM.png" class="card-img-top" alt="I-Tech UUM logo" style="width:110%; margin-top: 40px; margin-left: 3.6px;" id="media-img">
-                <div class="card-body">
-                    <h5 class="card-title" id="name">I-Tech UUM</h5>
-                    <!--p class="card-text" id="btns"><a href="#biztory" class="btn btn-primary">Company Description</a></p>
-                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-media">
-                <img src="images/media-partners/sunway-tech-club.png" class="card-img-top" alt="Sunway Tech Club logo" style="width:60%; margin-top: 10px; width: 60%;" id="media-img">
-                <div class="card-body">
-                    <h5 class="card-title" id="name">Sunway Tech Club</h5>
-                    <!--p class="card-text" id="btns"><a href="#deriv" class="btn btn-primary">Company Description</a></p>
-                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
-                </div>
-            </div>
-        </div>
-        <br><br>
-        <div class="card-deck">
-            <br>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-media">
-                <img src="images/media-partners/TAR-UC-CSS.png" class="card-img-top" alt="TARUC Computer Science Society logo" style="width:80%; margin-top: 30px" id="media-img">
-                <div class="card-body">
-                    <h5 class="card-title" id="name">TARUC Computer Science Society</h5>
-                    <!--p class="card-text" id="btns"><a href="#neptrix" class="btn btn-primary">Company Description</a></p>
-                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-media">
-                <img src="images/media-partners/Agents-of-Tech.png" class="card-img-top" alt="Taylor's University Agents of Tech logo" style="width:55%; margin-top: 20px" id="media-img">
-                <div class="card-body">
-                    <h5 class="card-title" id="name">Taylor's University Agents of Tech</h5>
-                    <!--p class="card-text" id="btns"><a href="#tranglo" class="btn btn-primary">Company Description</a></p-->
-                    <!--a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-media">
-                <img src="images/media-partners/XMUM.png" class="card-img-top" alt="XMUM Software Engineering Student Union logo" style="width:48%; margin-top: 10px;" id="media-img">
-                <div class="card-body">
-                    <h6 class="card-title" id="name">XMUM Software Engineering Student Union</h6>
-                    <!--p class="card-text" id="btns"><a href="#auronex-technologies" class="btn btn-primary">Company Description</a></p>
-                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
-                </div>
-            </div>
-            <div class="card justify-content-center" data-aos="fade-down" data-aos-duration="1500" id="white-bg-media">
-                <img src="images/media-partners/Airost.jpg" class="card-img-top" alt="UTM Airost Team logo" style="width:53%; margin-top: 10px;" id="media-img">
-                <div class="card-body">
-                    <h5 class="card-title" id="name">UTM Airost Team</h5>
-                    <br>
-                    <!--p class="card-text" id="btns"><a href="#dhl-it-services" class="btn btn-primary">Company Description</a></p>
-                    <a href="#" id="btns" class="btn btn-primary">Go somewhere</a-->
+        <div class="outer-div">
+            <div id="company" class="container">
+                <div class="container">
+                    <div class="row boxes-row">
+                        <div id="white-bg-media" class="d-flex flex-column text-center align-items-center support-item col-lg-2 col-md-4">
+                            <img src="images/media-partners/IEM-UTAR.png" class="card-img-top" alt="IEM UTAR KL Student Section logo" style="width:50%; margin-top: 10px" id="media-img">
+                                <br>
+                                <h5 class="card-title" id="name">IEM UTAR KL Student Section</h5>
+                        </div>
+                        <div id="white-bg-media" class="d-flex flex-column text-center align-items-center support-item col-lg-2 col-md-4">
+                            <img src="images/media-partners/ITS-melaka.png" class="card-img-top" alt="IT Society MMU Melaka logo" style="width:70%; margin-top: 10px" id="media-img">
+                                <br>
+                                <h5 class="card-title" id="name">IT Society MMU Melaka</h5>
+                        </div>
+                        <div id="white-bg-media" class="d-flex flex-column text-center align-items-center support-item col-lg-2 col-md-4">
+                            <img src="images/media-partners/I-TECH-UUM.png" class="card-img-top" alt="I-Tech UUM logo" style="width:110%; margin-top: 40px; margin-left: 3.6px;" id="media-img">
+                                <br>
+                                <h5 class="card-title" id="name">I-Tech UUM</h5>
+                        </div>
+                        <div id="white-bg-media" class="d-flex flex-column text-center align-items-center support-item col-lg-2 col-md-4">
+                            <img src="images/media-partners/sunway-tech-club.png" class="card-img-top" alt="Sunway Tech Club logo" style="width:60%; margin-top: 10px; width: 60%;" id="media-img">
+                                <br>
+                                <h5 class="card-title" id="name">Sunway Tech Club</h5>
+                        </div>
+                        <div id="white-bg-media" class="d-flex flex-column text-center align-items-center support-item col-lg-2 col-md-4">
+                            <img src="images/media-partners/TAR-UC-CSS.png" class="card-img-top" alt="TARUC Computer Science Society logo" style="width:80%; margin-top: 30px" id="media-img">
+                                <br>
+                                <h5 class="card-title" id="name">TARUC Computer Science Society</h5>
+                        </div>
+                        <div id="white-bg-media" class="d-flex flex-column text-center align-items-center support-item col-lg-2 col-md-4">
+                            <img src="images/media-partners/Agents-of-Tech.png" class="card-img-top" alt="Taylor's University Agents of Tech logo" style="width:55%; margin-top: 20px" id="media-img">
+                                <br>
+                                <h5 class="card-title" id="name">Taylor's University Agents of Tech</h5>
+                        </div>
+                        <div id="white-bg-media" class="d-flex flex-column text-center align-items-center support-item col-lg-2 col-md-4">
+                            <img src="images/media-partners/XMUM.png" class="card-img-top" alt="XMUM Software Engineering Student Union logo" style="width:48%; margin-top: 10px;" id="media-img">
+                                <br>
+                                <h6 class="card-title" id="name">XMUM Software Engineering Student Union</h6>
+                        </div>
+                        <div id="white-bg-media" class="d-flex flex-column text-center align-items-center support-item col-lg-2 col-md-4">
+                            <img src="images/media-partners/Airost.jpg" class="card-img-top" alt="UTM Airost Team logo" style="width:53%; margin-top: 10px;" id="media-img">
+                                <br>
+                                <h5 class="card-title" id="name">UTM Airost Team</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <br><br>
 <!-- MEDIA PARTNERS END -->
 
 <div class="container" id="sponsor">
+
+    <section class="bg-supp">
+        <div class="wrapper">
+            <div class="left-section">
+                <img src="images/media-partners/WOBB.png" alt="wobb logo" id="company-img" id="wobb">
+            </div>
+            <div class="right-section">
+                <h5>About us:</h5>
+                <h6>
+                    WOBB is Malaysia’s leading youth career platform founded in 2014. 
+                    Today, we are on an unwavering mission to be Asia’s most loved job 
+                    search platform that helps people discover any job with any employer in the market. <br><br>
+                    Seeking to provide an alternative to a text-heavy web-based job seeking experience, 
+                    WOBB uses mobile technology and rich media content to bring the human experience of 
+                    job hunting to the digital world. <br><br>
+                    Our website and mobile app features company pages that allow job seekers to assess 
+                    culture fit with potential employers - saving time for everyone.
+                </h6>
+            </div>
+        </div>
+    </section>
+
+    <hr>
 
     <section id="auronex-technologies" class="bg-plat">
         <div class="wrapper">
@@ -475,8 +462,11 @@
                 <h6>Company description</h6>
                 <!--p>Text test here</p-->
             </div>
-        
+        </div>
     </section>
+
+    <hr>
+
     <section id="deriv" class="bg-plat">
 
         <div class="wrapper">
@@ -889,8 +879,8 @@
         </div>
 
     </section>
+
 </div>
-<br><br><br><br>
 
 
 <!-- PLATINUM COMPANY START -->
