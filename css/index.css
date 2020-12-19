@@ -522,6 +522,9 @@ html {
     
     grid-area: 4 / 2 / 5 / 3;
     background-color: #C1D1DB;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 
 }
 .parent1 > .div14 { 
