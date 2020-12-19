@@ -92,9 +92,11 @@ Titles*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: justify;
 	width: 70%;
-
+	text-align: justify;
+	font-family: 'Arvo', serif;
+	
 }
 
 
@@ -285,13 +287,17 @@ button:hover, a:hover {
 		align-items: center;
 		background-color: #E6FEFF;
 		width: 100%;
-	
+	font-family: 'Arvo', serif;
 	}
 
 }
 
 #biz{
 	width: 60%;
+}
+
+#wobb{
+	width: 200%;
 }
 
 @media screen and (max-width: 767px) {
@@ -339,6 +345,7 @@ button:hover, a:hover {
 	}
 
 	#wobb{
-		height: 50%;
+		width: 50%;
+		/*height: 40%;*/
 	}
 }
