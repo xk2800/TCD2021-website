@@ -6,6 +6,27 @@ normal text*/
 /*font-family: 'Bebas Neue', cursive;
 Titles*/
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #C0C0C0; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
 .container#sponsor{
 
 	background-color: white;
@@ -43,8 +64,8 @@ Titles*/
 	padding: 20px 20px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	justify-content: justify;
+	align-items: justify;
 	width: 70%;
 
 }
@@ -232,6 +253,10 @@ button:hover, a:hover {
 	
 	}
 
+
+}
+#biz{
+	width: 60%;
 }
 
 @media screen and (max-width: 767px) {
@@ -256,6 +281,11 @@ button:hover, a:hover {
 
 	#neptrix{
 		height: 40%;
+	}
+
+	#biz{
+		width: 60%;
+		height: 100%;
 	}
 
 	#juristech{
