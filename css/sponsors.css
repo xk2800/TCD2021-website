@@ -10,20 +10,20 @@ Titles*/
 ::-webkit-scrollbar {
     width: 10px;
 }
-  
+
   /* Track */
 ::-webkit-scrollbar-track {
-	background: #C0C0C0; 
+	background: #C0C0C0;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #888; 
+	background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: #555; 
+	background: #555;
 }
 
 .container#sponsor{
@@ -96,7 +96,7 @@ Titles*/
 	width: 70%;
 	text-align: justify;
 	font-family: 'Arvo', serif;
-	
+
 }
 
 
@@ -133,9 +133,9 @@ section.bg-supp > .wrapper > .right-section{
 	margin: 10px auto 0;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
 }
-		
+
 .container1 .box1{
 	position: relative;
 	width: 250px;
@@ -143,62 +143,62 @@ section.bg-supp > .wrapper > .right-section{
 	background: #ff0;
 	margin: 10px;
 	box-sizing: border-box;
-	display: inline-block; 
-		
+	display: inline-block;
+
 }
 .container1 .box1 .imgBox1{
 	position: relative;
 	overflow: hidden;
-		
+
 }
-		
+
 .container1 .box1 .imgBox1 img{
 	max-width:100%;
 	transition: transform 2s;
-		
+
 }
-		
+
 .container1 .box1:hover .imgBox1 img{
 	transform: scale(1.2);
-		
+
 }
-		
-.container1 .box1 .details1 {		
+
+.container1 .box1 .details1 {
 	position: absolute;
 	top: 10px;
 	left: 10px;
 	bottom: 10px;
 	right: 10px;
 	transform: scaleY(0);
-	transition: transform .5s;	
+	transition: transform .5s;
 }
-		
+
 .container1 .box1:hover .details1 {
 	transform: scaleY(1);
-		
+
 }
-		
-.container1 .box1 .details1 .content1{		
+
+.container1 .box1 .details1 .content1{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
 	padding: 15px;
 	color: #fff;
-		
+
 }
-		
+
 .container1 .box1 .details1 .content1 h2{
 	margin: 0;
 	padding: 0;
 	font-size: 20px;
-	color: #ff0;		
+	color: #ff0;
 }
-		
+
 .container1 .box1 .details1 .content1 p{
 	margin: 10px 0 0;
 	padding: 0px;
-		
+
 }
 
 .card1 {
@@ -243,7 +243,7 @@ button:hover, a:hover {
 	font-family: 'Bebas Neue', cursive;
 	color: #FFFFFF;
 	font-size: 5rem;
-	
+
 }
 
 @media only screen and (max-width: 767px){
@@ -255,7 +255,7 @@ button:hover, a:hover {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-	
+
 	}
 
 	.wrapper > .left-section{
@@ -267,7 +267,7 @@ button:hover, a:hover {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	
+
 	}
 
 	.wrapper > .left-section > img{
