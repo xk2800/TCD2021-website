@@ -485,6 +485,9 @@ html {
     
     grid-area: 9 / 1 / 10 / 2; 
     background-color: #DFB2A2;
+    max-height: 53px;
+    font-size: 15px;
+    padding: 15px 0px;
 
 }
 .parent1 > .div12 { 
@@ -1071,6 +1074,17 @@ html {
 
 }
 
+@media only screen and (max-width: 443px){
+
+    .parent1 > .div13 > p{
+
+
+        margin-top: -10px;
+
+    }
+
+}
+
 @media only screen and (max-width: 435px){
 
     .parent1 > .div2{
@@ -1199,6 +1213,18 @@ html {
         font-size: 15px;
         padding: 15px 0px;
     
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+
+    .parent1 > .div11 {
+
+        max-height: 53px;
+        font-size: 15px;
+        padding: 15px 0px;
+
     }
 
 }
