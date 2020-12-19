@@ -124,7 +124,7 @@ html {
 
 @media screen and (max-width: 767px) {
     .about-title {
-        font-size: 3.5em !important;
+        /*font-size: 3.5em !important;*/
     }
     .parallax-one {
         padding-top: 50px; 
