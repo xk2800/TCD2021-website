@@ -29,6 +29,70 @@ html {
     background: #555; 
   }
 
+
+  /* Floating Social Media Bar Style Starts Here */
+
+  .fl-fl {
+    background: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 4px;
+    width: 220px;
+    position: fixed;
+    right: -160px;
+    z-index: 1000;
+    font-family: 'Arvo', serif;
+    /*font: normal normal 10px;*/
+    font-size: 22px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+  
+  .fa {
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0;
+    width: 40px;
+    margin-left: 8px;
+  }
+
+  .fl-fl:hover {
+    right: 0;
+  }
+  
+  .fl-fl a {
+    color: #000 !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px!important;
+    vertical-align: top!important;
+    font-size: 15px;
+    padding-left: 25px;
+  }
+  
+
+  .float-fb {
+    top: 470px;
+  }
+  
+  .float-ig {
+    top: 525px;
+  }
+
+  /*.float-ig {
+    top: 380px;
+  }
+  
+  .float-pn {
+    top: 435px;
+  }*/
+  /* Floating Social Media Bar Style Ends Here */
+
+
+
 #home{
     background-color: #15243C;
     color: white;
