@@ -368,172 +368,25 @@ html {
     font-weight: bold;
 
 }
-    
-.parent > .div1 { 
 
-    grid-area: 1 / 1 / 2 / 2;
-    background-color: #23687D;
-    color: white;
-
-}
-.parent > .div2 { 
-
-    grid-area: 1 / 2 / 2 / 4; 
-    background-color: #23687D;
-    color: white;
-    max-height: 53px;
-    font-size: 15px;
-    padding: 15px 0px;
-}
-.parent > .div3 { 
-    
-    grid-area: 2 / 1 / 3 / 2; 
-    background-color: #F4EDDD;
-
-}
-.parent > .div4 { 
-
-    grid-area: 2 / 2 / 3 / 4; 
-    background-color: #F4EDDD;
-
-}
-.parent > .div5 { 
-
-    grid-area: 3 / 1 / 4 / 2; 
-    background-color: #DFB2A2;
-
-}
-.parent > .div6 { 
-    
-    grid-area: 4 / 1 / 5 / 2; 
-    background-color: #DFB2A2;
-
-}
-.parent > .div7 { 
-    
-    grid-area: 5 / 1 / 6 / 2; 
-    background-color: #DFB2A2;
-
-}
-.parent > .div8 { 
-    
-    grid-area: 6 / 1 / 7 / 2; 
-    background-color: #DFB2A2;
-
-}
-.parent > .div9 { 
-    
-    grid-area: 7 / 1 / 8 / 2; 
-    background-color: #DFB2A2;
-
-}
-.parent > .div10 { 
-    
-    grid-area: 8 / 1 / 9 / 2; 
-    background-color: #DFB2A2;
-
-}
-.parent > .div11 { 
-    
-    grid-area: 3 / 2 / 4 / 4; 
-    background-color: #C1D1DB;
-
-}
-.parent > .div12 { 
-    
-    grid-area: 4 / 2 / 5 / 3; 
-    background-color: #C1D1DB;
-    max-height: 53px;
-    font-size: 15px;
-    padding: 15px 0px;
-
-}
-.parent > .div13 { 
-    
-    grid-area: 5 / 2 / 6 / 3; 
-    background-color: #C1D1DB;
-    max-height: 53px;
-    font-size: 15px;
-    padding: 15px 0px;
-
-}
-.parent > .div14 { 
-    
-    grid-area: 6 / 2 / 7 / 3; 
-    background-color: #C1D1DB;
-
-}
-.parent > .div15 { 
-    
-    grid-area: 7 / 2 / 8 / 3; 
-    background-color: #C1D1DB;
-    max-height: 53px;
-    font-size: 15px;
-    padding: 15px 0px;
-
-}
-.parent > .div16 { 
-    
-    grid-area: 4 / 3 / 8 / 4;
-    background-color: #FCEEB0;
-
-}
-
-.parent > .div17 { 
-    
-    grid-area: 8 / 2 / 9 / 4; 
-    background-color: #C1D1DB;
-
-}
-.parent > .div16{
-
-    padding: 110px 0px;
-
-}
-
-/* .div1 { grid-area: 1 / 1 / 2 / 2;  
-        font-family: 'Bebas Neue', cursive;
-        letter-spacing: 4px;
-    }
-.div2 { grid-area: 1 / 2 / 2 / 4;  
-        font-family: 'Bebas Neue', cursive;
-        letter-spacing: 4px;
-    }
-.div3 { grid-area: 2 / 1 / 3 / 2; }
-.div4 { grid-area: 3 / 1 / 4 / 2; }
-.div5 { grid-area: 4 / 1 / 5 / 2; }
-.div6 { grid-area: 5 / 1 / 6 / 2; }
-.div7 { grid-area: 6 / 1 / 7 / 2; }
-.div8 { grid-area: 7 / 1 / 8 / 2; }
-.div9 { grid-area: 8 / 1 / 9 / 2; }
-.div10 { grid-area: 9 / 1 / 10 / 2; }
-.div111 { 
-    background-color: red;
-    grid-area: 2 / 2 / 3 / 4; }
-.div12 { grid-area: 2 / 3 / 3 / 4; }
-.div13 { grid-area: 3 / 2 / 4 / 4; }
-.div14 { grid-area: 4 / 2 / 5 / 3; }
-.div15 { grid-area: 5 / 2 / 6 / 3; }
-.div16 { grid-area: 6 / 2 / 7 / 3; }
-.div17 { grid-area: 7 / 2 / 8 / 3; }
-.div19 { grid-area: 8 / 2 / 9 / 4; }
-.div200 {  background-color: red;
-    grid-area: 9 / 2 / 10 / 4; 
-}
-
-
-.parent > .div11 { 
-    padding: 15px 15px;
-    
-}
-
-.parent > .div18 { 
-    padding: 100px 15px;
-    background-color: red;
-    text-align: center;
-    grid-area: 4 / 3 / 8 / 4;
-} */
-
+.parent > .div1 { grid-area: 1 / 1 / 2 / 4; background-color: #23687D;}
+.parent > .div2 { grid-area: 2 / 1 / 3 / 2; background-color: #F4EDDD; max-height: 53px; font-size: 15px;}
+.parent > .div3 { grid-area: 2 / 2 / 3 / 4; background-color: #F4EDDD;}
+.parent > .div4 { grid-area: 3 / 1 / 4 / 2; background-color: #DFB2A2;max-height: 53px; font-size: 15px;}
+.parent > .div5 { grid-area: 4 / 1 / 5 / 2; background-color: #DFB2A2;max-height: 53px; font-size: 15px;}
+.parent > .div6 { grid-area: 5 / 1 / 6 / 2; background-color: #DFB2A2;max-height: 53px; font-size: 15px;}
+.parent > .div7 { grid-area: 6 / 1 / 7 / 2; background-color: #DFB2A2;max-height: 53px; font-size: 15px;}
+.parent > .div8 { grid-area: 7 / 1 / 8 / 2; background-color: #DFB2A2;max-height: 53px; font-size: 15px;}
+.parent > .div9 { grid-area: 8 / 1 / 9 / 2; background-color: #DFB2A2;max-height: 53px; font-size: 15px;}
+.parent > .div10 { grid-area: 9 / 1 / 10 / 2; background-color: #DFB2A2;max-height: 53px; font-size: 15px;}
+.parent > .div11 { grid-area: 3 / 2 / 4 / 4; background-color: #C1D1DB;}
+.parent > .div12 { grid-area: 4 / 2 / 5 / 3; background-color: #C1D1DB; max-height: 53px; font-size: 15px;}
+.parent > .div13 { grid-area: 5 / 2 / 6 / 3; background-color: #C1D1DB; max-height: 53px; font-size: 15px;}
+.parent > .div14 { grid-area: 6 / 2 / 7 / 3; background-color: #C1D1DB;}
+.parent > .div15 { grid-area: 7 / 2 / 8 / 3; background-color: #C1D1DB;}
+.parent > .div16 { grid-area: 8 / 2 / 9 / 3; background-color: #C1D1DB; max-height: 53px; font-size: 15px;}
+.parent > .div17 { grid-area: 4 / 3 / 9 / 4; background-color: #FCEEB0; padding: 130px 0px;}
+.parent > .div18 { grid-area: 9 / 2 / 10 / 4; background-color: #C1D1DB;}
 
 .parent1 {
     color: white;
@@ -556,180 +409,28 @@ html {
     border: none;
     color: black;
 }
+
+.parent1 > .div1 { grid-area: 1 / 1 / 2 / 4; background-color: #23687D;}
+.parent1 > .div2 { grid-area: 2 / 1 / 3 / 2; background-color: #F4EDDD;}
+.parent1 > .div3 { grid-area: 2 / 2 / 3 / 4; background-color: #F4EDDD;}
+.parent1 > .div4 { grid-area: 3 / 1 / 4 / 2; background-color: #DFB2A2; max-height: 53px; font-size: 15px;}
+.parent1 > .div5 { grid-area: 4 / 1 / 5 / 2; background-color: #DFB2A2; max-height: 53px; font-size: 15px;}
+.parent1 > .div6 { grid-area: 5 / 1 / 6 / 2; background-color: #DFB2A2; max-height: 53px; font-size: 15px;}
+.parent1 > .div7 { grid-area: 6 / 1 / 7 / 2; background-color: #DFB2A2; max-height: 53px; font-size: 15px;}
+.parent1 > .div8 { grid-area: 7 / 1 / 8 / 2; background-color: #DFB2A2; max-height: 53px; font-size: 15px;}
+.parent1 > .div9 { grid-area: 8 / 1 / 9 / 2; background-color: #DFB2A2; max-height: 53px; font-size: 15px;}
+.parent1 > .div10 { grid-area: 9 / 1 / 10 / 2; background-color: #DFB2A2; max-height: 53px; font-size: 15px;}
+.parent1 > .div11 { grid-area: 10 / 1 / 11 / 2; background-color: #DFB2A2;max-height: 53px; font-size: 15px;}
+.parent1 > .div12 { grid-area: 3 / 2 / 4 / 3; background-color: #C1D1DB; max-height: 53px; font-size: 15px;}
+.parent1 > .div13 { grid-area: 4 / 2 / 5 / 3; background-color: #C1D1DB;}
+.parent1 > .div14 { grid-area: 5 / 2 / 6 / 3; background-color: #C1D1DB; max-height: 53px; font-size: 15px;}
+.parent1 > .div15 { grid-area: 6 / 2 / 7 / 3; background-color: #C1D1DB; max-height: 53px; font-size: 15px;}
+.parent1 > .div16 { grid-area: 7 / 2 / 8 / 3; background-color: #C1D1DB;}
+.parent1 > .div17 { grid-area: 8 / 2 / 9 / 3; background-color: #C1D1DB;}
+.parent1 > .div18 { grid-area: 9 / 2 / 10 / 3; background-color: #C1D1DB;}
+.parent1 > .div19 { grid-area: 3 / 3 / 10 / 4; background-color: #FCEEB0; padding: 190px 0px;}
+.parent1 > .div20 { grid-area: 10 / 2 / 11 / 4; background-color: #C1D1DB;}
     
-.parent1 > .div1 { 
-
-    grid-area: 1 / 1 / 2 / 2; 
-    background-color: #23687D;
-    color: white;
-}
-.parent1 > .div2 { 
-
-    grid-area: 1 / 2 / 2 / 4; 
-    background-color: #23687D;
-    color: white;
-}
-.parent1 > .div3 { 
-
-    grid-area: 2 / 1 / 3 / 2; 
-    background-color: #F4EDDD;
-
-}
-.parent1 > .div4 { 
-
-    grid-area: 2 / 2 / 3 / 4; 
-    background-color: #F4EDDD;
-
-}
-.parent1 > .div5 { 
-
-    grid-area: 3 / 1 / 4 / 2; 
-    background-color: #DFB2A2;
-
-}
-.parent1 > .div6 { 
-
-    grid-area: 4 / 1 / 5 / 2;
-    background-color: #DFB2A2;
-
-}
-.parent1 > .div7 { 
-
-    grid-area: 5 / 1 / 6 / 2; 
-    background-color: #DFB2A2;
-
-}
-.parent1 > .div8 { 
-
-    grid-area: 6 / 1 / 7 / 2; 
-    background-color: #DFB2A2;
-
-}
-.parent1 > .div9 { 
-
-    grid-area: 7 / 1 / 8 / 2;
-    background-color: #DFB2A2;
-
-}
-.parent1 > .div10 { 
-    
-    grid-area: 8 / 1 / 9 / 2;
-    background-color: #DFB2A2;
-
-}
-.parent1 > .div11 { 
-    
-    grid-area: 9 / 1 / 10 / 2; 
-    background-color: #DFB2A2;
-    max-height: 53px;
-    font-size: 15px;
-    padding: 15px 0px;
-
-}
-.parent1 > .div12 { 
-    
-    grid-area: 3 / 2 / 4 / 3; 
-    background-color: #C1D1DB;
-    max-height: 53px;
-    font-size: 15px;
-    padding: 15px 0px;
-
-}
-.parent1 > .div13 { 
-    
-    grid-area: 4 / 2 / 5 / 3;
-    background-color: #C1D1DB;
-    max-height: 53px;
-    font-size: 15px;
-    padding: 15px 0px;
-
-}
-.parent1 > .div14 { 
-    
-    grid-area: 5 / 2 / 6 / 3; 
-    background-color: #C1D1DB;
-    max-height: 53px;
-    font-size: 15px;
-    padding: 15px 0px;
-
-}
-.parent1 > .div15 { 
-    
-    grid-area: 6 / 2 / 7 / 3; 
-    background-color: #C1D1DB;
-    max-height: 53px;
-    font-size: 15px;
-    padding: 15px 0px;
-
-}
-.parent1 > .div16 { 
-    
-    grid-area: 7 / 2 / 8 / 3; 
-    background-color: #C1D1DB;
-
-}
-.parent1 > .div17 { 
-    
-    grid-area: 8 / 2 / 9 / 3; 
-    background-color: #C1D1DB;
-
-}
-.parent1 > .div18 { 
-    
-    grid-area: 3 / 3 / 9 / 4; 
-    background-color: #FCEEB0;
-
-}
-.parent1 > .div19 { 
-    
-    grid-area: 9 / 2 / 10 / 4; 
-    background-color: #C1D1DB;
-
-}
-.parent1 > .div18{
-
-    padding: 170px 0px;
-
-}
-    
-/* .parent1 > .div1 { grid-area: 1 / 1 / 2 / 2; }
-.parent1 > .div2 { grid-area: 1 / 2 / 2 / 4; }
-.parent1 > .div3 { grid-area: 2 / 1 / 3 / 2; }
-.parent1 > .div4 { grid-area: 3 / 1 / 4 / 2; }
-.parent1 > .div5 { grid-area: 4 / 1 / 5 / 2; }
-.parent1 > .div6 { grid-area: 5 / 1 / 6 / 2; }
-.parent1 > .div7 { grid-area: 6 / 1 / 7 / 2; }
-.parent1 > .div8 { grid-area: 7 / 1 / 8 / 2; }
-.parent1 > .div9 { grid-area: 8 / 1 / 9 / 2; }
-.parent1 > .div10 { grid-area: 9 / 1 / 10 / 2; }
-.parent1 > .div11 { grid-area: 10 / 1 / 11 / 2; }
-.parent1 > .div12 { grid-area: 11 / 1 / 12 / 2; }
-.parent1 > .div13 { 
-    padding: 15px 15px;
-    background-color: red;
-    text-indent: 365px;
-    grid-area: 2 / 1 / 3 / 4; }
-.parent1 > .div14 { grid-area: 2 / 3 / 3 / 4; }
-.parent1 > .div15 { 
-    padding: 15px 15px;
-    background-color: red;
-    grid-area: 3 / 2 / 4 / 4; }
-.parent1 > .div16 { grid-area: 4 / 2 / 5 / 3; }
-.parent1 > .div17 { grid-area: 5 / 2 / 6 / 3; }
-.parent1 > .div18 { grid-area: 6 / 2 / 7 / 3; }
-.parent1 > .div19 { grid-area: 7 / 2 / 8 / 3; }
-.parent1 > .div20 { grid-area: 8 / 2 / 9 / 3; }
-.parent1 > .div21 { grid-area: 9 / 2 / 10 / 3; }
-.parent1 > .div22 { 
-    padding: 100px 15px;
-    background-color: red;
-    text-align: center;
-    grid-area: 3 / 3 / 10 / 4; }
-.parent1 > .div23 { grid-area: 10 / 2 / 11 / 3; }
-.parent1 > .div24 { grid-area: 10 / 3 / 11 / 4; }
-.parent1 > .div25 { grid-area: 11 / 2 / 12 / 3; }
-.parent1 > .div26 { grid-area: 11 / 3 / 12 / 4; } */
-
 .accordion{
 
     margin: 70px 0px;
@@ -980,120 +681,40 @@ html {
 
 @media only screen and (max-width: 992px){
 
-    .parent {
-        color: white;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(9, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 0px;
-        /* background-color: #fff; */
-        align-items: center;
-        margin-top: 15px;
-        font-family: 'Arvo', serif;
-    }
 
-    .parent > .div13 { 
-    
-        grid-area: 5 / 2 / 6 / 3; 
-        background-color: #C1D1DB;
-        max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
-    
-    }
-
-    .parent > .div2 {
-
-        max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
-
-    }
-
-    .parent > .div12 { 
-
-        max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
-    
-    }
-
-    .parent > .div15 { 
-    
-        grid-area: 7 / 2 / 8 / 3; 
-        background-color: #C1D1DB;
-        max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
-    
-    }
 
 }
 
 @media only screen and (max-width: 767px){
 
-    .parent {
-
-        color: white;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(9, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 0px;
-        /* background-color: #fff; */
-        align-items: center;
-        margin-top: 15px;
-        font-family: 'Arvo', serif;
-
-    }
-
-    .parent > .div2 {
+    .parent > .div12{
 
         max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
 
     }
 
-    .parent > .div12 { 
-
-        max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
-    
-    }
-
-    .parent > .div12 > p{
-
-        margin-top:-10px;
-
-    }
-
-    .parent > .div13 { 
-    
-        grid-area: 5 / 2 / 6 / 3; 
-        background-color: #C1D1DB;
-        max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
-    
-    }
-
-    .parent > .div13 > p{
+    .parent > .div12 > .offset{
 
         margin-top: -10px;
 
     }
 
-    .parent > .div15 { 
-    
-        grid-area: 7 / 2 / 8 / 3; 
-        background-color: #C1D1DB;
+    .parent > .div13 {
+
         max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
-    
+
+    }
+
+    .parent > .div13 > .offset{
+
+        margin-top: -10px;
+
+    }
+
+    .parent > .div17{
+
+        padding: 110px 0px;
+
     }
 
     .parent1 > .div12 { 
@@ -1165,7 +786,14 @@ html {
 
 @media only screen and (max-width: 469px){
 
-    .parent1 > .div17{
+    .parent > .div16{
+
+        max-height: 53px;
+        font-size: 15px;
+
+    }
+
+    .parent1 > .div18{
 
         max-height: 53px;
         font-size: 15px;
@@ -1175,40 +803,12 @@ html {
 
 }
 
-@media only screen and (max-width: 459px){
+@media only screen and (max-width: 449px){
 
-    .parent {
-        color: white;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(9, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-        /* background-color: #fff; */
-        align-items: center;
-        margin-top: 15px;
-        font-family: 'Arvo', serif;
-    }
+    .parent > .div16 > .offset{
 
-    .parent > .div15 { 
-    
-        grid-area: 7 / 2 / 8 / 3; 
-        background-color: #C1D1DB;
-        max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
-    
-    }
+        margin-top: -10px;
 
-    .parent > .div2 { 
-    
-        grid-area: 1 / 2 / 2 / 4; 
-        background-color: #23687D;
-        color: white;
-        max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
-    
     }
 
 }
@@ -1236,23 +836,74 @@ html {
 
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 430px){
 
-    .parent > .div5 { 
+    .parent > .div2 {
 
-        grid-area: 3 / 1 / 4 / 2; 
-        background-color: #DFB2A2;
         max-height: 53px;
         font-size: 15px;
-        padding: 15px 0px;
-    
+
+    }
+
+    .parent > .div4{
+
+        max-height: 53px;
+        font-size: 15px;
+
+    }
+
+    .parent > .div5{
+
+        max-height: 53px;
+        font-size: 15px;
+
+    }
+
+    .parent > .div6{
+
+        max-height: 53px;
+        font-size: 15px;
+
+    }
+
+    .parent > .div7{
+
+        max-height: 53px;
+        font-size: 15px;
+
+    }
+
+    .parent > .div8{
+
+        max-height: 53px;
+        font-size: 15px;
+
+    }
+
+    .parent > .div9{
+
+        max-height: 53px;
+        font-size: 15px;
+
+    }
+
+    .parent > .div10{
+
+        max-height: 53px;
+        font-size: 15px;
+
     }
 
     .parent > .div16{
 
-        padding: 90px 0px;
-    
+        max-height: 53px;
+        font-size: 15px;
+
     }
+
+}
+
+@media only screen and (max-width: 425px){
 
     .parent1 > .div5{
 
@@ -1264,17 +915,51 @@ html {
 
 }
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 416px){
 
-    .parent > .div6 { 
-    
-        grid-area: 4 / 1 / 5 / 2; 
-        background-color: #DFB2A2;
-        max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
-    
+    .parent > .div2 > .offset,
+    .parent > .div4 > .offset,
+    .parent > .div5 > .offset,
+    .parent > .div6 > .offset,
+    .parent > .div7 > .offset,
+    .parent > .div8 > .offset,
+    .parent > .div9 > .offset,
+    .parent > .div10 > .offset{
+
+        margin-top: -10px;
+
     }
+
+    .parent1 > .div4,
+    .parent1 > .div5,
+    .parent1 > .div6,
+    .parent1 > .div7,
+    .parent1 > .div8,
+    .parent1 > .div9,
+    .parent1 > .div10,
+    .parent1 > .div11{
+
+        max-height: 53px;
+
+    }
+
+
+    .parent1 > .div4 > .offset,
+    .parent1 > .div5 > .offset,
+    .parent1 > .div6 > .offset,
+    .parent1 > .div7 > .offset,
+    .parent1 > .div8 > .offset,
+    .parent1 > .div9 > .offset,
+    .parent1 > .div10 > .offset,
+    .parent1 > .div11 > .offset{
+
+        margin-top: -10px;
+
+    }
+
+}
+
+@media only screen and (max-width: 414px){
 
     .parent1 > .div6{
 
@@ -1296,11 +981,6 @@ html {
 
 @media only screen and (max-width: 391px){
 
-    .div2 > p{
-
-        margin-top: -10px;
-
-    }
 
     .parent1 > .div8{
 
@@ -1330,29 +1010,10 @@ html {
 
 @media only screen and (max-width: 394px){
 
-    .parent > .div7 { 
-    
-        grid-area: 5 / 1 / 6 / 2; 
-        background-color: #DFB2A2;
-        max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
-    
-    }
-
 }
 
 @media only screen and (max-width: 379px){
 
-    .parent > .div10 { 
-    
-        grid-area: 8 / 1 / 9 / 2; 
-        background-color: #DFB2A2;
-        max-height: 53px;
-        font-size: 15px;
-        padding: 15px 0px;
-    
-    }
 
 }
 
