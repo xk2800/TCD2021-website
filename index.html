@@ -31,12 +31,6 @@
 
     <link rel="icon" type="image/favicon" href="images/favicon_io/favicon.ico">
 
-    <!-- CSS for all sections in this page -->
-    <link rel="stylesheet" href="css/index.css">
-
-    <!-- CSS effects for home sections in this page -->
-    <link rel="stylesheet" href="css/style-index.css">
-
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
@@ -48,6 +42,14 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- CSS for all sections in this page -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- CSS effects for home sections in this page -->
+    <link rel="stylesheet" href="css/style-index.css">
 
     <!-- Function to connect different pages using jQuery -->
     <script> 
@@ -62,10 +64,10 @@
             font-size: 2em;
             font-family: 'Arvo', serif;
         }
-        .fb-chat{
+        /*.fb-chat{
             position: relative; 
             z-index:2;
-        }
+        }*/
         .containimg {
             width:230px;
             height:250px;
@@ -86,6 +88,11 @@
         #tabs, .div3, #div-promo{
             position: relative; 
             z-index:2;
+        }
+
+        #fb-chat{
+            position: relative; 
+            z-index:3;
         }
         .button {
             transition-duration: 0.4s;
@@ -114,7 +121,7 @@
     <div id="navbar-sticky"></div>
     <!--br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br-->
 
-    <div class="fb-chat">
+    <div id="fb-chat">
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
         <script>
@@ -141,7 +148,53 @@
         </div>
     </div>
 
-    
+
+        <!-- Floating Social Media bar Starts -->
+        <div class="float-sm">
+
+            <!--div class="fl-fl float-fb">
+                <i class="fa fa-facebook"></i>
+                <a href="" target="_blank"> Like us!</a>
+            </div>
+            <div class="fl-fl float-tw">
+                <i class="fa fa-twitter"></i>
+                <a href="" target="_blank">Follow us!</a>
+            </div-->
+
+
+            <div class="fl-fl float-fb">
+                <!--i class="fab fa-facebook-square"></i-->
+                <span class="icon" style="padding-left: 5px; padding-top: 5px;">
+                    <svg id="fb" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                </span>
+                <a href="https://www.facebook.com/tcdmmu/" target="_blank"> Like us!</a>
+            </div>
+            <div class="fl-fl float-ig">
+                <!--i class="fa fa-instagram"></i-->
+                <span class="icon" style="padding-left: 5px; padding-top: 5px;">
+                    <svg id="ig" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg>
+                </span>
+                <a href="https://www.instagram.com/itsocietymmu/" target="_blank">Follow us!</a>
+            </div>
+
+            
+            <!--div class="fl-fl float-ig">
+                <i class="fa fa-instagram"></i>
+                <a href="" target="_blank">Follow us!</a>
+            </div>
+            <div class="fl-fl float-pn">
+                <i class="fa fa-pinterest"></i>
+                <a href="" target="_blank">Follow us!</a>
+            </div-->
+
+      </div>
+      <!-- Floating Social Media bar Ends -->
+
+
     <section id="home"> <!-- XAVIER -->
         <div class="container">
             <div class="parallax">
@@ -169,8 +222,8 @@
             </div>
             <div id="navbar-sticky"></div>
             <div class="button">
-                <a href="https://tcd2021resume.herokuapp.com/" target="_blank" class="buttons btn btn-light btn-md rounded-pill register" id="registerbtn">Register Now</a>
-                <a href="https://tcd2021resume.herokuapp.com/login" target="_blank" class="buttons btn btn-light btn-md rounded-pill resume" id="subitbtn">Submit Resume</a>
+                <a href="https://resume.techcareerdays.com/" target="_blank" class="buttons btn btn-light btn-md rounded-pill register" id="registerbtn">Register Now</a>
+                <a href="https://resume.techcareerdays.com/login" target="_blank" class="buttons btn btn-light btn-md rounded-pill resume" id="subitbtn">Submit Resume</a>
             </div>
             <br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
@@ -438,8 +491,9 @@
                             </br>
                                 <h2> Tranglo Sdn. Bhd. </h2>
                             </br>
-                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                       </div>
+                                <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                       
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -465,9 +519,25 @@
                                 </br>
                                     <h2 style="font-weight: bold;"> Fusionex Corp Sdn. Bhd. </h2>
                                 </br>
-                                    <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                        </div>
+                                    <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                        
                             </div>
                         </div>
+                    </div>
+
+                    <div class="box1" style="display: block; margin-left: auto; margin-right: auto;">
+                        <div class="imgBox1">
+                            <img src= "images/sponsors-company/Tapway.png" class="containimg">
+                        </div>
+                        <div class= "details1">
+                            <div class= "content1" style= "background: #C0C0C0; width:230px; height:230px;"> 
+                                </br>
+                                </br>
+                                    <h2 style="font-weight: bold;">Tapway Sdn. Bhd.</h2>
+                                </br>
+                                    <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                        
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -512,7 +582,7 @@
                     </div>
                     <div class="box1" style=" margin-right: auto;">
                         <div class="imgBox1">
-                            <img src= "images/media-partners/GDC.png" class="containimg">
+                            <img src= "images/media-partners/GDC-sponsor.png" class="containimg">
                         </div>
                         <div class= "details1">
                             <div class= "content1" style= "background: #E0D0BC; width:230px; height:230px;">
@@ -692,17 +762,17 @@
                     <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">DAY 1</a>
                     </li-->
                     <li class="nav-item" role="presentation">
-                    <a class="nav-link active" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true" id="tabs" style="color: black;">DAY 1 (6 JANUARY 2020)
+                    <a class="nav-link active" data-toggle="tab" href="#day1" role="tab" aria-controls="day1" aria-selected="true" id="tabs" style="color: black;">DAY 1 (6 JANUARY 2020)
                     </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                    <a class="nav-link" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false" id="tabs">DAY 2 (7 JANUARY 2020)</a>
+                    <a class="nav-link" data-toggle="tab" href="#day2" role="tab" aria-controls="day2" aria-selected="false" id="tabs">DAY 2 (7 JANUARY 2020)</a>
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <!--div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab"></div-->
 
-                    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="profile-tab">
                         
                         <div class="parent">
                             <div class="div1">Day 1 6 January 2021 (Wednesday)</div>
@@ -726,7 +796,7 @@
                             </div>
 
                     </div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="tab-pane fade show " id="day2" role="tabpanel" aria-labelledby="contact-tab">
 
                         <div class="parent1">
 
@@ -757,10 +827,6 @@
             </div>
             <br><br>
 
-
-
-            
-
             <br>
 
             
@@ -779,11 +845,11 @@
                 </span>
                 <div class="contentBx">
                     <div class="label">
-                        How to join the event?
+                        How do I join the event?
                     </div>
                     <div class="content">
                         <p>
-                            Our event is held on a discord server, you will need to register/signup for a participant account to view the server invitation on https://tcd2021resume.herokuapp.com//resume and to receive more information about the event. 
+                            Our event is held on a discord server, you will need to register for a participant account to view the server invitation <a href="https://resume.techcareerdays.com/resume" target="_blank">HERE</a> and be able to receive more information about the event (via Discord). 
                         </p>
                     </div>
                 </div>
@@ -791,7 +857,7 @@
                 <div class="contentBx">
                     <div class="label">If I’m looking for a job, how should I submit my resume?</div>
                     <div class="content">
-                        <p>You may submit your resume on our resume submission portal [resume submission portal - make a tag link]. Before that, you will need to register an account first.  Next, login into the resume submission portal, and submit your resume there.</p>
+                        <p>You may submit your resume on our <a href="https://resume.techcareerdays.com/upload-new" target="_blank">resume submission portal</a>. Before that, you will need to register an account first.  Next, login into the resume submission portal, and submit your resume there.</p>
                     </div>
                 </div>
                 

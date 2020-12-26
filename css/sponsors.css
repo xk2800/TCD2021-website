@@ -9,38 +9,65 @@ Titles*/
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
-  }
+}
   
   /* Track */
-  ::-webkit-scrollbar-track {
-    background: #C0C0C0; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
+::-webkit-scrollbar-track {
+	background: #C0C0C0; 
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}
 
 .container#sponsor{
-
 	background-color: white;
 
 }
 
-.wrapper{
+.outer-div {
+    position: relative;
+}
 
+.boxes-row {
+    justify-content: center;
+}
+
+#company{
+	font-size: 1rem;
+	font-family: 'Arvo', serif;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.company-item {
+    z-index: 100;
+	min-height: 22rem;
+    min-width: 16rem;
+	padding: 1rem !important;
+	margin: 0.5rem;
+}
+
+.support-item {
+    z-index: 100;
+	min-height: 10rem;
+    min-width: 16rem;
+	padding: 1rem !important;
+	margin: 0.5rem;
+}
+
+.wrapper{
 	padding: 20px 20px ;
 	background-color: white;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-
 }
 
 .wrapper > .left-section{
@@ -64,11 +91,14 @@ Titles*/
 	padding: 20px 20px;
 	display: flex;
 	flex-direction: column;
-	justify-content: justify;
+	justify-content: center;
 	align-items: justify;
 	width: 70%;
-
+	text-align: justify;
+	font-family: 'Arvo', serif;
+	
 }
+
 
 section.bg-plat > .wrapper > .left-section,
 section.bg-plat > .wrapper > .right-section{
@@ -88,6 +118,13 @@ section.bg-silver > .wrapper > .left-section,
 section.bg-silver > .wrapper > .right-section{
 
 	background-color: #C0C0C0;
+
+}
+
+section.bg-supp > .wrapper > .left-section,
+section.bg-supp > .wrapper > .right-section{
+
+	background-color: #E0D0BC;
 
 }
 
@@ -250,20 +287,23 @@ button:hover, a:hover {
 		align-items: center;
 		background-color: #E6FEFF;
 		width: 100%;
-	
+	font-family: 'Arvo', serif;
 	}
 
-
 }
+
 #biz{
 	width: 60%;
+}
+
+#wobb{
+	width: 200%;
 }
 
 @media screen and (max-width: 767px) {
 
 	#auronex{
 		width: 50%;
-
 	}
 
 	#deriv{
@@ -302,5 +342,10 @@ button:hover, a:hover {
 
 	#fusionex{
 		height: 55%;
+	}
+
+	#wobb{
+		width: 50%;
+		/*height: 40%;*/
 	}
 }

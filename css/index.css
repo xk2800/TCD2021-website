@@ -12,22 +12,139 @@ html {
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
+}
+
   /* Track */
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #C0C0C0; 
-  }
-   
+}
+
   /* Handle */
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #888; 
-  }
-  
+}
+
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #555; 
-  }
+}
+
+
+  /* Floating Social Media Bar Style Starts Here */
+
+.fl-fl {
+    background: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 4px;
+    width: 220px;
+    position: fixed;
+    right: -160px;
+    z-index: 1000;
+    font-family: 'Arvo', serif;
+    /*font: normal normal 10px;*/
+    font-size: 22px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.fa {
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0;
+    width: 40px;
+    margin-left: 8px;
+}
+
+.fl-fl:hover {
+    right: 0;
+}
+
+.fl-fl a {
+    color: #000 !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px!important;
+    vertical-align: top!important;
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+
+.float-fb {
+    top: 470px;
+}
+
+.float-ig {
+    top: 525px;
+}
+
+#ig, #fb{
+    width: 35px;
+}
+
+@media screen and (max-width: 600px) {
+    .fl-fl {
+        background: #FFF;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding: 4px;
+        width: 220px;
+        position: fixed;
+        right: -200px;
+        z-index: 1000;
+        font-family: 'Arvo', serif;
+        /*font: normal normal 10px;*/
+        font-size: 22px;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease;
+    }
+    
+    .fa, .icon {
+        font-size: 30px;
+        padding: 0px 0;
+        width: 40px;
+        margin-left: -6px;
+        margin-top: -8px;
+    }
+    
+    .fl-fl:hover {
+        right: 0;
+    }
+    
+    .fl-fl a { /*TEXT*/
+        color: #000 !important;
+        text-decoration: none;
+        text-align: center;
+        line-height: 43px!important;
+        vertical-align: top!important;
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    
+    
+    .float-fb {
+        top: 400px;
+    }
+    
+    .float-ig {
+        top: 455px;
+    }
+    
+    #ig, #fb{
+        width: 15px;
+    }
+
+}
+  /* Floating Social Media Bar Style Ends Here */
+
+
 
 #home{
     background-color: #15243C;
@@ -124,7 +241,7 @@ html {
 
 @media screen and (max-width: 767px) {
     .about-title {
-        font-size: 3.5em !important;
+        /*font-size: 3.5em !important;*/
     }
     .parallax-one {
         padding-top: 50px; 
