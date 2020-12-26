@@ -16,17 +16,17 @@ html {
 
   /* Track */
 ::-webkit-scrollbar-track {
-    background: #C0C0C0; 
+    background: #C0C0C0;
 }
 
   /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #888;
 }
 
   /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
 }
 
 
@@ -105,7 +105,7 @@ html {
         -o-transition: all .25s ease;
         transition: all .25s ease;
     }
-    
+
     .fa, .icon {
         font-size: 30px;
         padding: 0px 0;
@@ -113,11 +113,11 @@ html {
         margin-left: -6px;
         margin-top: -8px;
     }
-    
+
     .fl-fl:hover {
         right: 0;
     }
-    
+
     .fl-fl a { /*TEXT*/
         color: #000 !important;
         text-decoration: none;
@@ -127,16 +127,16 @@ html {
         font-size: 15px;
         padding-left: 25px;
     }
-    
-    
+
+
     .float-fb {
         top: 400px;
     }
-    
+
     .float-ig {
         top: 455px;
     }
-    
+
     #ig, #fb{
         width: 15px;
     }
@@ -164,7 +164,7 @@ html {
 
 .buttons, .fb-chat{
     margin: 0% 1%;
-    position: relative; 
+    position: relative;
     z-index:2;
 }
 
@@ -177,21 +177,21 @@ html {
 }
 
 .parallax-one {
-    padding-top: 200px; 
-    padding-left: 50px; 
-    padding-right: 50px; 
-    padding-bottom: 200px; 
-    overflow: hidden; 
-    position: relative; 
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
     width: 100%;
     background-image: url("../images/IMG_3394.JPG");
-    background-attachment: fixed; 
-    background-size: cover; 
-    -moz-background-size: cover; 
-    -webkit-background-size: cover; 
-    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
     background-position: top center;
-    
+
 }
 
 .outer-div {
@@ -244,21 +244,21 @@ html {
         /*font-size: 3.5em !important;*/
     }
     .parallax-one {
-        padding-top: 50px; 
-        padding-left: 0px; 
-        padding-right: 0px; 
-        padding-bottom: 50px; 
-        overflow: hidden; 
-        position: relative; 
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        overflow: hidden;
+        position: relative;
         width: 100%;
         background-image: url("../images/IMG_3394.JPG");
-        background-attachment: fixed; 
+        background-attachment: fixed;
         background-size: cover;
-        -moz-background-size: cover; 
-        -webkit-background-size: cover; 
-        background-repeat: no-repeat; 
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-repeat: no-repeat;
         background-position: top center;
-        
+
     }
     .text{
         font-size: 0.7rem !important;
@@ -321,9 +321,9 @@ html {
 
 }
 
-.grid-container > .Day-1 { 
+.grid-container > .Day-1 {
 
-    grid-area: Day-1; 
+    grid-area: Day-1;
 
 }
 .Time { grid-area: Time; }
@@ -430,7 +430,7 @@ html {
 .parent1 > .div18 { grid-area: 9 / 2 / 10 / 3; background-color: #C1D1DB;}
 .parent1 > .div19 { grid-area: 3 / 3 / 10 / 4; background-color: #FCEEB0; padding: 190px 0px;}
 .parent1 > .div20 { grid-area: 10 / 2 / 11 / 4; background-color: #C1D1DB;}
-    
+
 .accordion{
 
     margin: 70px 0px;
@@ -477,7 +477,7 @@ html {
 	background: #fff;
 	visibility: hidden;
 	transition: 0.5s;
-	overflow-y: auto; 
+	overflow-y: auto;
 
 }
 .accordion .contentBx.active .content{
@@ -497,10 +497,10 @@ html {
 	margin: 10px auto 0;
 	display: flex;
 	flex-direction: row;
-    flex-wrap: wrap;	
+    flex-wrap: wrap;
     font-family: 'Arvo', serif;
 }
-		
+
 .container1 .box1{
 	position: relative;
 	width: 250px;
@@ -510,7 +510,7 @@ html {
         margin-right: auto;
 	margin-top: 20px;
 	box-sizing: border-box;
-	display: inline-block; 
+	display: inline-block;
 	font-family: 'Arvo', serif;
 }
 .container1 .box1 .imgBox1{
@@ -524,13 +524,13 @@ html {
 	transition: transform 2s;
     font-family: 'Arvo', serif;
 }
-		
+
 .container1 .box1:hover .imgBox1 img{
 	transform: scale(1.2);
     font-family: 'Arvo', serif;
 }
-		
-.container1 .box1 .details1 {		
+
+.container1 .box1 .details1 {
 	position: absolute;
 	top: 10px;
 	left: 10px;
@@ -538,16 +538,16 @@ html {
 	right: 10px;
 	transform: scaleY(0);
     transition: transform .5s;
-    font-family: 'Arvo', serif;	
+    font-family: 'Arvo', serif;
 }
-		
+
 .container1 .box1:hover .details1 {
     transform: scaleY(1);
     font-family: 'Arvo', serif;
-		
+
 }
-		
-.container1 .box1 .details1 .content1{		
+
+.container1 .box1 .details1 .content1{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -556,16 +556,16 @@ html {
 	color: #fff;
     font-family: 'Arvo', serif;
 }
-		
+
 .container1 .box1 .details1 .content1 h2{
 	margin: 0;
 	padding: 0;
 	font-size: 20px;
     color: rgb(0, 0, 0);
-    font-weight: bold;	
+    font-weight: bold;
     font-family: 'Arvo', serif;
 }
-		
+
 .container1 .box1 .details1 .content1 p{
 	margin: 10px 0 0;
     padding: 0px;
@@ -717,12 +717,12 @@ html {
 
     }
 
-    .parent1 > .div12 { 
-    
+    .parent1 > .div12 {
+
         max-height: 53px;
         font-size: 15px;
         padding: 15px 0px;
-    
+
     }
 
     .parent1 > .div12 > p {
@@ -731,12 +731,12 @@ html {
 
     }
 
-    .parent1 > .div13 { 
-    
+    .parent1 > .div13 {
+
         max-height: 53px;
         font-size: 15px;
         padding: 15px 0px;
-    
+
     }
 
     .parent1 > .div13 > p {
@@ -745,12 +745,12 @@ html {
 
     }
 
-    .parent1 > .div14 { 
-    
+    .parent1 > .div14 {
+
         max-height: 53px;
         font-size: 15px;
         padding: 15px 0px;
-    
+
     }
 
     .parent1 > .div14 > p {
@@ -759,12 +759,12 @@ html {
 
     }
 
-    .parent1 > .div15 { 
-    
+    .parent1 > .div15 {
+
         max-height: 53px;
         font-size: 15px;
         padding: 15px 0px;
-    
+
     }
 
     .parent1 > .div15 > p {
@@ -772,7 +772,7 @@ html {
         margin-top: -10px;
 
     }
-        
+
 }
 
 @media only screen and (max-width: 474px){
@@ -1035,7 +1035,7 @@ html {
 }
 
 .its-link{
-    position: relative; 
+    position: relative;
     z-index:2;
 }
 
