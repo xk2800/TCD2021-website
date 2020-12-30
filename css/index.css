@@ -369,7 +369,7 @@ html {
 
 }
 
-.parent > .div1 { grid-area: 1 / 1 / 2 / 4; background-color: #23687D;}
+.parent > .div1 { grid-area: 1 / 1 / 2 / 4; background-color: #23687D; color: white;}
 .parent > .div2 { grid-area: 2 / 1 / 3 / 2; background-color: #F4EDDD; max-height: 53px; font-size: 15px;}
 .parent > .div3 { grid-area: 2 / 2 / 3 / 4; background-color: #F4EDDD;}
 .parent > .div4 { grid-area: 3 / 1 / 4 / 2; background-color: #DFB2A2;max-height: 53px; font-size: 15px;}
@@ -410,7 +410,7 @@ html {
     color: black;
 }
 
-.parent1 > .div1 { grid-area: 1 / 1 / 2 / 4; background-color: #23687D;}
+.parent1 > .div1 { grid-area: 1 / 1 / 2 / 4; background-color: #23687D; color: white;}
 .parent1 > .div2 { grid-area: 2 / 1 / 3 / 2; background-color: #F4EDDD;}
 .parent1 > .div3 { grid-area: 2 / 2 / 3 / 4; background-color: #F4EDDD;}
 .parent1 > .div4 { grid-area: 3 / 1 / 4 / 2; background-color: #DFB2A2; max-height: 53px; font-size: 15px;}
