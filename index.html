@@ -74,9 +74,16 @@
             margin-left: 12.5px;
             object-fit: contain;
         }
+
         @media only screen and (max-width: 767px){
+            /*#yt{
+                width: 550px;
+                height: 305px;
+            }*/
             
         }
+        
+
         u{
             font-size: 50px;
         }
@@ -85,9 +92,14 @@
             font-size: 80px;
         }
 
-        #tabs, .div3, #div-promo, .social-media{
+        #tabs, .div3, #div-promo, .social-media, #promo-video{
             position: relative; 
             z-index:1;
+        }
+
+        .social-media{
+            position: relative; 
+            z-index:2;
         }
 
         #fb-chat{
@@ -104,6 +116,11 @@
         .button:hover {
             /*background-color: #555555; */
             color: white;
+        }
+
+        #yt{
+            width: 1100px;
+            height: 610px;
         }
 
     </style>
@@ -540,6 +557,21 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="box1" style="display: block; margin-left: auto; margin-right: auto;">
+                        <div class="imgBox1">
+                            <img src= "" class="containimg">
+                        </div>
+                        <div class= "details1">
+                            <div class= "content1" style= "background: #C0C0C0; width:230px; height:230px;"> 
+                                </br>
+                                </br>
+                                    <h2 style="font-weight: bold;">NEW SPONSOR COMING</h2>
+                                </br>
+                                    <button class="button" onclick="document.location='sponsors&partners.html'">View Info</button>                        
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -838,6 +870,18 @@
     </section>
 
     <br>
+
+    <section id="promo-video">
+        <div class="container">
+            <span class="agenda-title">
+                Promotional Video
+            </span>
+            
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/QVbrzfVcYDI?controls=0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
 
     <section id="faq"> <!-- SHAUN -->
 <!-- NEED TO ADD PLATFORM, WHERE TO GET LINKS -->
